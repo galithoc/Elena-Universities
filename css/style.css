@@ -180,6 +180,8 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 20%;
+  background: #2f3d38; /* matches the photo's studio green while it loads */
 }
 .hero-scrim {
   position: absolute;

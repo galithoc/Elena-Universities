@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "id": "cl-20260710-1",
+      "date": "2026-07-10",
+      "school": null,
+      "type": "note",
+      "text": "Tracker created and seeded with initial research for 9 schools. Most dates are last cycle's (carried_from_2026) — the first refresh will confirm 2027 dates as schools publish them (Aug–Oct 2026).",
+      "refs": [],
+      "by": "initial-seed"
+    },
+    {
+      "id": "cl-20260710-2",
+      "date": "2026-07-10",
+      "school": "marymount-northeastern",
+      "type": "added_school",
+      "text": "Added Marymount → Northeastern University – New York City. The MMC/Northeastern merger completed July 9–10, 2026; the dance BFA continues as a 4-year NYC program, but application/audition mechanics are mid-transition — watch nyc.northeastern.edu.",
+      "refs": [],
+      "by": "initial-seed"
+    }
+  ]
+}

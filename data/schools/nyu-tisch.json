@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "id": "nyu-tisch",
+  "name": "NYU Tisch School of the Arts — BFA in Dance",
+  "shortName": "NYU Tisch",
+  "institution": "New York University",
+  "degree": "BFA in Dance",
+  "city": "New York",
+  "state": "NY",
+  "region": "nyc",
+  "campusTimezone": "America/New_York",
+  "accent": "#9d6cd0",
+  "website": "https://tisch.nyu.edu/dance",
+  "applicationSystem": "Common App + NYU Dance Artistic Review",
+  "fit": {
+    "commercial": "weak",
+    "contemporary": "strong",
+    "note": "Prescreen is ballet + contemporary only — no jazz/commercial section."
+  },
+  "sources": [
+    {
+      "id": "src-req",
+      "label": "Tisch Dance application requirements",
+      "url": "https://tisch.nyu.edu/dance/application-requirements",
+      "checkFor": [
+        "deadlines",
+        "prescreen spec",
+        "callback format",
+        "virtual option"
+      ]
+    },
+    {
+      "id": "src-faq",
+      "label": "Dance admissions FAQ",
+      "url": "https://tisch.nyu.edu/dance/application-requirements/dance-admissions-faqs.html",
+      "checkFor": [
+        "prescreen details",
+        "audition logistics"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ed1",
+      "type": "ED",
+      "label": "Early Decision I",
+      "binding": true,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED1; prescreen due 9:00 AM ET on the deadline date.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2026-12-15",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED decisions ~mid-December — verify.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "ed2",
+      "type": "ED2",
+      "label": "Early Decision II",
+      "binding": true,
+      "academicDeadline": {
+        "value": "2027-01-01",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-01",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-02-15",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED2 decisions ~February — verify.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "rd",
+      "type": "RD",
+      "label": "Regular Decision",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2027-01-05",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "RD; page still referenced Fall 2026 cycle — verify Fall 2027.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-05",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-04-01",
+        "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "RD decisions ~April 1 — verify.",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "NYU Dance Artistic Review (NYU's own portal)",
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Personalized link emailed after the Common App is submitted — not Acceptd/SlideRoom.",
+      "pendingChange": null
+    },
+    "portalUrl": "",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Artistic-review fee not captured — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2027-01-05",
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Prescreen materials due 9:00 AM ET on the applicant's application-round deadline.",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-class",
+          "text": "Recorded audition class — ballet (center work, no barre) + contemporary. No jazz/commercial section."
+        },
+        {
+          "id": "vs-resume",
+          "text": "Dance resume."
+        },
+        {
+          "id": "vs-photo",
+          "text": "Full-body photo in dance attire."
+        },
+        {
+          "id": "vs-form",
+          "text": "Audition Form."
+        }
+      ],
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Class-video link expires 3 hours after opening. Dept. seeks 3+ years ballet/contemporary training.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-inperson",
+      "label": "In-person callback — NY / LA / Chicago",
+      "format": "in_person",
+      "city": "New York (111 Second Ave), Los Angeles (OCSA), or Chicago (Chicago Academy for the Arts)",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Callback dates set after prescreen pass; must schedule within 48h of notification.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Prescreen-gated. Ballet + contemporary class, improvisation, solo up to 2 min (no pointe solos), faculty interview."
+    },
+    {
+      "id": "aud-virtual",
+      "label": "Virtual callback",
+      "format": "virtual",
+      "city": "Remote (Zoom)",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Arranged for those who cannot attend in person — email tisch.dance@nyu.edu.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "announced",
+      "notes": "Solo video up to 2 min + video response to an improvisation prompt + Zoom interview. Key option for a San Juan applicant."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/all-freshmen-applicants.html",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "NYU test-optional — verify for Fall 2027.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "NYU + Tisch supplemental essays not captured — verify.",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": "Faculty interview at callback",
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-merit",
+      "name": "NYU merit scholarships",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "NYU merit is limited/competitive; mostly need-based aid. Verify."
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": true,
+      "sourceUrl": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "NYU typically requires CSS Profile — verify.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "url": "https://www.nyu.edu/admissions/financial-aid-and-scholarships.html"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "NYU tuition not captured — verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "ballet",
+        "contemporary",
+        "modern"
+      ],
+      "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Second Avenue Dance Company; NYC location; interdisciplinary Tisch environment.",
+      "sourceUrl": "https://tisch.nyu.edu/dance",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+name: weekly-refresh
+# Runs the refresh-admissions drill once a week and opens a PR with any changes.
+# Requires an ANTHROPIC_API_KEY repository secret
+# (Settings → Secrets and variables → Actions).
+#
+# During the Aug–Oct announcement season you can bump the cadence by editing the
+# cron below (e.g. add "0 10 * * 4" for a second weekly run).
+on:
+  schedule:
+    - cron: "0 10 * * 1"      # Mondays 10:00 UTC = 6:00 AM AST
+  workflow_dispatch: {}
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      # NOTE: verify the action's input names against the pinned @v1 README the
+      # first time you run this (the v1 surface is anthropic_api_key / prompt /
+      # claude_args). The drill itself lives in
+      # .claude/skills/refresh-admissions/SKILL.md so both this Action and an
+      # interactive session run the exact same steps.
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Run the refresh-admissions skill in --mode=pr. Follow it exactly.
+            Re-verify every school's stored source URLs against the live pages,
+            update Facts per CLAUDE.md (never silently change a confirmed_2027
+            value — use pendingChange), append changelog entries, run
+            scripts/validate.py until it passes, regenerate the ICS, and open a
+            pull request summarizing what changed. If nothing material changed,
+            exit without opening a PR.
+          claude_args: "--max-turns 100 --model claude-sonnet-4-6"

@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "id": "usc-kaufman",
+  "name": "USC Glorya Kaufman School of Dance — BFA in Dance",
+  "shortName": "USC Kaufman",
+  "institution": "University of Southern California",
+  "degree": "BFA in Dance",
+  "city": "Los Angeles",
+  "state": "CA",
+  "region": "socal",
+  "campusTimezone": "America/Los_Angeles",
+  "accent": "#cc3b3b",
+  "website": "https://kaufman.usc.edu",
+  "applicationSystem": "Common App + SlideRoom (USC Kaufman Portfolio)",
+  "fit": {
+    "commercial": "moderate",
+    "contemporary": "strong",
+    "note": "Hybrid ballet/contemporary ('The New Movement'); live audition includes hip-hop/freestyle. Portfolio has no barre."
+  },
+  "sources": [
+    {
+      "id": "src-portfolio",
+      "label": "USC Kaufman Portfolio",
+      "url": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "checkFor": [
+        "portfolio spec",
+        "deadline",
+        "audition process"
+      ]
+    },
+    {
+      "id": "src-bfa",
+      "label": "BFA program",
+      "url": "https://kaufman.usc.edu/degrees/bfa/",
+      "checkFor": [
+        "cohort size",
+        "genre emphasis"
+      ]
+    },
+    {
+      "id": "src-aid",
+      "label": "Financial aid",
+      "url": "https://kaufman.usc.edu/financial-aid/",
+      "checkFor": [
+        "CSS/FAFSA dates",
+        "talent aid"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "dec1",
+      "type": "priority",
+      "label": "Application + Portfolio deadline",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1.",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2026-12-15",
+        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Live-audition status via the application portal in mid-December.",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "SlideRoom (uscdance.slideroom.com)",
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "portalUrl": "https://uscdance.slideroom.com",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "SlideRoom fee not captured — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2026-12-01",
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Portfolio is prescreen-gated; no open live audition.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-solos",
+          "text": "Two contrasting dance solos/excerpts, no more than 1 minute each; tell the committee how they contrast."
+        },
+        {
+          "id": "vs-intro",
+          "text": "60-second video introduction responding to a prompt."
+        },
+        {
+          "id": "vs-headshot",
+          "text": "Headshot + an action photo (professional photos not necessary; no group shots)."
+        },
+        {
+          "id": "vs-resume",
+          "text": "Dance resume uploaded to SlideRoom as a PDF (Kaufman sample format)."
+        },
+        {
+          "id": "vs-written",
+          "text": "Written response of 250 words or less on integrating USC's academic/interdisciplinary opportunities."
+        }
+      ],
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-live",
+      "label": "On-campus live audition — Los Angeles (invited)",
+      "format": "in_person",
+      "city": "Los Angeles, CA",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Finalists invited to an on-campus live audition over one weekend in mid-January — verify 2027.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Los_Angeles",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Prescreen-gated. Ballet, contemporary, improvisation/freestyle and hip-hop classes + interview + ~2-min solo. Pairs with a Chapman trip."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://admission.usc.edu/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "USC test-optional — verify for Fall 2027.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "USC recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": [
+        {
+          "id": "essay-kauf",
+          "prompt": "USC Kaufman written response — 250 words on USC's academic/interdisciplinary opportunities.",
+          "wordLimit": 250,
+          "required": true
+        }
+      ],
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": "Interview at the live audition",
+      "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-talent",
+      "name": "USC Kaufman talent scholarship",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Talent aid via the portfolio/audition — verify."
+    },
+    {
+      "id": "sch-merit",
+      "name": "USC merit scholarships",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://admission.usc.edu/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "USC merit scholarship deadline typically ~Dec 1 — verify.",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://kaufman.usc.edu/financial-aid/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": true,
+      "sourceUrl": "https://financialaid.usc.edu/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "USC requires the CSS Profile.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "USC FAFSA/CSS priority not captured — verify.",
+      "pendingChange": null
+    },
+    "url": "https://financialaid.usc.edu/"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "USC tuition not captured — verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": "~24 dancers per year",
+      "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Deliberately tiny cohort.",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": "Est. ~8–12% program acceptance",
+      "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Estimate — verify.",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "ballet",
+        "contemporary",
+        "hip-hop",
+        "commercial"
+      ],
+      "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "'The New Movement' — hybrid.",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Founded 2015 with a major gift; celebrated faculty; USC interdisciplinary resources.",
+      "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

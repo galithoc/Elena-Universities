@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "id": "pace",
+  "name": "Pace University — BFA in Commercial Dance (Sands College)",
+  "shortName": "Pace",
+  "institution": "Pace University · Sands College of Performing Arts",
+  "degree": "BFA in Commercial Dance",
+  "city": "New York",
+  "state": "NY",
+  "region": "nyc",
+  "campusTimezone": "America/New_York",
+  "accent": "#3b82b8",
+  "website": "https://www.pace.edu/program/commercial-dance-bfa",
+  "applicationSystem": "Pace application + Acceptd",
+  "fit": {
+    "commercial": "strong",
+    "contemporary": "moderate",
+    "note": "Commercial Dance BFA — ballet/jazz/hip hop/tap/theater dance. Strong commercial fit."
+  },
+  "sources": [
+    {
+      "id": "src-aud",
+      "label": "Sands audition requirements",
+      "url": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "checkFor": [
+        "prescreen spec",
+        "prescreen deadline",
+        "audition dates",
+        "application rounds"
+      ]
+    },
+    {
+      "id": "src-prog",
+      "label": "Commercial Dance BFA program",
+      "url": "https://www.pace.edu/program/commercial-dance-bfa",
+      "checkFor": [
+        "curriculum",
+        "genre emphasis"
+      ]
+    },
+    {
+      "id": "src-aud-dates",
+      "label": "Performing Arts audition dates",
+      "url": "https://performingarts.pace.edu/audition-dates",
+      "checkFor": [
+        "audition dates",
+        "virtual options"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ed",
+      "type": "ED",
+      "label": "Early Decision",
+      "binding": true,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED — valid only if audition/interview completed before Dec 1. Years not stated on page; verify.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-03",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Pre-screen deadline ~Jan 3 (year not attached — verify).",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "notes": "Submit the Pace admissions application BEFORE beginning the artistic review."
+    },
+    {
+      "id": "final",
+      "type": "RD",
+      "label": "Final application deadline",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Dec 1 — final deadline after which no application is accepted (year not stated; verify).",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-03",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "Acceptd",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "confirmed_2027",
+      "note": "VERIFIED source: applicants create one Acceptd profile and upload pre-screens for all Sands programs.",
+      "pendingChange": null
+    },
+    "portalUrl": "https://app.getacceptd.com/pace",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Acceptd/audition fee not captured — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2027-01-03",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Pre-screen deadline ~Jan 3 — verify year.",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Not gated in the usual sense: after the pre-screen, dancers must attend a scheduled audition (pick date on Acceptd).",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-solo",
+          "text": "One solo dance video under 2 minutes (self-, teacher-, or friend-choreographed; studio or featured footage allowed)."
+        },
+        {
+          "id": "vs-ballet",
+          "text": "Recording of the ballet instructional combination provided on Acceptd."
+        },
+        {
+          "id": "vs-jazz",
+          "text": "Recording of the jazz instructional combination provided on Acceptd."
+        },
+        {
+          "id": "vs-wildcard",
+          "text": "Optional 'wild card' video — anything the applicant chooses."
+        }
+      ],
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Extracted from official page snippets — spot-check exact wording.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-nyc",
+      "label": "In-person audition — NYC",
+      "format": "in_person",
+      "city": "New York, NY",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Regularly scheduled audition dates; select date preferences on Acceptd with the pre-screen.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "https://app.getacceptd.com/pace",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Required after pre-screen. Clusters with other NYC-school auditions."
+    },
+    {
+      "id": "aud-virtual",
+      "label": "Virtual audition (limited)",
+      "format": "virtual",
+      "city": "Remote",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "A limited number of virtual auditions offered (per search snippet) — verify.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Relevant for a San Juan applicant — confirm availability."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Pace test-optional — verify.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Supplemental essays not captured — verify.",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": "Interview part of the Sands audition/interview process",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-talent",
+      "name": "Sands talent scholarship",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Talent awards via audition — verify."
+    },
+    {
+      "id": "sch-merit",
+      "name": "Pace academic merit",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Verify amounts/deadlines."
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/financial-aid",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "CSS requirement not captured — likely FAFSA-only; verify.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "url": "https://www.pace.edu/admission-and-aid/financial-aid"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Pace tuition not captured — verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "jazz",
+        "commercial",
+        "hip hop",
+        "tap",
+        "ballet",
+        "theater dance"
+      ],
+      "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "NYC Commercial Dance BFA integrating acting, vocal training, and choreography.",
+      "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

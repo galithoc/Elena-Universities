@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 1,
+  "id": "chapman",
+  "name": "Chapman University — College of Performing Arts, BFA Dance Performance",
+  "shortName": "Chapman",
+  "institution": "Chapman University",
+  "degree": "BA in Dance → BFA Dance Performance (internal audition sophomore year)",
+  "city": "Orange",
+  "state": "CA",
+  "region": "socal",
+  "campusTimezone": "America/Los_Angeles",
+  "accent": "#d15b7a",
+  "website": "https://www.chapman.edu/copa/dance/",
+  "applicationSystem": "Common App + Chapman Creative Supplement",
+  "fit": {
+    "commercial": "moderate",
+    "contemporary": "strong",
+    "note": "Ballet/jazz/modern + LA agency/master-class connections. Note: admit to BA first; BFA is a sophomore-spring audition."
+  },
+  "sources": [
+    {
+      "id": "src-adm",
+      "label": "COPA Dance admission/audition",
+      "url": "https://www.chapman.edu/copa/dance/admission.aspx",
+      "checkFor": [
+        "prescreen spec",
+        "audition process",
+        "priority deadline"
+      ]
+    },
+    {
+      "id": "src-early",
+      "label": "First-year early options/deadlines",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+      "checkFor": [
+        "EA/ED/RD dates",
+        "decision timing"
+      ]
+    },
+    {
+      "id": "src-supp",
+      "label": "Creative Supplement",
+      "url": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+      "checkFor": [
+        "portal",
+        "deadline",
+        "fee"
+      ]
+    },
+    {
+      "id": "src-aid",
+      "label": "Applying for financial aid",
+      "url": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
+      "checkFor": [
+        "CSS policy",
+        "FAFSA deadline"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ea",
+      "type": "EA",
+      "label": "Early Action (non-binding)",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "EA Nov 1, 2026 — confirmed on page.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Dance priority Nov 1; submit Creative Supplement by the application deadline.",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2026-12-15",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/admission-decisions.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "EA decisions ~mid-December.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "ed1",
+      "type": "ED",
+      "label": "Early Decision I (binding)",
+      "binding": true,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2026-12-05",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED I decisions by early December.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "ed2",
+      "type": "ED2",
+      "label": "Early Decision II (binding)",
+      "binding": true,
+      "academicDeadline": {
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-01-31",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "ED II decisions late January.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "rd",
+      "type": "RD",
+      "label": "Regular Decision",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-03-15",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "RD decisions mid-March.",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "Chapman Creative Supplement (Slate Application Status Page)",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Not Acceptd — Chapman's own portal; appears 24–48h after the Common App is submitted.",
+      "pendingChange": null
+    },
+    "portalUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+    "fee": {
+      "value": "$70 (Common App fee; no separate supplement fee)",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2026-11-01",
+      "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Submit Creative Supplement by the application deadline (submit Common App a few days early).",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Everyone majoring in Dance submits a pre-screening video; select applicants invited to a live audition.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-intro",
+          "text": "Introduction video, 60 seconds or less: name, where you're from, experience, why Chapman."
+        },
+        {
+          "id": "vs-solo",
+          "text": "Dance solo, 2 minutes: wide range of technique/artistry; no zooming, close-ups, or editing."
+        },
+        {
+          "id": "vs-multi",
+          "text": "Optional: if skilled in more than one form (jazz/modern/ballet/tap), present two shorter pieces."
+        },
+        {
+          "id": "vs-resume",
+          "text": "Resume: training, teachers, performance/technical experience, directors/choreographers, media work."
+        },
+        {
+          "id": "vs-rec",
+          "text": "Letter of recommendation (creative abilities) — not required but highly encouraged."
+        }
+      ],
+      "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-inperson",
+      "label": "Live audition — Orange, CA (invited)",
+      "format": "in_person",
+      "city": "Orange, CA",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Invitees pick from a variety of dates; dates released by email after prescreen review (~Dec–Feb).",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Los_Angeles",
+      "registrationUrl": "https://go.chapman.edu/portal/danceaudition",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Prescreen-gated. ~35–40 mi from USC — pairs with a USC trip."
+    },
+    {
+      "id": "aud-virtual",
+      "label": "Virtual live audition (invited)",
+      "format": "virtual",
+      "city": "Remote",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Virtual live-audition option offered to invited applicants.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Los_Angeles",
+      "registrationUrl": "https://go.chapman.edu/portal/virtual-danceaudition",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "announced",
+      "notes": "Good option for a San Juan applicant — after the required video prescreen."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Test-optional — verify for Fall 2027.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": "One teacher letter required (up to two reviewed) via Common App; counselor letter optional. Plus optional dance creative-abilities letter.",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": [
+        {
+          "id": "essay-common",
+          "prompt": "Common App personal essay (required).",
+          "wordLimit": 650,
+          "required": true
+        },
+        {
+          "id": "essay-supp",
+          "prompt": "Chapman supplemental short answers + major/why-Chapman prompt.",
+          "wordLimit": null,
+          "required": true
+        }
+      ],
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-academic",
+      "name": "Academic merit scholarship",
+      "kind": "merit",
+      "amount": {
+        "value": "up to $42,000/yr",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/merit-scholarship.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Renewable 8 semesters; awarded with admission.",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/merit-scholarship.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Apply by Nov 1 priority for full consideration.",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/merit-scholarship.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    },
+    {
+      "id": "sch-dance-talent",
+      "name": "Department of Dance Talent Scholarship",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/dance-scholarship.aspx",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Automatic when you apply as a BA in Dance; from Creative Supplement + prescreen + live audition.",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": false,
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Chapman does NOT use the CSS Profile.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": "2027-03-02",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "FAFSA priority Mar 2. FAFSA code 001164.",
+      "pendingChange": null
+    },
+    "url": "https://www.chapman.edu/admission/undergraduate/financing/"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": "~$67,874 (tuition + fees)",
+      "sourceUrl": "https://www.chapman.edu/students/tuition-and-aid/sbs/tuition-and-services/index.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "2025-26; 2026-27 not yet published.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": "~$88,000–$94,000",
+      "sourceUrl": "https://www.chapman.edu/students/tuition-and-aid/financial-aid/undergraduate/cost-of-attendance.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Depends on inclusions; avg net price after need aid ~$61,513.",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": "Target first-year dance ~30–35 (secondary source)",
+      "sourceUrl": "https://www.chapman.edu/copa/dance/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "~350–400 apps/yr, ~8–12% implied — verify.",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": "University ~65%; dance far more selective",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year-class-profile.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "ballet",
+        "jazz",
+        "modern",
+        "tap",
+        "hip hop"
+      ],
+      "sourceUrl": "https://www.chapman.edu/copa/dance/academic-programs/bfa-dance-performance.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": "Faculty Dwight Rhoden (Complexions), Ido Tadmor; BFA Dance Showcase",
+      "sourceUrl": "https://www.chapman.edu/copa/dance/academic-programs/bfa-dance-performance.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "LA agency/master-class connections; alumni toured with Taylor Swift, Cher, Ailey, Complexions, Cirque.",
+      "sourceUrl": "https://www.chapman.edu/copa/dance/recent-graduates.aspx",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

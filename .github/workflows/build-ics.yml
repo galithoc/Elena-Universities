@@ -1,0 +1,32 @@
+name: build-ics
+# Regenerate the subscribable calendar feed whenever data changes, however it
+# was edited (refresh skill, weekly Action, or a github.com web edit). The
+# commit touches only elena-deadlines.ics — which is OUTSIDE the data/** path
+# filter — so it cannot retrigger this workflow.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build-ics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild elena-deadlines.ics
+        run: python3 scripts/build_ics.py
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet elena-deadlines.ics; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add elena-deadlines.ics
+            git commit -m "chore: regenerate calendar feed"
+            git push
+          else
+            echo "ICS already up to date."
+          fi

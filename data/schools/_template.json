@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "_template",
+  "name": "",
+  "shortName": "",
+  "institution": "",
+  "degree": "",
+  "city": "",
+  "state": "",
+  "region": "",
+  "campusTimezone": "America/New_York",
+  "accent": "#cba24f",
+  "website": "",
+  "applicationSystem": "",
+  "fit": {
+    "commercial": null,
+    "contemporary": null,
+    "note": ""
+  },
+  "sources": [
+    {
+      "id": "src-main",
+      "label": "",
+      "url": "",
+      "checkFor": []
+    }
+  ],
+  "rounds": [
+    {
+      "id": "rd",
+      "type": "RD",
+      "label": "Regular Decision",
+      "binding": false,
+      "academicDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "portalUrl": "",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [],
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-1",
+      "label": "",
+      "format": "in_person",
+      "city": "",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": ""
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": [],
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-1",
+      "name": "",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "url": ""
+  },
+  "costs": {
+    "year": "",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [],
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

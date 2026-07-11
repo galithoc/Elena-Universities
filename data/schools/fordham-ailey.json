@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "fordham-ailey",
+  "name": "Fordham University / The Ailey School — BFA in Dance",
+  "shortName": "Fordham/Ailey",
+  "institution": "Fordham University · The Ailey School",
+  "degree": "BFA in Dance",
+  "city": "New York",
+  "state": "NY",
+  "region": "nyc",
+  "campusTimezone": "America/New_York",
+  "accent": "#a12a38",
+  "website": "https://www.fordham.edu/academics/departments/dance/",
+  "applicationSystem": "Common App (Fordham) + Ailey School dance application",
+  "fit": {
+    "commercial": "weak",
+    "contemporary": "strong",
+    "note": "Ailey = modern/Horton/ballet powerhouse; concert-focused, not commercial."
+  },
+  "sources": [
+    {
+      "id": "src-bfa",
+      "label": "Fordham/Ailey BFA admission",
+      "url": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "checkFor": [
+        "application deadlines",
+        "audition invite timing",
+        "audition dates/cities"
+      ]
+    },
+    {
+      "id": "src-ailey",
+      "label": "The Ailey School — Ailey/Fordham BFA",
+      "url": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "checkFor": [
+        "dance application",
+        "audition tour dates"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "priority",
+      "type": "EA",
+      "label": "Early Action / Priority Performance",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2027-01-01",
+        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Fordham academic app; select Early Action. NOTE: research shows both apps due Nov 1 — verify exact date.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Ailey School dance application due Nov 1 (single early deadline; no later RD route into the BFA).",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-03-01",
+        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Decisions for BFA candidates released rolling AFTER March 1.",
+        "pendingChange": null
+      },
+      "notes": "Both the Fordham academic app and the Ailey dance app are required. Research indicates both due Nov 1 — confirm on the BFA page."
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "The Ailey School dance application",
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "portalUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Audition/application fee not captured — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2026-11-01",
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Dance application due Nov 1; functions as the prescreen (director reviews, then invites).",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Invitation-only: director reviews submitted dance application, invites selected applicants to audition.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": null,
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Ailey dance-application video requirements not captured — verify on the Ailey apply page.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-nyc",
+      "label": "In-person audition — NYC or tour city",
+      "format": "in_person",
+      "city": "New York, NY (or tour city)",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Invited applicants audition Jan/Feb/Mar; specific 2027 dates publish in fall (Ailey side).",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Invitation-only after Dec 1. Directly clusters with Tisch/Pace/Purchase for a single NYC trip."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://www.fordham.edu/undergraduate-admission/apply/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Fordham standing test-optional policy — verify for Fall 2027.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Supplemental essay prompts not captured — verify on Common App/Fordham.",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-merit",
+      "name": "Fordham merit scholarships",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Amounts not captured.",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Fordham academic merit; Ailey talent consideration via audition. Verify."
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://www.fordham.edu/undergraduate-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": true,
+      "sourceUrl": "https://www.fordham.edu/undergraduate-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Fordham typically requires CSS Profile — verify.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "url": "https://www.fordham.edu/undergraduate-admission/financial-aid-and-affordability/"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Fordham tuition not captured — verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Small BFA cohort — verify.",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "modern",
+        "Horton",
+        "ballet",
+        "contemporary"
+      ],
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": "Alvin Ailey American Dance Theater / Ailey II",
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Joint BFA with The Ailey School — premier modern/Ailey training in NYC.",
+      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

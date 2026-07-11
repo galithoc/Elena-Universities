@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "id": "arizona",
+  "name": "University of Arizona — School of Dance, BFA in Dance",
+  "shortName": "Arizona",
+  "institution": "University of Arizona",
+  "degree": "BFA in Dance",
+  "city": "Tucson",
+  "state": "AZ",
+  "region": "tucson",
+  "campusTimezone": "America/Phoenix",
+  "accent": "#c0693a",
+  "website": "https://dance.arizona.edu/future-students/bfa/",
+  "applicationSystem": "UA application + College of Fine Arts supplement",
+  "fit": {
+    "commercial": "strong",
+    "contemporary": "strong",
+    "note": "Triple-track ballet/modern/jazz with an explicit Commercial Dance pathway — best all-around fit."
+  },
+  "sources": [
+    {
+      "id": "src-bfa",
+      "label": "UA School of Dance BFA",
+      "url": "https://dance.arizona.edu/future-students/bfa/",
+      "checkFor": [
+        "genre tracks",
+        "cohort size"
+      ]
+    },
+    {
+      "id": "src-apply",
+      "label": "Dance undergraduate application",
+      "url": "https://dance.arizona.edu/students/apply/undergraduate/",
+      "checkFor": [
+        "application steps",
+        "video spec",
+        "audition routes"
+      ]
+    },
+    {
+      "id": "src-apply2",
+      "label": "BFA apply (fees/dates)",
+      "url": "https://dance.arizona.edu/future-students/bfa/apply/",
+      "checkFor": [
+        "fee",
+        "audition dates",
+        "merit deadline"
+      ]
+    },
+    {
+      "id": "src-dead",
+      "label": "UA first-year deadlines",
+      "url": "https://www.arizona.edu/admissions/first-year/deadlines",
+      "checkFor": [
+        "EA deadline",
+        "decision timing"
+      ]
+    },
+    {
+      "id": "src-cost",
+      "label": "Bursar tuition",
+      "url": "https://bursar.arizona.edu/tuition",
+      "checkFor": [
+        "non-resident tuition",
+        "COA"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ea",
+      "type": "EA",
+      "label": "Early Action (university)",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "Page names the 'Fall 2027 incoming class' — EA Nov 1 CONFIRMED. Priority for merit + admission.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-04-01",
+        "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "College of Fine Arts BFA Dance supplement final deadline ~Apr 1 (was Apr 1 2025 — verify 2027).",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "EA admission letters release on/after Jan 15; Dance admission + merit notification mid-January.",
+        "pendingChange": null
+      },
+      "notes": "Apply via UA's own application to avoid a 3–6 week delay before the supplement opens."
+    },
+    {
+      "id": "rd",
+      "type": "RD",
+      "label": "Regular / space-available",
+      "binding": false,
+      "academicDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "After Nov 1, admission is space-available; no ED offered.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": "UA College of Fine Arts application (Future Wildcat portal)",
+      "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Not Acceptd/SlideRoom — UA's own portal.",
+      "pendingChange": null
+    },
+    "portalUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+    "fee": {
+      "value": "$60",
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Dance application fee, paid on submission.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2027-04-01",
+      "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Supplement final deadline; app + audition registration open Aug 1.",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": false,
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Open audition (not prescreen-gated). In-person OR video-only route.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-mix",
+          "text": "~10 minutes: diverse sampling of technical/studio work across ALL three styles (ballet, modern, jazz)."
+        },
+        {
+          "id": "vs-intro",
+          "text": "Personal introduction: who you are, why you're applying, key training that prepared you."
+        },
+        {
+          "id": "vs-outline",
+          "text": "Outline of training in ballet/modern/contemporary/jazz."
+        },
+        {
+          "id": "vs-resume",
+          "text": "Resume of dance experience."
+        },
+        {
+          "id": "vs-photo",
+          "text": "Full-body photo in first arabesque."
+        },
+        {
+          "id": "vs-headshot",
+          "text": "Headshot."
+        },
+        {
+          "id": "vs-refs",
+          "text": "Reference contact information (contacts, not full letters)."
+        }
+      ],
+      "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Video route requires all content up front; in-person route may request video later.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-ajds",
+      "label": "In-person — Arizona Jazz Dance Showcase (Tucson)",
+      "format": "in_person",
+      "city": "Tucson, AZ",
+      "venue": "",
+      "date": {
+        "value": "2026-09-18",
+        "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Prior cycle was 'Friday, September 19' — the Fall-2027-cycle date will be ~mid-Sept 2026. Verify.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Phoenix",
+      "registrationUrl": "https://jazzshowcase.arizona.edu/audition/",
+      "registrationOpens": {
+        "value": "2026-08-01",
+        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "confirmed_2027",
+        "note": "Audition registration opens Aug 1.",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Register by ~Sept 12 (prior cycle); capacity 100.",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Best in-person option — preserves first-year Dance Merit talent aid (video-only does NOT)."
+    },
+    {
+      "id": "aud-jan",
+      "label": "In-person — January on-campus",
+      "format": "in_person",
+      "city": "Tucson, AZ",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "January on-campus dates historically offered — verify 2027 dates.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Phoenix",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Must audition in person before ~Feb 1 to be considered for first-year Dance Merit talent aid."
+    },
+    {
+      "id": "aud-video",
+      "label": "Video-only audition",
+      "format": "virtual",
+      "city": "Remote (submit video)",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Video-only accepted; submit all required video with the application.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/Phoenix",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "announced",
+      "notes": "Saves the flight from San Juan — BUT video-only forfeits first-year Dance Merit talent aid until year 2."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://www.arizona.edu/admissions/first-year/apply",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "confirmed_2027",
+      "note": "SAT/ACT not required for admission or merit — verify still holds.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": "UA general admission requires no letters; the dance app asks for reference contact info.",
+      "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": [
+        {
+          "id": "essay-main",
+          "prompt": "UA application essay (~500 words) — strongly encouraged.",
+          "wordLimit": 500,
+          "required": false
+        }
+      ],
+      "sourceUrl": "https://www.arizona.edu/admissions/first-year/apply",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-tuition-award",
+      "name": "Arizona Tuition Award (non-resident)",
+      "kind": "merit",
+      "amount": {
+        "value": "$4,000–$20,000/yr",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/merit-scholarships",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "2025-26 amounts; 2026-27 dollar amounts not yet published.",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/merit-scholarships",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Priority = Nov 1 EA deadline.",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/merit-scholarships",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Automatic, no separate app.",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Recognition/Excellence/Distinction tiers by GPA. Base ~3.25+ core GPA."
+    },
+    {
+      "id": "sch-presidential",
+      "name": "Presidential Scholarship (non-resident)",
+      "kind": "merit",
+      "amount": {
+        "value": "~$10,000/yr",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/merit-scholarships",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://www.arizona.edu/admissions/first-year/merit-scholarships",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    },
+    {
+      "id": "sch-dance-merit",
+      "name": "Dance Merit (talent) Scholarship",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2027-02-01",
+        "sourceUrl": "https://dance.arizona.edu/future-students/scholarships-financial-aid/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Must audition IN PERSON before ~Feb 1 to be considered as a first-year (was 'before February 1, 2025' — verify).",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://dance.arizona.edu/future-students/scholarships-financial-aid/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Video-only auditioners are NOT eligible until their second year."
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://financialaid.arizona.edu/resources/deadlines",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": false,
+      "sourceUrl": "https://financialaid.arizona.edu/apply-for-aid/first-year",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Public university; need-based aid is FAFSA-driven.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": "2027-04-01",
+      "sourceUrl": "https://financialaid.arizona.edu/resources/deadlines",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "FAFSA priority Apr 1. UA FAFSA code 001083.",
+      "pendingChange": null
+    },
+    "url": "https://financialaid.arizona.edu/"
+  },
+  "costs": {
+    "year": "2026-27",
+    "tuitionAnnual": {
+      "value": "$44,338 (non-resident tuition + fees)",
+      "sourceUrl": "https://bursar.arizona.edu/tuition",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "confirmed_2027",
+      "note": "2026-27 confirmed: $42,600 tuition + $1,738 fees. 3% increase.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": "~$60,000 (non-resident, est.)",
+      "sourceUrl": "https://financialaid.arizona.edu/cost/incoming",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "2025-26 full COA ~$58,676; full 2026-27 COA not yet published.",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": "~135 undergrad dance majors (all years)",
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Per-class BFA cohort not published.",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": "University ~86–87%; dance is audition-gated (more selective)",
+      "sourceUrl": "https://www.arizona.edu/admissions",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "ballet",
+        "modern",
+        "jazz",
+        "commercial"
+      ],
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Equal triple-track; explicit Commercial Dance pathway.",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": "UA Dance Ensemble; Stevie Eller Dance Theatre (~40 performances/yr)",
+      "sourceUrl": "https://cfa.arizona.edu/academics/dance/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Gus Giordano jazz lineage; guest choreographers Tyce Diorio, Al Blackstone, Joe Lanteri.",
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

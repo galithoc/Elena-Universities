@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "id": "marymount-northeastern",
+  "name": "Northeastern University – New York City (Marymount) — BA/BFA in Dance",
+  "shortName": "Marymount/Northeastern",
+  "institution": "Northeastern University – New York City",
+  "degree": "BFA in Dance",
+  "city": "New York",
+  "state": "NY",
+  "region": "nyc",
+  "campusTimezone": "America/New_York",
+  "accent": "#4aa564",
+  "website": "https://nyc.northeastern.edu/",
+  "applicationSystem": "Northeastern — Common App or Coalition/Scoir (in transition)",
+  "fit": {
+    "commercial": "strong",
+    "contemporary": "strong",
+    "note": "Versatile MMC identity — ballet/jazz/contemporary + commercial-jazz coursework; NYCDA partner. Strong fit — but logistics mid-merger."
+  },
+  "sources": [
+    {
+      "id": "src-faq",
+      "label": "MMC–Northeastern merger FAQ",
+      "url": "https://news.northeastern.edu/marymount-manhattan-college-merger-faq/",
+      "checkFor": [
+        "dance BFA continuation",
+        "how prospective students apply",
+        "deadlines"
+      ]
+    },
+    {
+      "id": "src-nyc",
+      "label": "Northeastern – NYC campus",
+      "url": "https://nyc.northeastern.edu/",
+      "checkFor": [
+        "performing-arts admissions",
+        "audition page"
+      ]
+    },
+    {
+      "id": "src-ne-dead",
+      "label": "Northeastern deadlines & decisions",
+      "url": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+      "checkFor": [
+        "ED/EA/RD dates",
+        "test-optional"
+      ]
+    },
+    {
+      "id": "src-mm-aud",
+      "label": "MMC Dance auditions (legacy)",
+      "url": "https://www.mmm.edu/departments/dance/auditions.php",
+      "checkFor": [
+        "audition format",
+        "digital/video option",
+        "audition dates"
+      ]
+    },
+    {
+      "id": "src-ne-aid",
+      "label": "Northeastern applying for aid",
+      "url": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
+      "checkFor": [
+        "FAFSA/CSS",
+        "priority dates"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ea",
+      "type": "EA",
+      "label": "Early Action / ED I (Northeastern)",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Northeastern standing ED I & EA = Nov 1. UNCONFIRMED whether this now governs the dance audition timeline (MMC's old RD was Feb 1). Plan for Nov 1.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Audition mechanics under Northeastern not yet republished — verify.",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-02-01",
+        "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Northeastern EA/ED I decisions ~early February — verify.",
+        "pendingChange": null
+      },
+      "notes": ""
+    },
+    {
+      "id": "rd",
+      "type": "RD",
+      "label": "Regular Decision / ED II (Northeastern)",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2027-01-01",
+        "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Northeastern ED II & RD = Jan 1. Merit requires applying by the Jan 1 RD deadline. Verify for the NYC dance program.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2027-04-01",
+        "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "RD decisions by ~April 1 — verify.",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": null,
+      "sourceUrl": "https://www.mmm.edu/departments/dance/auditions.php",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Post-merger portal unknown — MMC Dance used its own Admissions Portal (apply.mmm.edu), no prescreen; Northeastern may move it. Verify.",
+      "pendingChange": null
+    },
+    "portalUrl": "",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Audition fee not captured; MMC advertised no application fee — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Post-merger audition deadline unknown — MMC's digital window was Jan 5–Mar 15. Verify.",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": false,
+      "sourceUrl": "https://www.mmm.edu/departments/dance/auditions.php",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "MMC Dance historically had NO prescreen (open audition). Confirm this survives the merger.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-improv",
+          "text": "Modern/contemporary/jazz improvisation."
+        },
+        {
+          "id": "vs-phrase",
+          "text": "1–2 min modern/jazz/contemporary phrase: level changes, torso articulation, breath, isolations."
+        },
+        {
+          "id": "vs-ballet",
+          "text": "Ballet: dégagés/jetés, pas de bourrée, pirouettes; petit allegro; grand allegro if space allows."
+        },
+        {
+          "id": "vs-solo",
+          "text": "Self- or other-choreographed solo, 1–2 min, genre of choice — a different style than the phrase is encouraged (shows versatility)."
+        }
+      ],
+      "sourceUrl": "https://www.mmm.edu/departments/dance/auditions.php",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "PRE-MERGER MMC spec — re-verify under Northeastern.",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-campus",
+      "label": "On-campus audition — NYC (Upper East Side)",
+      "format": "in_person",
+      "city": "New York, NY",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "MMC dance auditions were on-campus or digital; post-merger dates/mechanics not yet published.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Clusters with Fordham/Ailey, Tisch, Pace, Purchase for one NYC trip."
+    },
+    {
+      "id": "aud-digital",
+      "label": "Digital / video submission (verify survives merger)",
+      "format": "virtual",
+      "city": "Remote",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "MMC offered an equivalent digital video route (window Jan 5–Mar 15). CONFIRM this survives — the key item for a San Juan applicant.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Historically no travel required — highest-priority thing to re-confirm post-merger."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Both MMC and Northeastern test-optional — verify for Fall 2027.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Post-merger recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Northeastern Common App essay + supplement; specifics not captured — verify.",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-mmc-talent",
+      "name": "Visual & Performing Arts Merit Scholarship (legacy MMC)",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://www.mmm.edu/admissions-and-aid/fine-performing-arts-scholarships/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Auto-considered at the audition; renewal needs GPA ≥3.0. UNKNOWN whether it survives the merger.",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": "Pre-merger MMC award — confirm continuation."
+    },
+    {
+      "id": "sch-ne-merit",
+      "name": "Northeastern merit",
+      "kind": "merit",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2027-01-01",
+        "sourceUrl": "https://admissions.northeastern.edu/cost-financial-aid/merit-scholarships/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Apply by Jan 1 RD for auto merit consideration; limited/competitive.",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://admissions.northeastern.edu/cost-financial-aid/merit-scholarships/",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "FAFSA code 002199.",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": true,
+      "sourceUrl": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Northeastern requires CSS Profile (code 3667) — NEW hurdle vs MMC. Verify for the NYC campus.",
+      "pendingChange": null
+    },
+    "cssCode": "3667",
+    "priorityDeadline": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Confirm NYC-campus priority dates.",
+      "pendingChange": null
+    },
+    "url": "https://studentfinance.northeastern.edu/"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "https://www.mmm.edu/offices/center-for-student-services/tuition-and-fees.php",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "New-student pricing unconfirmed: MMC legacy tuition ~$38,400 vs Northeastern ~$70K+. Verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": "~$61K (MMC legacy) → possibly ~$85K (Northeastern)",
+      "sourceUrl": "https://bigfuture.collegeboard.org/colleges/northeastern-university/tuition-and-costs",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Current MMC students grandfathered; NEW Fall-2027 students' pricing unconfirmed — plan for the higher figure.",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": "~30–40 dance/yr (MMC); ~155–160 total performing-arts cohort at Northeastern–NYC",
+      "sourceUrl": "https://www.niche.com/colleges/marymount-manhattan-college/admissions/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": "MMC ~72–83% overall; dance audition-weighted",
+      "sourceUrl": "https://www.niche.com/colleges/marymount-manhattan-college/admissions/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Do NOT assume Northeastern-Boston's ~5–7% applies to the NYC dance BFA — unknown post-merger.",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "ballet",
+        "jazz",
+        "contemporary",
+        "commercial jazz",
+        "modern"
+      ],
+      "sourceUrl": "https://www.mmm.edu/departments/dance/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": "NYCDA college-audition partner",
+      "sourceUrl": "https://www.nycdance.com/foundation/college-scholarship-audition",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Merger with Northeastern completed July 9–10, 2026; 4-year NYC program. Alumni: Broadway, Radio City Rockette, commercial. Contact dancerecruit@mmm.edu / 212-517-0609.",
+      "sourceUrl": "https://news.northeastern.edu/marymount-manhattan-college-merger-faq/",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

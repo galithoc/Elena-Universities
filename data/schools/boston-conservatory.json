@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "id": "boston-conservatory",
+  "name": "Boston Conservatory at Berklee — BFA in Dance",
+  "shortName": "Boston Conservatory",
+  "institution": "Boston Conservatory at Berklee",
+  "degree": "BFA in Dance (Contemporary Dance Performance OR Commercial Dance)",
+  "city": "Boston",
+  "state": "MA",
+  "region": "boston",
+  "campusTimezone": "America/New_York",
+  "accent": "#c9a24a",
+  "website": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+  "applicationSystem": "Common App + prescreen/audition",
+  "fit": {
+    "commercial": "strong",
+    "contemporary": "strong",
+    "note": "TWO BFAs — Contemporary Dance Performance AND Commercial Dance (75-min jazz + freestyle audition). Excellent fit either way."
+  },
+  "sources": [
+    {
+      "id": "src-aud",
+      "label": "Dance audition requirements",
+      "url": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "checkFor": [
+        "audition format",
+        "solo spec",
+        "virtual option"
+      ]
+    },
+    {
+      "id": "src-dead",
+      "label": "Admissions deadlines",
+      "url": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+      "checkFor": [
+        "EA/RA dates",
+        "audition-by date"
+      ]
+    },
+    {
+      "id": "src-aid",
+      "label": "Financial aid & scholarships",
+      "url": "https://bostonconservatory.berklee.edu/financial-aid",
+      "checkFor": [
+        "talent scholarship",
+        "FAFSA priority"
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ea",
+      "type": "EA",
+      "label": "Early Action",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "EA Nov 1 (bot-blocked page; snippet-sourced — verify).",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-11-01",
+        "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Prescreen (if required) with the application.",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "EA notified on an accelerated schedule.",
+        "pendingChange": null
+      },
+      "notes": "EA audition by ~Jan 20 (one index said Jan 21 — verify)."
+    },
+    {
+      "id": "ra",
+      "type": "RD",
+      "label": "Regular Action",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "RA Dec 1 — app + prescreen due together.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2026-12-01",
+        "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "notes": ""
+    }
+  ],
+  "artisticSupplement": {
+    "portal": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Audition portal not captured — verify (Acceptd/SlideRoom/own).",
+      "pendingChange": null
+    },
+    "portalUrl": "",
+    "fee": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Audition fee not captured — verify.",
+      "pendingChange": null
+    },
+    "deadline": {
+      "value": "2026-12-01",
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Prescreen/audition materials due with the RA application (Dec 1).",
+      "pendingChange": null
+    },
+    "prescreenRequired": {
+      "value": true,
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition.",
+      "pendingChange": null
+    },
+    "videoSpec": {
+      "value": [
+        {
+          "id": "vs-solo",
+          "text": "90-second solo with self-provided accompaniment. Contemporary: ballet/modern preferred (not required). Commercial: any style incl. hip-hop, tap, jazz, circus."
+        },
+        {
+          "id": "vs-ballet-modern",
+          "text": "For the live-online option: pre-recorded ballet + modern material, submitted 48 hours before the online audition."
+        }
+      ],
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "auditions": [
+    {
+      "id": "aud-contemp",
+      "label": "Live audition — Contemporary Dance Performance",
+      "format": "in_person",
+      "city": "Boston, MA",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "2026-27 dates not captured — verify.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "Two technique classes: one ballet + one modern (pointe not required)."
+    },
+    {
+      "id": "aud-commercial",
+      "label": "Live audition — Commercial Dance",
+      "format": "in_person",
+      "city": "Boston, MA",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "2026-27 dates not captured — verify.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "tbd",
+      "notes": "75-min jazz technique class + 45-min freestyle class + faculty interview. Strong commercial fit."
+    },
+    {
+      "id": "aud-online",
+      "label": "Live online (virtual) audition",
+      "format": "virtual",
+      "city": "Remote",
+      "venue": "",
+      "date": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "Live-online option offered — verify 2027.",
+        "pendingChange": null
+      },
+      "time": "",
+      "timezone": "America/New_York",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "announced",
+      "notes": "Pre-recorded ballet/modern 48h ahead + live online solo + faculty conversation. Great for a San Juan applicant."
+    }
+  ],
+  "academics": {
+    "testPolicy": {
+      "value": "test-optional",
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "Test-optional — verify.",
+      "pendingChange": null
+    },
+    "recommendations": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Recommendation requirements not captured — verify.",
+      "pendingChange": null
+    },
+    "essays": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Supplemental essays not captured — verify.",
+      "pendingChange": null
+    },
+    "interview": {
+      "value": "Faculty interview (Commercial Dance audition includes one)",
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  },
+  "scholarships": [
+    {
+      "id": "sch-conservatory",
+      "name": "Conservatory Scholarship (talent)",
+      "kind": "talent",
+      "amount": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "deadline": {
+        "value": "2027-03-01",
+        "sourceUrl": "https://bostonconservatory.berklee.edu/financial-aid",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "Awarded on audition merit; need factored only if FAFSA filed by Mar 1.",
+        "pendingChange": null
+      },
+      "requiresSeparateApp": {
+        "value": false,
+        "sourceUrl": "https://bostonconservatory.berklee.edu/financial-aid",
+        "lastVerified": "2026-07-10",
+        "cycleStatus": "carried_from_2026",
+        "note": "",
+        "pendingChange": null
+      },
+      "url": "",
+      "notes": ""
+    }
+  ],
+  "financialAid": {
+    "fafsaRequired": {
+      "value": true,
+      "sourceUrl": "https://bostonconservatory.berklee.edu/financial-aid",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "cssProfileRequired": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "CSS requirement not captured — verify.",
+      "pendingChange": null
+    },
+    "cssCode": "",
+    "priorityDeadline": {
+      "value": "2027-03-01",
+      "sourceUrl": "https://bostonconservatory.berklee.edu/financial-aid",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "FAFSA priority Mar 1.",
+      "pendingChange": null
+    },
+    "url": "https://bostonconservatory.berklee.edu/financial-aid"
+  },
+  "costs": {
+    "year": "2025-26",
+    "tuitionAnnual": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "Tuition not captured — verify.",
+      "pendingChange": null
+    },
+    "totalCostOfAttendance": {
+      "value": null,
+      "sourceUrl": "https://bostonconservatory.berklee.edu/offices-and-services/cost-attendance",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "COA not captured — verify.",
+      "pendingChange": null
+    }
+  },
+  "programFacts": {
+    "cohortSize": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "acceptanceRate": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "genreEmphasis": {
+      "value": [
+        "contemporary",
+        "ballet",
+        "modern",
+        "jazz",
+        "commercial"
+      ],
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": null,
+      "sourceUrl": "",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "tbd",
+      "note": "",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Two distinct BFA tracks (Contemporary Performance + Commercial); part of Berklee.",
+      "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
+      "lastVerified": "2026-07-10",
+      "cycleStatus": "carried_from_2026",
+      "note": "",
+      "pendingChange": null
+    }
+  }
+}

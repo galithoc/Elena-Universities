@@ -1,0 +1,928 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-07-10",
+  "global": {
+    "checklist": [
+      {
+        "id": "g-commonapp",
+        "label": "Common App account created + main essay drafted",
+        "status": "todo",
+        "owner": "elena",
+        "due": "2026-09-15",
+        "note": "Common App opens Aug 1, 2026.",
+        "doneOn": null
+      },
+      {
+        "id": "g-fafsa",
+        "label": "FAFSA submitted (2027-28)",
+        "status": "todo",
+        "owner": "parents",
+        "due": "2026-11-15",
+        "note": "FAFSA opens ~Oct 1, 2026.",
+        "doneOn": null
+      },
+      {
+        "id": "g-css",
+        "label": "CSS Profile created (needed for USC, Northeastern/Marymount, likely Fordham/NYU)",
+        "status": "todo",
+        "owner": "parents",
+        "due": null,
+        "note": "",
+        "doneOn": null
+      },
+      {
+        "id": "g-reels",
+        "label": "Prescreen reels planned (contemporary + jazz solos, ballet barre)",
+        "status": "todo",
+        "owner": "elena",
+        "due": "2026-10-15",
+        "note": "Reuse across schools where specs allow.",
+        "doneOn": null
+      }
+    ]
+  },
+  "schools": {
+    "fordham-ailey": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "nyu-tisch": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "pace": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "suny-purchase": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "marymount-northeastern": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "usc-kaufman": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "chapman": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "arizona": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    },
+    "boston-conservatory": {
+      "roundChoice": null,
+      "status": "active",
+      "decision": null,
+      "checklist": [
+        {
+          "id": "supp-essays",
+          "label": "Supplemental essays drafted",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "recs-requested",
+          "label": "Recommendations requested",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-filmed",
+          "label": "Prescreen / audition video filmed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "prescreen-submitted",
+          "label": "Prescreen / artistic supplement submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "app-submitted",
+          "label": "Application submitted",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-registered",
+          "label": "Audition registered",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "travel-booked",
+          "label": "Flights / hotel booked",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "audition-done",
+          "label": "Audition completed",
+          "status": "todo",
+          "owner": "elena",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "aid-docs",
+          "label": "FAFSA/CSS sent to this school",
+          "status": "todo",
+          "owner": "parents",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        },
+        {
+          "id": "decision",
+          "label": "Decision received",
+          "status": "todo",
+          "owner": "both",
+          "due": null,
+          "note": "",
+          "doneOn": null
+        }
+      ],
+      "notes": []
+    }
+  }
+}

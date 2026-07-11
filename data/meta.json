@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "title": "Elena — Road to the BFA",
+    "cycleLabel": "Fall 2027 entry · HS class of 2027",
+    "tagline": "Every deadline, audition, and requirement in one place."
+  },
+  "student": {
+    "name": "Elena Stewart",
+    "home": "Puerto Rico",
+    "timezone": "America/Puerto_Rico",
+    "genres": [
+      "contemporary/lyrical",
+      "jazz/commercial"
+    ]
+  },
+  "cycle": {
+    "commonAppOpens": "2026-08-01",
+    "fafsaOpens": "2026-10-01"
+  },
+  "schools": [
+    "fordham-ailey",
+    "nyu-tisch",
+    "pace",
+    "suny-purchase",
+    "marymount-northeastern",
+    "usc-kaufman",
+    "chapman",
+    "arizona",
+    "boston-conservatory"
+  ],
+  "regions": {
+    "nyc": {
+      "label": "New York City area",
+      "schools": [
+        "fordham-ailey",
+        "nyu-tisch",
+        "pace",
+        "suny-purchase",
+        "marymount-northeastern"
+      ],
+      "note": "Five schools audition in/around NYC (Jan–Mar). One or two well-timed trips can cover several. Purchase is Westchester, ~35 min from Grand Central."
+    },
+    "socal": {
+      "label": "Southern California",
+      "schools": [
+        "usc-kaufman",
+        "chapman"
+      ],
+      "note": "USC (LA) and Chapman (Orange) are ~40 miles apart — combinable into one trip."
+    },
+    "boston": {
+      "label": "Boston",
+      "schools": [
+        "boston-conservatory"
+      ],
+      "note": "Boston Conservatory offers a live-online audition — may avoid the flight."
+    },
+    "tucson": {
+      "label": "Tucson, AZ",
+      "schools": [
+        "arizona"
+      ],
+      "note": "Video-only audition accepted, but an in-person Sept/Jan date (before ~Feb 1) preserves first-year Dance Merit talent aid."
+    }
+  },
+  "ics": {
+    "feedPath": "elena-deadlines.ics",
+    "calName": "Elena — College Deadlines"
+  },
+  "lastRefresh": {
+    "date": "2026-07-10",
+    "by": "initial-seed",
+    "summary": "Initial dataset seeded from planning research (mostly carried_from_2026; verify Aug–Oct 2026)."
+  }
+}

@@ -1,0 +1,671 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//STEW-ART Designs//Elena Road to the BFA//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elena — College Deadlines
+X-WR-TIMEZONE:America/Puerto_Rico
+X-WR-CALDESC:Deadlines and auditions for Elena's BFA dance applications.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:global-commonAppOpens@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:📅 Common App opens
+CATEGORIES:global
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Common App opens
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Common App opens
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:global-g-commonapp@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:📅 Common App account created + main essay drafted
+CATEGORIES:global
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Common App account created + main essay drafted
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Common App account created + main essay drafted
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-aud-ajds@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:✈️ Arizona: In-person — Arizona Jazz Dance Showcase (Tucson) 
+ [unconfirmed — last year's date]
+DESCRIPTION:Tucson\, AZ
+CATEGORIES:audition
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✈️ Arizona: In-person — Arizona Jazz Dance Showcase (Tucs
+ on) [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✈️ Arizona: In-person — Arizona Jazz Dance Showcase (Tucs
+ on) [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:global-fafsaOpens@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:📅 FAFSA opens (2027-28)
+CATEGORIES:global
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 FAFSA opens (2027-28)
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 FAFSA opens (2027-28)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:global-g-reels@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:📅 Prescreen reels planned (contemporary + jazz solos\, ballet ba
+ rre)
+CATEGORIES:global
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Prescreen reels planned (contemporary + jazz solos\, balle
+ t barre)
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 Prescreen reels planned (contemporary + jazz solos\, balle
+ t barre)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-round-ea-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ Arizona: Early Action (university) due
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Arizona: Early Action (university) due
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Arizona: Early Action (university) due
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-sch-presidential@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:💰 Arizona: Presidential Scholarship (non-resident) deadline [unc
+ onfirmed — last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Presidential Scholarship (non-resident) deadline 
+ [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Presidential Scholarship (non-resident) deadline 
+ [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-sch-tuition-award@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:💰 Arizona: Arizona Tuition Award (non-resident) deadline [unconf
+ irmed — last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Arizona Tuition Award (non-resident) deadline [un
+ confirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Arizona Tuition Award (non-resident) deadline [un
+ confirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-conservatory-round-ea-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ Boston Conservatory: Early Action due [unconfirmed — last yea
+ r's date]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Boston Conservatory: Early Action due [unconfirmed — last
+  year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Boston Conservatory: Early Action due [unconfirmed — last
+  year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chapman-round-ea-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ Chapman: Early Action (non-binding) due
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Chapman: Early Action (non-binding) due
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Chapman: Early Action (non-binding) due
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chapman-sch-academic@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:💰 Chapman: Academic merit scholarship deadline [unconfirmed — 
+ last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Chapman: Academic merit scholarship deadline [unconfirmed 
+ — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Chapman: Academic merit scholarship deadline [unconfirmed 
+ — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chapman-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🎬 Chapman: prescreen / artistic supplement due [unconfirmed — 
+ last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Chapman: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Chapman: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-ailey-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🎬 Fordham/Ailey: prescreen / artistic supplement due [unconfirme
+ d — last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Fordham/Ailey: prescreen / artistic supplement due [unconf
+ irmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Fordham/Ailey: prescreen / artistic supplement due [unconf
+ irmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marymount-northeastern-round-ea-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) due 
+ [unconfirmed — last year's date]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) 
+ due [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) 
+ due [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyu-tisch-round-ed1-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ NYU Tisch: Early Decision I due [unconfirmed — last year's da
+ te]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ NYU Tisch: Early Decision I due [unconfirmed — last year'
+ s date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ NYU Tisch: Early Decision I due [unconfirmed — last year'
+ s date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pace-round-ed-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:⏰ Pace: Early Decision due [unconfirmed — last year's date]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Pace: Early Decision due [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Pace: Early Decision due [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:global-g-fafsa@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:📅 FAFSA submitted (2027-28)
+CATEGORIES:global
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 FAFSA submitted (2027-28)
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📅 FAFSA submitted (2027-28)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-conservatory-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🎬 Boston Conservatory: prescreen / artistic supplement due [unco
+ nfirmed — last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Boston Conservatory: prescreen / artistic supplement due [
+ unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Boston Conservatory: prescreen / artistic supplement due [
+ unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-kaufman-round-dec1-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:⏰ USC Kaufman: Application + Portfolio deadline due [unconfirmed 
+ — last year's date]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due [unconfir
+ med — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due [unconfir
+ med — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-kaufman-sch-merit@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:💰 USC Kaufman: USC merit scholarships deadline [unconfirmed — 
+ last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 USC Kaufman: USC merit scholarships deadline [unconfirmed 
+ — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 USC Kaufman: USC merit scholarships deadline [unconfirmed 
+ — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:usc-kaufman-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🎬 USC Kaufman: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 USC Kaufman: prescreen / artistic supplement due [unconfir
+ med — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 USC Kaufman: prescreen / artistic supplement due [unconfir
+ med — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fordham-ailey-round-priority-app@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:⏰ Fordham/Ailey: Early Action / Priority Performance due [unconfi
+ rmed — last year's date]
+CATEGORIES:app_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Fordham/Ailey: Early Action / Priority Performance due [unc
+ onfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Fordham/Ailey: Early Action / Priority Performance due [unc
+ onfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:marymount-northeastern-sch-ne-merit@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:💰 Marymount/Northeastern: Northeastern merit deadline [unconfirm
+ ed — last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Marymount/Northeastern: Northeastern merit deadline [uncon
+ firmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Marymount/Northeastern: Northeastern merit deadline [uncon
+ firmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pace-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:🎬 Pace: prescreen / artistic supplement due [unconfirmed — las
+ t year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Pace: prescreen / artistic supplement due [unconfirmed —
+  last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Pace: prescreen / artistic supplement due [unconfirmed —
+  last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nyu-tisch-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:🎬 NYU Tisch: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 NYU Tisch: prescreen / artistic supplement due [unconfirme
+ d — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 NYU Tisch: prescreen / artistic supplement due [unconfirme
+ d — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-sch-dance-merit@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:💰 Arizona: Dance Merit (talent) Scholarship deadline [unconfirme
+ d — last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Dance Merit (talent) Scholarship deadline [unconf
+ irmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: Dance Merit (talent) Scholarship deadline [unconf
+ irmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-conservatory-aid-priority@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:💰 Boston Conservatory: FAFSA/CSS priority [unconfirmed — last 
+ year's date]
+CATEGORIES:aid_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Boston Conservatory: FAFSA/CSS priority [unconfirmed — l
+ ast year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Boston Conservatory: FAFSA/CSS priority [unconfirmed — l
+ ast year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boston-conservatory-sch-conservatory@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:💰 Boston Conservatory: Conservatory Scholarship (talent) deadlin
+ e [unconfirmed — last year's date]
+CATEGORIES:scholarship_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Boston Conservatory: Conservatory Scholarship (talent) dea
+ dline [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Boston Conservatory: Conservatory Scholarship (talent) dea
+ dline [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chapman-aid-priority@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:💰 Chapman: FAFSA/CSS priority [unconfirmed — last year's date]
+CATEGORIES:aid_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Chapman: FAFSA/CSS priority [unconfirmed — last year's d
+ ate]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Chapman: FAFSA/CSS priority [unconfirmed — last year's d
+ ate]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-aid-priority@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:💰 Arizona: FAFSA/CSS priority [unconfirmed — last year's date]
+CATEGORIES:aid_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: FAFSA/CSS priority [unconfirmed — last year's d
+ ate]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 Arizona: FAFSA/CSS priority [unconfirmed — last year's d
+ ate]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:arizona-supplement@elena-universities
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:🎬 Arizona: prescreen / artistic supplement due [unconfirmed — 
+ last year's date]
+CATEGORIES:supplement_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Arizona: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Arizona: prescreen / artistic supplement due [unconfirmed 
+ — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

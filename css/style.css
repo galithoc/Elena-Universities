@@ -180,8 +180,8 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 20%;
-  background: #2f3d38; /* matches the photo's studio green while it loads */
+  object-position: 50% 22%;
+  background: #12161f; /* matches the photo's navy studio ground while it loads */
 }
 .hero-scrim {
   position: absolute;
@@ -289,20 +289,24 @@ h2 {
 }
 
 /* ---------- Gallery ---------- */
+/* Masonry (CSS columns) — preserves each photo's full frame, no cropping */
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: clamp(0.5rem, 1.2vw, 0.875rem);
+  columns: 3;
+  column-gap: clamp(0.5rem, 1.2vw, 0.875rem);
 }
-@media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) { .gallery-grid { columns: 2; } }
 .gallery-item {
+  display: block;
+  width: 100%;
+  margin-bottom: clamp(0.5rem, 1.2vw, 0.875rem);
   border-radius: calc(var(--radius) - 4px);
   overflow: hidden;
-  aspect-ratio: 3 / 4;
+  break-inside: avoid;
 }
 .gallery-item img {
-  width: 100%; height: 100%;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
   transition: transform 0.45s ease;
 }
 .gallery-item:hover img { transform: scale(1.04); }

@@ -24,8 +24,11 @@ The site ships with **clearly-marked placeholders**. Swap them for real content 
 | Bio + quick facts | `index.html` — `#about` section |
 | Resume highlights | `index.html` — `#resume` section (Training / Performances / Awards) |
 | Resume PDF | `assets/resume/elena-dance-resume.pdf` — replace with her real one-pager |
+| Recommendations | `index.html` — `#recommendations` section: 2–3 teacher/mentor quotes + names |
 | Email + socials | `index.html` — `#contact` section |
 | Share image | `assets/photos/og-image.png` — optional: replace with a 1200×630 photo card |
+| Live site URL | `index.html` (canonical + `og:url` + JSON-LD), `robots.txt`, `sitemap.xml` — replace `https://example.com/` everywhere once the site is live |
+| Social links (search) | `index.html` — the `sameAs` list in the JSON-LD block, so search engines connect her name to her profiles |
 
 **Swapping a photo:** save the real image as a `.jpg`, drop it in `assets/photos/`, and update the matching `src="assets/photos/..."` in `index.html` (or just name the jpg exactly like the svg it replaces and change the file extension in the HTML).
 
@@ -40,6 +43,18 @@ The site ships with **clearly-marked placeholders**. Swap them for real content 
 - **Resume:** one side of one page, curated highlights over exhaustive lists, plain formatting (many schools impose their own template anyway).
 - **Remember:** each school's official prescreen still goes through *their* portal (SlideRoom/Acceptd/etc.) per their exact specs. This site is the shareable showcase for everything else — applications, scholarship committees, intensives, teachers, and faculty who look her up.
 
+## When the site is live (one 5-minute pass)
+
+Once GitHub Pages is on and you know the URL (e.g. `https://galithoc.github.io/Elena-Universities/`), search-and-replace `https://example.com/` with it in three files: `index.html`, `robots.txt`, and `sitemap.xml`. That switches on correct social-share previews and search-engine discoverability, so Elena's name surfaces her portfolio when faculty look her up.
+
+## Optional: custom domain
+
+If you buy a domain (e.g. `elenadances.com`):
+1. Add a file named `CNAME` in the repo root containing just the domain (`elenadances.com`, no `https://`).
+2. In **Settings → Pages → Custom domain**, enter the same domain and save; enable **Enforce HTTPS** once it's ready.
+3. At your domain registrar, point the DNS records at GitHub Pages ([GitHub's guide](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site)).
+4. Update `https://example.com/` to the new domain in `index.html`, `robots.txt`, and `sitemap.xml`.
+
 ## Preview locally
 
 ```bash
@@ -47,12 +62,18 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
+To preview the print/PDF fallback of the resume: open the site, press **Ctrl/Cmd-P**. The nav, hero, videos, and gallery drop away, leaving a clean name-plus-resume printout (a backup for the downloadable PDF).
+
 ## Files
 
 ```
 index.html        the whole site (one page)
-css/style.css     design system
+css/style.css     design system (includes a print stylesheet)
 js/main.js        nav, gallery lightbox, video embeds, scroll reveals
+404.html          styled "page not found" (GitHub Pages serves it automatically)
+robots.txt        search-engine directives + sitemap pointer
+sitemap.xml       single-page sitemap for search engines
+site.webmanifest  mobile "add to home screen" metadata
 assets/photos/    images (placeholders until replaced)
 assets/resume/    downloadable resume PDF
 ```

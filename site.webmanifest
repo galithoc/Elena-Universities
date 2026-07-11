@@ -1,0 +1,12 @@
+{
+  "name": "Elena Lastname — Dance Portfolio",
+  "short_name": "Elena",
+  "description": "Contemporary & hip-hop dance portfolio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1b1511",
+  "theme_color": "#1b1511",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

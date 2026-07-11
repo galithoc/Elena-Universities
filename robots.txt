@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# PLACEHOLDER: update to the live site URL once GitHub Pages is on
+# (e.g. https://galithoc.github.io/Elena-Universities/sitemap.xml or a custom domain).
+Sitemap: https://example.com/sitemap.xml

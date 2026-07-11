@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3dacb"/>
+      <stop offset="1" stop-color="#cbbfae"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.65" cy="0.25" r="0.8">
+      <stop offset="0" stop-color="#c14f2e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#c14f2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#1b1511" stroke-width="3" stroke-linecap="round" transform="rotate(0 400.0 500.0)">
+    <path d="M -64 720 C 224 180, 440 1020, 864 360" stroke-opacity="0.35"/>
+    <path d="M -48 860 C 256 380, 480 1100, 848 520" stroke-opacity="0.16"/>
+  </g>
+  <text x="50%" y="953" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif"
+        font-size="26" letter-spacing="7.3" font-weight="600" fill="#1b1511" fill-opacity="0.9">PLACEHOLDER — HEADSHOT</text>
+</svg>

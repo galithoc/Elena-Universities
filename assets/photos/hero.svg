@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#251a12"/>
+      <stop offset="1" stop-color="#120f0d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#c14f2e" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#c14f2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#faf7f2" stroke-width="4" stroke-linecap="round" transform="rotate(0 800.0 500.0)">
+    <path d="M -128 720 C 448 180, 880 1020, 1728 360" stroke-opacity="0.5"/>
+    <path d="M -96 860 C 512 380, 960 1100, 1696 520" stroke-opacity="0.23"/>
+  </g>
+  <text x="50%" y="942" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif"
+        font-size="32" letter-spacing="9.0" font-weight="600" fill="#faf7f2" fill-opacity="0.9">PLACEHOLDER — REPLACE WITH HERO ACTION PHOTO</text>
+</svg>

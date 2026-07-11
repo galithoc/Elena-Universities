@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLACEHOLDER: replace "Elena Lastname" with her full name, and update the description -->
+  <title>Elena Lastname — Dancer · Contemporary &amp; Hip-Hop</title>
+  <meta name="description" content="Dance portfolio of Elena Lastname — contemporary/modern and hip-hop dancer applying to university dance programs. Reel, performances, gallery, and resume.">
+
+  <!-- Social sharing card (og-image.png ships with the site; swap for a real photo card anytime) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Elena Lastname — Dancer">
+  <meta property="og:description" content="Contemporary &amp; hip-hop dance portfolio: reel, performances, gallery, and resume.">
+  <meta property="og:image" content="assets/photos/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-nav" id="site-nav">
+    <a class="nav-brand" href="#top">Elena<span class="nav-brand-dot">.</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#reel">Reel</a>
+      <a href="#clips">Performances</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <!-- PLACEHOLDER: assets/photos/hero.svg → replace with her strongest full-body action photo
+         (landscape, ≥1600px wide, well lit, Elena clearly visible). Keep the same filename or
+         update the src below. -->
+    <section class="hero">
+      <img class="hero-photo" src="assets/photos/hero.svg" alt="Elena performing — full-body action shot" fetchpriority="high">
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <!-- PLACEHOLDER: full name -->
+        <h1 class="hero-name">Elena<br>Lastname</h1>
+        <!-- PLACEHOLDER: tagline — styles + graduating class -->
+        <p class="hero-tagline">Contemporary · Modern · Hip-Hop&ensp;—&ensp;Class of 2027</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#reel">Watch the reel</a>
+          <a class="btn btn-ghost" href="#resume">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REEL ============ -->
+    <section class="section" id="reel">
+      <div class="container">
+        <p class="kicker reveal">01 — The Reel</p>
+        <h2 class="reveal">Two minutes,<br>strongest work first.</h2>
+        <!-- PLACEHOLDER: replace PLACEHOLDER_REEL_ID with the YouTube video ID of her reel
+             (unlisted is fine — the ID is the part after "watch?v=").
+             For Vimeo, use data-vimeo="VIDEO_ID" instead of data-yt. -->
+        <div class="video-frame reveal">
+          <button class="video-facade" data-yt="PLACEHOLDER_REEL_ID" data-title="Dance reel">
+            <img src="assets/photos/video-reel.svg" alt="" loading="lazy">
+            <span class="play-btn" aria-hidden="true"></span>
+            <span class="sr-only">Play the dance reel</span>
+          </button>
+        </div>
+        <!-- PLACEHOLDER: update length + date to match the actual reel -->
+        <p class="video-caption reveal">Reel · 2:10 · filmed 2026 · choreography and music credited per clip</p>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED CLIPS ============ -->
+    <section class="section section-tint" id="clips">
+      <div class="container">
+        <p class="kicker reveal">02 — Performances</p>
+        <h2 class="reveal">Three pieces, three sides.</h2>
+        <div class="clip-grid">
+
+          <!-- PLACEHOLDER (clip 1): contemporary solo. Swap the YouTube ID, title, and credits. -->
+          <article class="clip-card reveal">
+            <div class="video-frame">
+              <button class="video-facade" data-yt="PLACEHOLDER_CLIP1_ID" data-title="Contemporary solo">
+                <img src="assets/photos/video-clip-01.svg" alt="" loading="lazy">
+                <span class="play-btn" aria-hidden="true"></span>
+                <span class="sr-only">Play contemporary solo</span>
+              </button>
+            </div>
+            <h3>Contemporary Solo — “Title”</h3>
+            <p class="clip-credits">Choreography: Firstname Lastname<br>Music: “Track” — Artist · 1:45</p>
+          </article>
+
+          <!-- PLACEHOLDER (clip 2): hip-hop / commercial piece. -->
+          <article class="clip-card reveal">
+            <div class="video-frame">
+              <button class="video-facade" data-yt="PLACEHOLDER_CLIP2_ID" data-title="Hip-hop piece">
+                <img src="assets/photos/video-clip-02.svg" alt="" loading="lazy">
+                <span class="play-btn" aria-hidden="true"></span>
+                <span class="sr-only">Play hip-hop piece</span>
+              </button>
+            </div>
+            <h3>Hip-Hop — “Title”</h3>
+            <p class="clip-credits">Choreography: Firstname Lastname<br>Music: “Track” — Artist · 1:20</p>
+          </article>
+
+          <!-- PLACEHOLDER (clip 3): self-choreographed work — admissions faculty specifically
+               value this; keep one here and label it clearly. -->
+          <article class="clip-card reveal">
+            <div class="video-frame">
+              <button class="video-facade" data-yt="PLACEHOLDER_CLIP3_ID" data-title="Self-choreographed work">
+                <img src="assets/photos/video-clip-03.svg" alt="" loading="lazy">
+                <span class="play-btn" aria-hidden="true"></span>
+                <span class="sr-only">Play self-choreographed work</span>
+              </button>
+            </div>
+            <h3>Self-Choreographed — “Title”</h3>
+            <p class="clip-credits">Choreography: Elena Lastname<br>Music: “Track” — Artist · 1:30</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <p class="kicker reveal">03 — Gallery</p>
+        <h2 class="reveal">Stills.</h2>
+      </div>
+      <!-- PLACEHOLDER: replace gallery-01…08.svg with ~8 curated photos of Elena alone
+           (mix of technique shots, stage shots, and personality). alt text below describes
+           the intended shot type for each slot. -->
+      <div class="gallery-grid container-wide">
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-01.svg" alt="Leap — technique shot" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-02.svg" alt="Stage performance" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-03.svg" alt="Extension — technique shot" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-04.svg" alt="Hip-hop freeze — studio shot" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-05.svg" alt="Rehearsal moment" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-06.svg" alt="Contemporary floorwork" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-07.svg" alt="Turn sequence — stage shot" loading="lazy"></button>
+        <button class="gallery-item reveal"><img src="assets/photos/gallery-08.svg" alt="Portrait in motion" loading="lazy"></button>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-tint" id="about">
+      <div class="container about-grid">
+        <!-- PLACEHOLDER: assets/photos/headshot.svg → clear headshot, face visible, neutral background -->
+        <figure class="about-photo reveal">
+          <img src="assets/photos/headshot.svg" alt="Headshot of Elena" loading="lazy">
+        </figure>
+        <div class="about-text">
+          <p class="kicker reveal">04 — About</p>
+          <h2 class="reveal">Hi, I’m Elena.</h2>
+          <!-- PLACEHOLDER: short fact-based bio in her own voice — where she trains, since when,
+               what she dances, what she's working toward. 3–5 sentences, authentic over polished. -->
+          <p class="reveal">I’m a contemporary and hip-hop dancer from City, State, training at
+          Studio Name since 2018. I grew up between two languages of movement — the sustained
+          lines of contemporary and the weight and bounce of street styles — and my favorite
+          work lives where they meet.</p>
+          <p class="reveal">I’m currently a junior at High School Name, and I’m applying to
+          university dance programs to keep building as a performer and choreographer.</p>
+          <dl class="facts reveal">
+            <!-- PLACEHOLDER: quick facts — keep short; height is fine to list, per admissions norms -->
+            <div><dt>Training</dt><dd>Studio Name · Pre-professional program</dd></div>
+            <div><dt>Styles</dt><dd>Contemporary · Modern · Hip-Hop · Commercial</dd></div>
+            <div><dt>Based in</dt><dd>City, State</dd></div>
+            <div><dt>Height</dt><dd>5′6″</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section class="section" id="resume">
+      <div class="container">
+        <p class="kicker reveal">05 — Resume</p>
+        <h2 class="reveal">The one-pager.</h2>
+        <div class="resume-grid">
+          <!-- PLACEHOLDER: fill each column with her real highlights — curated, not exhaustive.
+               Double-check every choreographer/teacher spelling: misspellings actively hurt. -->
+          <div class="resume-col reveal">
+            <h3>Training</h3>
+            <ul>
+              <li><strong>Studio Name</strong> — pre-professional company<span>2018 — present</span></li>
+              <li><strong>Summer Intensive Name</strong> — contemporary<span>2025</span></li>
+              <li><strong>Master classes</strong> — Teacher Name, Teacher Name<span>2024 — 2025</span></li>
+            </ul>
+          </div>
+          <div class="resume-col reveal">
+            <h3>Performances</h3>
+            <ul>
+              <li><strong>Production / Piece Title</strong> — role, venue<span>2026</span></li>
+              <li><strong>Piece Title</strong> — choreographer name<span>2025</span></li>
+              <li><strong>Showcase Name</strong> — self-choreographed solo<span>2025</span></li>
+            </ul>
+          </div>
+          <div class="resume-col reveal">
+            <h3>Awards</h3>
+            <ul>
+              <li><strong>Competition Name</strong> — placement, category<span>2026</span></li>
+              <li><strong>Scholarship Name</strong> — awarding organization<span>2025</span></li>
+              <li><strong>Recognition Name</strong> — details<span>2024</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- PLACEHOLDER: assets/resume/elena-dance-resume.pdf → her real one-page resume,
+             plainly formatted (schools often require their own template — keep the PDF simple). -->
+        <p class="resume-download reveal">
+          <a class="btn btn-solid" href="assets/resume/elena-dance-resume.pdf" download>Download resume (PDF)</a>
+          <span class="resume-note">One page, formatted for admissions.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-dark" id="contact">
+      <div class="container contact-inner">
+        <p class="kicker reveal">06 — Contact</p>
+        <h2 class="reveal">Get in touch.</h2>
+        <!-- PLACEHOLDER: real email address (in both href and text), and real social links.
+             Delete any social link she doesn't want listed. -->
+        <a class="contact-email reveal" href="mailto:elena@example.com">elena@example.com</a>
+        <p class="contact-socials reveal">
+          <a href="https://instagram.com/PLACEHOLDER" rel="noopener">Instagram</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://youtube.com/@PLACEHOLDER" rel="noopener">YouTube</a>
+        </p>
+        <p class="contact-note reveal">Full-length performance videos available on request.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <!-- PLACEHOLDER: name -->
+    <p>© 2026 Elena Lastname — Dance Portfolio</p>
+  </footer>
+
+  <!-- Lightbox (used by the gallery) -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <button class="lightbox-prev" aria-label="Previous photo">‹</button>
+    <img class="lightbox-img" src="" alt="">
+    <button class="lightbox-next" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

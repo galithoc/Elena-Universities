@@ -41,4 +41,4 @@ jobs:
             scripts/validate.py until it passes, regenerate the ICS, and open a
             pull request summarizing what changed. If nothing material changed,
             exit without opening a PR.
-          claude_args: "--max-turns 100 --model claude-sonnet-4-6"
+          claude_args: "--max-turns 100 --model claude-sonnet-5"

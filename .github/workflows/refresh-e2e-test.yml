@@ -1,0 +1,43 @@
+name: refresh-e2e-test
+# TEMPORARY, one-off. Verifies the weekly-refresh PR path (branch -> push -> PR)
+# end to end using the same action + allowlist. Delete this file after verifying.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          base_branch: main
+          prompt: |
+            END-TO-END PIPELINE TEST. Do NOT verify any school, do NOT fetch any
+            web page, and do NOT modify, add, or delete anything under data/.
+            Your ONLY job is to prove this Action can open a pull request:
+
+            1. Create a new branch named exactly: e2e-test/pipeline-check
+            2. Create a new file at the repository root named E2E_TEST.md whose
+               entire contents are one line:
+               "End-to-end pipeline test — confirms the weekly-refresh Action can
+               create a branch and open a pull request. Throwaway; safe to close
+               without merging."
+            3. Run `python3 scripts/validate.py` and confirm it still exits 0
+               (it should, since you did not touch data/). If it fails, stop and
+               report — do not edit data to make it pass.
+            4. Commit ONLY E2E_TEST.md, push the branch e2e-test/pipeline-check,
+               and open a pull request against main titled
+               "[e2e-test] pipeline verification" with a one-line body noting it
+               is a throwaway automation test and can be closed without merging.
+
+            Do not modify or delete any existing file. Do not touch
+            data/progress.json or any other data file.
+          claude_args: '--allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*),Bash(git:*),Bash(gh:*),mcp__github__create_pull_request" --max-turns 60 --model claude-sonnet-5'

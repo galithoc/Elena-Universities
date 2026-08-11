@@ -1,7 +1,7 @@
 name: refresh-e2e-test
-# TEMPORARY, one-off. Verifies the PR path end to end: Claude edits + pushes a
-# branch, then a normal workflow step opens the PR (gh is reliably authenticated
-# in the runner shell, unlike inside Claude's sandbox). Delete after verifying.
+# TEMPORARY, one-off. Proves the PR path: Claude ONLY edits files; a normal
+# workflow step does all git + PR work (reliable in the runner shell). Delete
+# after verifying.
 on:
   workflow_dispatch: {}
 
@@ -21,31 +21,34 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
-            END-TO-END PIPELINE TEST. Do NOT modify anything under data/ and do
-            NOT try to open a pull request (a later workflow step does that).
-            Steps:
-            1. Create or reset a branch named exactly e2e-test/pipeline-check from
-               the current main (git checkout -B e2e-test/pipeline-check).
-            2. Create a root file E2E_TEST.md containing one line:
-               "End-to-end pipeline test - throwaway; safe to close."
-            3. Run `python3 scripts/validate.py` and confirm it exits 0.
-            4. Commit ONLY E2E_TEST.md and push the branch to origin with:
-               git push --force origin e2e-test/pipeline-check
-            Report that you pushed the branch. Do nothing else.
-          claude_args: '--allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*),Bash(git:*)" --max-turns 40 --model claude-sonnet-5'
+            END-TO-END PIPELINE TEST. Create a single file at the repository root
+            named E2E_TEST.md containing exactly one line:
+            "End-to-end pipeline test - throwaway; safe to close."
+            Do NOT modify anything under data/. Do NOT run git and do NOT open a
+            pull request - only create that one file in the working directory,
+            then stop.
+          claude_args: '--allowedTools "Read,Edit,Write,Glob,Grep" --max-turns 20 --model claude-sonnet-5'
 
-      - name: Open PR (runner shell, gh authenticated)
+      - name: Commit, push branch, and open PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          existing=$(gh pr list --head e2e-test/pipeline-check --state open --json url --jq '.[0].url // ""')
-          if [ -n "$existing" ]; then
-            echo "PR already open: $existing"
-          else
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes produced; nothing to PR."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B e2e-test/pipeline-check
+          git add -A
+          git commit -m "e2e test: pipeline verification (throwaway)"
+          git push --force origin e2e-test/pipeline-check
+          url=$(gh pr list --head e2e-test/pipeline-check --state open --json url --jq '.[0].url // ""')
+          if [ -z "$url" ]; then
             gh pr create --base main --head e2e-test/pipeline-check \
               --title "[e2e-test] pipeline verification" \
               --body "Throwaway automation test - confirms the pipeline (Claude edits + a workflow step) can open a PR. Safe to close without merging."
           fi
-          echo "---- open PRs for this branch ----"
+          echo "==== open PR(s) for e2e-test/pipeline-check ===="
           gh pr list --head e2e-test/pipeline-check --state open --json number,url,title,headRefName

@@ -54,19 +54,19 @@
       "label": "Priority / rolling (audition-paced)",
       "binding": false,
       "academicDeadline": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "No single hard Dance deadline published; effectively rolling/priority tied to audition sign-up. EA is NOT offered to Dance.",
+        "value": "2027-02-01",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "Submit resume + photo + $65 fee to unlock audition sign-up.",
+        "value": "2027-02-08",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -93,23 +93,23 @@
     "fee": {
       "value": "$65 audition fee (+ $50 application fee)",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Non-refundable audition fee, paid via the Admissions Portal.",
+      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed verbatim (\"$65, non-refundable fee\") on the live Fall-2027 audition-info page.",
       "pendingChange": null
     },
     "deadline": {
       "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "Audition-registration cutoff not published — likely rolling/priority.",
+      "note": "Still no explicit registration cutoff — page only says \"Advanced registration is required.\" Note the Feb 8, 2027 Portfolio Submission deadline falls AFTER the first on-campus audition date (Feb 6, 2027); mechanism unclear — needs a call/email to dance@purchase.edu to clarify, do not assume.",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": false,
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "No prescreen video for Dance. Submit resume + photo + fee, then register for the live audition.",
       "pendingChange": null
@@ -131,12 +131,16 @@
         {
           "id": "vs-solo",
           "text": "90-second solo at the audition: classical/contemporary ballet, modern, or contemporary (NOT jazz). Anything over 90s is stopped; no costumes."
+        },
+        {
+          "id": "vs-essay-copy",
+          "text": "Bring a printed copy of your submitted College Essay to the audition."
         }
       ],
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Added the College Essay copy requirement, newly surfaced on an Aug 2026 re-check of the audition page.",
       "pendingChange": null
     }
   },
@@ -148,11 +152,11 @@
       "city": "Purchase, NY (Westchester)",
       "venue": "",
       "date": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "Prior-cycle on-campus dates: Feb 8/14/22/28. Fall 2027 dates not yet published. No tour cities for Dance.",
+        "value": "2027-02-06",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Four Fall 2027 on-campus audition dates now published — applicant registers for ONE: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027 (supersedes prior-cycle Feb 8/14/22/28, 2026 dates). Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
         "pendingChange": null
       },
       "time": "",
@@ -160,22 +164,22 @@
       "registrationUrl": "",
       "registrationOpens": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Page states \"Advanced registration is required\" but gives no opening date.",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No distinct per-date registration cutoff published beyond the Feb 8, 2027 Portfolio Submission deadline.",
         "pendingChange": null
       },
-      "status": "tbd",
-      "notes": "~35 min from Grand Central. Open class: ~1h ballet + ~1h modern + improv, then finalists do the 90s solo + interview."
+      "status": "announced",
+      "notes": "~35 min from Grand Central. Open class: ~1h ballet + ~1h modern + improv, then finalists do the 90s solo + interview. Fall 2027 on-campus dates: Sat 2/6, Fri 2/12, Sat 2/20, Fri 2/26, 2027 — pick one."
     },
     {
       "id": "aud-video",
@@ -185,10 +189,10 @@
       "venue": "",
       "date": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "Alternate arrangements framed for INTERNATIONAL applicants; a domestic PR applicant must email dance@purchase.edu to confirm a video option.",
+        "note": "Aug 2026 re-check: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
         "pendingChange": null
       },
       "time": "",
@@ -211,7 +215,7 @@
         "pendingChange": null
       },
       "status": "tbd",
-      "notes": "HIGH-PRIORITY open question — do not assume the on-campus requirement is waived."
+      "notes": "HIGH-PRIORITY open question — do not assume the on-campus requirement is waived. Aug 2026: audition page's alternate-arrangement language is still explicitly scoped to \"International Applicants\" only; still need to email dance@purchase.edu to ask whether a PR-based domestic applicant qualifies."
     }
   ],
   "academics": {
@@ -226,9 +230,9 @@
     "recommendations": {
       "value": "At least one general letter + one Artistic Letter of Recommendation (dance teacher) emailed to admissions@purchase.edu.",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Re-confirmed: \"One Artistic Letter of Recommendation – must be sent directly by the recommender to admissions@purchase.edu.\"",
       "pendingChange": null
     },
     "essays": {
@@ -249,9 +253,9 @@
     "interview": {
       "value": "Brief interview for finalists at the audition",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Re-confirmed on the current audition page.",
       "pendingChange": null
     }
   },
@@ -323,9 +327,9 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://www.purchase.edu/offices/student-financial-services/apply-for-financial-aid/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Re-confirmed — page references FAFSA, TAP, DREAM Act, Excelsior; no CSS Profile mention either way.",
       "pendingChange": null
     },
     "cssProfileRequired": {
@@ -339,30 +343,30 @@
     "cssCode": "",
     "priorityDeadline": {
       "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://www.purchase.edu/offices/student-financial-services/apply-for-financial-aid/",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "2027-28 FAFSA priority not yet published — file early.",
+      "note": "2027-28 FAFSA priority date still not published. Page only says \"Apply as early as possible. It may take several weeks to determine your eligibility.\"",
       "pendingChange": null
     },
     "url": "https://www.purchase.edu/offices/student-financial-services/"
   },
   "costs": {
-    "year": "2025-26",
+    "year": "2026-27",
     "tuitionAnnual": {
-      "value": "~$19,616 (OUT-OF-STATE tuition + fees)",
+      "value": "~$19,966 (OUT-OF-STATE tuition + fees, 2026-27 tentative)",
       "sourceUrl": "https://www.purchase.edu/offices/student-financial-services/tuition-and-fees/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "PR residents pay OUT-OF-STATE (~$19,616 vs ~$9,016 in-state). 2026-27 tentative ~$19,678.",
+      "note": "PR residents pay OUT-OF-STATE. Page labeled \"Tentative Costs for 2026–2027\": tuition $9,010/sem + fees $973/sem = $19,966/yr (off-campus rate; tuition+fees only). This is the 2026-27 (current) academic year, NOT yet Elena's 2027-28 entry-year rate — still to be published.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
-      "value": "~$41,250 (out-of-state, est.)",
+      "value": "~$41,600 (out-of-state, on-campus, 2026-27 tentative)",
       "sourceUrl": "https://www.purchase.edu/offices/student-financial-services/apply-for-financial-aid/cost-of-attendance/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "PR residents ineligible for NY TAP/Excelsior.",
+      "note": "Out-of-state on-campus COA breakdown (\"Tentative\" 2026-27): tuition $16,980 + fees $1,883 + food/housing $17,850 + orientation $175–210 + books $1,240 + transportation $1,250 + personal $2,220 ≈ $41,600 (excludes the $2,514 Music course fee, not applicable to Dance). PR residents ineligible for NY TAP/Excelsior. 2027-28 (Elena's entry year) figures not yet published.",
       "pendingChange": null
     }
   },

@@ -56,25 +56,25 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students.",
+        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students. Page still reads \"The USC Kaufman Portfolio for admission to Fall 2026 includes the below components\" as of Aug 2026 — not yet refreshed for the 2026-27/Fall 2027 cycle.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1.",
+        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1. Page still explicitly labeled \"Fall 2026\" as of Aug 2026.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2026-12-15",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "Live-audition status via the application portal in mid-December.",
+        "note": "Live-audition status via the application portal in mid-December (FAQ confirms finalists are notified in mid-December after portfolio review); exact day not published, Dec 15 is an estimate.",
         "pendingChange": null
       },
       "notes": ""
@@ -84,7 +84,7 @@
     "portal": {
       "value": "SlideRoom (uscdance.slideroom.com)",
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null
@@ -93,23 +93,23 @@
     "fee": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "SlideRoom fee not captured — verify.",
+      "note": "SlideRoom fee not captured — checked the Kaufman Portfolio page, Kaufman FAQ, uscdance.slideroom.com, USC Common App supplement support article, and general web search; none state the fee amount. Needs a browser spot-check inside the live SlideRoom application flow.",
       "pendingChange": null
     },
     "deadline": {
       "value": "2026-12-01",
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Page still explicitly labeled \"Fall 2026\" as of Aug 2026.",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "Portfolio is prescreen-gated; no open live audition.",
       "pendingChange": null
@@ -138,9 +138,9 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "No ballet-barre segment specified, unlike many peer prescreens.",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked Aug 2026 — components unchanged (two 1-min solos, 60-sec intro video, headshot+action photo, resume PDF, 250-word written response).",
       "pendingChange": null
     }
   },
@@ -153,10 +153,10 @@
       "venue": "",
       "date": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://kaufman.usc.edu/auditions/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "Finalists invited to an on-campus live audition over one weekend in mid-January — verify 2027.",
+        "note": "Finalists invited to an on-campus live audition over one weekend in mid-January. The prior (Fall 2026) cycle's live audition was Sat Jan 17 – Sun Jan 18, 2026, and the Kaufman FAQ explicitly ties that schedule to the \"2025-2026 admission cycle\"; ~25 finalists invited per day. Fall 2027 dates not yet published as of Aug 2026 — verify closer to Dec 2026.",
         "pendingChange": null
       },
       "time": "",
@@ -165,38 +165,38 @@
       "registrationOpens": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Registration process/opening not published on kaufman.usc.edu/auditions/ or the FAQ — verify.",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Registration deadline not published — verify.",
         "pendingChange": null
       },
       "status": "tbd",
-      "notes": "Prescreen-gated. Ballet, contemporary, improvisation/freestyle and hip-hop classes + interview + ~2-min solo. Pairs with a Chapman trip."
+      "notes": "Prescreen-gated. Ballet, contemporary, improvisation/freestyle and hip-hop classes + interview + ~2-min solo. Pairs with a Chapman trip. ~25 finalists/day invited (per prior-cycle FAQ)."
     }
   ],
   "academics": {
     "testPolicy": {
       "value": "test-optional",
-      "sourceUrl": "https://admission.usc.edu/",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://kaufman.usc.edu/frequently-asked-questions/",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "USC test-optional — verify for Fall 2027.",
+      "note": "Kaufman FAQ: \"Standardized test scores are optional for students a[pplying]...\", explicitly tied to the \"2025-2026 admission cycle\" — not yet an explicit Fall 2027 statement, but USC's general admission test-optional policy (admission.usc.edu/test-optional-faq/) also had no cycle-specific tie when re-checked Aug 2026.",
       "pendingChange": null
     },
     "recommendations": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "USC recommendation requirements not captured — verify.",
+      "value": "Not accepted or considered",
+      "sourceUrl": "https://kaufman.usc.edu/frequently-asked-questions/",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Kaufman FAQ: \"USC Kaufman does not accept or consider letters of rec[ommendation]\" — stated for the 2025-2026 admission cycle; page not yet refreshed for 2026-27.",
       "pendingChange": null
     },
     "essays": {
@@ -209,7 +209,7 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null
@@ -217,7 +217,7 @@
     "interview": {
       "value": "Interview at the live audition",
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null
@@ -231,23 +231,23 @@
       "amount": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No talent-scholarship amount published on kaufman.usc.edu/financial-aid/ or admission.usc.edu/apply/scholarships/ — verify.",
         "pendingChange": null
       },
       "deadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No separate talent-scholarship deadline found; likely awarded via the Dec 1 portfolio/audition review — verify.",
         "pendingChange": null
       },
       "requiresSeparateApp": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
         "note": "",
         "pendingChange": null
@@ -260,27 +260,27 @@
       "name": "USC merit scholarships",
       "kind": "merit",
       "amount": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": "Ranges from a few thousand dollars up to full tuition (e.g. Trustee = full tuition, Presidential = half tuition, Deans = quarter tuition)",
+        "sourceUrl": "https://kaufman.usc.edu/financial-aid/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "carried_from_2026",
+        "note": "Kaufman financial-aid page names the full-tuition Trustee, half-tuition Presidential, and quarter-tuition Deans Scholarships; admission.usc.edu/apply/scholarships/ gives the general \"few thousand dollars up to full tuition\" range. No cycle-specific (2026-27) figures published.",
         "pendingChange": null
       },
       "deadline": {
         "value": "2026-12-01",
-        "sourceUrl": "https://admission.usc.edu/",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.admissionblog.usc.edu/p/december-1-application-deadline-faqs",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "USC merit scholarship deadline typically ~Dec 1 — verify.",
+        "note": "USC admission blog: applicants to portfolio/audition majors (Dec 1 deadline, vs. Nov 1 for most majors) \"will be considered for merit scholarships\" automatically. Blog post is captioned for Fall 2025 applicants; no 2026-27/Fall 2027-specific post found yet.",
         "pendingChange": null
       },
       "requiresSeparateApp": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": false,
+        "sourceUrl": "https://admission.usc.edu/apply/scholarships/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "carried_from_2026",
+        "note": "\"Students do not need to submit a...financial aid application to be considered for a merit scholarship offered by the Office of Admission.\" Some university organizations offer additional scholarships that do require an extra application (per admission blog).",
         "pendingChange": null
       },
       "url": "",
@@ -291,7 +291,7 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://kaufman.usc.edu/financial-aid/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null
@@ -299,18 +299,18 @@
     "cssProfileRequired": {
       "value": true,
       "sourceUrl": "https://financialaid.usc.edu/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "USC requires the CSS Profile.",
       "pendingChange": null
     },
     "cssCode": "",
     "priorityDeadline": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "USC FAFSA/CSS priority not captured — verify.",
+      "value": "2026-02-04",
+      "sourceUrl": "https://financialaid.usc.edu/",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "financialaid.usc.edu (aid year 2026-27, i.e. Fall 2026 entrants): \"The 2026-27 FAFSA and CSS Profile will be available on October 1, 2025\" and \"The deadline for Regular Decision applicants is February 4, 2026.\" The 2027-28 aid-year page (relevant to Elena's Fall 2027 entry) was not yet posted as of Aug 2026; expect an analogous ~Oct 2026 opening and ~early-Feb 2027 priority date.",
       "pendingChange": null
     },
     "url": "https://financialaid.usc.edu/"
@@ -318,19 +318,19 @@
   "costs": {
     "year": "2025-26",
     "tuitionAnnual": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "USC tuition not captured — verify.",
+      "value": "$73,260/year (12-18 units, two semesters)",
+      "sourceUrl": "https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Official 2025-26 cost-of-attendance page. 2026-27 figures not yet posted as of Aug 2026; USC has said the 2026-27 tuition increase will be its smallest percentage in 45+ years (per press coverage, not yet on the official page).",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "",
+      "value": "$99,139/year (on/off campus); $86,581/year (living with parents/relatives)",
+      "sourceUrl": "https://financialaid.usc.edu/undergraduate-financial-aid/cost-of-attendance/",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Official 2025-26 figures — same page/cycle as tuitionAnnual above.",
       "pendingChange": null
     }
   },
@@ -338,17 +338,17 @@
     "cohortSize": {
       "value": "~24 dancers per year",
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Deliberately tiny cohort.",
+      "note": "Deliberately tiny cohort. The official BFA page still does not itself state a cohort figure as of Aug 2026 re-check — this number is a widely repeated secondary-source estimate (e.g. CollegeVine), not a Kaufman-published figure. Treat as an estimate.",
       "pendingChange": null
     },
     "acceptanceRate": {
       "value": "Est. ~8–12% program acceptance",
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Estimate — verify.",
+      "note": "Estimate — the official BFA page does not publish an acceptance rate as of Aug 2026 re-check; figure comes from third-party estimates.",
       "pendingChange": null
     },
     "genreEmphasis": {
@@ -359,23 +359,23 @@
         "commercial"
       ],
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "'The New Movement' — hybrid.",
+      "note": "'The New Movement' — hybrid. BFA page re-checked Aug 2026: describes \"a hybrid art form comprised of intersecting dance techniques\" without enumerating individual genres on this page; the specific genre list here is carried from prior verification (live-audition page names ballet/contemporary/improv-freestyle/hip-hop classes).",
       "pendingChange": null
     },
     "companyAffiliation": {
       "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "",
+      "note": "No resident/affiliated company disclosed on the BFA program page — re-checked Aug 2026, still not mentioned.",
       "pendingChange": null
     },
     "notable": {
       "value": "Founded 2015 with a major gift; celebrated faculty; USC interdisciplinary resources.",
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null

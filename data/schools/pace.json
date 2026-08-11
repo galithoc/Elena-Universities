@@ -46,6 +46,29 @@
         "audition dates",
         "virtual options"
       ]
+    },
+    {
+      "id": "src-sands-admissions",
+      "label": "Sands College of Performing Arts admissions overview",
+      "url": "https://www.pace.edu/sands/admissions",
+      "checkFor": [
+        "audition fee",
+        "video spec",
+        "application steps",
+        "decision timeline"
+      ]
+    },
+    {
+      "id": "src-key-dates",
+      "label": "Pace undergraduate key dates and deadlines",
+      "url": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+      "checkFor": [
+        "Fall 2027 cycle deadlines",
+        "Sands application deadline",
+        "prescreen deadline",
+        "decision notification date",
+        "FAFSA priority deadlines"
+      ]
     }
   ],
   "rounds": [
@@ -56,26 +79,26 @@
       "binding": true,
       "academicDeadline": {
         "value": "2026-11-01",
-        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "ED — valid only if audition/interview completed before Dec 1. Years not stated on page; verify.",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, 'Fall 2027 Admission (September Start)' section: 'November 1: Early Decision (Binding) Application Deadline.' Binding only if audition/interview completed by Dec 1 per pace.edu/sands/admissions.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-01-03",
-        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Pre-screen deadline ~Jan 3 (year not attached — verify).",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": "2026-12-01",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, Fall 2027 Admission section: 'December 1: Early Decision decision Notification.' pace.edu/sands/admissions confirms combined academic+artistic decision for ED applicants issued in December.",
         "pendingChange": null
       },
       "notes": "Submit the Pace admissions application BEFORE beginning the artistic review."
@@ -87,26 +110,26 @@
       "binding": false,
       "academicDeadline": {
         "value": "2026-12-01",
-        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Dec 1 — final deadline after which no application is accepted (year not stated; verify).",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, Fall 2027 Admission section: 'December 1: Sands College of Performing Arts Application Deadline.'",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-01-03",
-        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": "2027-03-31",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Key Dates page, Fall 2027 Admission section: 'March 31: Sands College of Performing Arts Decision Notification.'",
         "pendingChange": null
       },
       "notes": ""
@@ -116,34 +139,34 @@
     "portal": {
       "value": "Acceptd",
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "confirmed_2027",
-      "note": "VERIFIED source: applicants create one Acceptd profile and upload pre-screens for all Sands programs.",
+      "note": "VERIFIED source: applicants create one Acceptd profile and upload pre-screens for all Sands programs. Reconfirmed via pace.edu/sands/admissions ('Create profile on Acceptd and submit pre-screen materials').",
       "pendingChange": null
     },
     "portalUrl": "https://app.getacceptd.com/pace",
     "fee": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "Acceptd/audition fee not captured — verify.",
+      "value": 90,
+      "sourceUrl": "https://www.pace.edu/sands/admissions",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "pace.edu/sands/admissions: 'A $90.00 non-refundable audition fee will be collected at the time of your Acceptd upload.' Page states no specific cycle year for the fee amount.",
       "pendingChange": null
     },
     "deadline": {
       "value": "2027-01-03",
-      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Pre-screen deadline ~Jan 3 — verify year.",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Not gated in the usual sense: after the pre-screen, dancers must attend a scheduled audition (pick date on Acceptd).",
+      "note": "Not gated in the usual sense: after the pre-screen, dancers must attend a scheduled audition (pick date on Acceptd). Reconfirmed via pace.edu/sands/admissions 5-step process (Academic Application -> Audition/Portfolio Upload -> Callback Decision -> Live Audition/Interview -> Decision Letter).",
       "pendingChange": null
     },
     "videoSpec": {
@@ -163,12 +186,16 @@
         {
           "id": "vs-wildcard",
           "text": "Optional 'wild card' video — anything the applicant chooses."
+        },
+        {
+          "id": "vs-arabesque",
+          "text": "Two arabesque photos."
         }
       ],
-      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://www.pace.edu/sands/admissions",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Extracted from official page snippets — spot-check exact wording.",
+      "note": "Reconfirmed via pace.edu/sands/admissions: 'Commercial Dance BFA: Two arabesque photos, solo dance video under two minutes, ballet and jazz instructional video recordings, optional wild card.' Added the arabesque-photo requirement, not previously captured. No cycle year stated on page.",
       "pendingChange": null
     }
   },
@@ -181,10 +208,10 @@
       "venue": "",
       "date": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.pace.edu/sands/admissions",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "Regularly scheduled audition dates; select date preferences on Acceptd with the pre-screen.",
+        "note": "No calendar of specific audition dates is published. pace.edu/sands/admissions: after prescreen callback, 'selected candidates receive audition/interview dates'; applicants pick date preferences on Acceptd. Reconfirmed absence of specific dates as of 2026-08-11.",
         "pendingChange": null
       },
       "time": "",
@@ -193,17 +220,17 @@
       "registrationOpens": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Not published — audition scheduling happens via Acceptd after prescreen callback, no fixed registration-open date found (checked 2026-08-11).",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No separate registration deadline found distinct from the Jan 3 pre-screen deadline (checked 2026-08-11).",
         "pendingChange": null
       },
       "status": "tbd",
@@ -218,18 +245,18 @@
       "date": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "A limited number of virtual auditions offered (per search snippet) — verify.",
+        "note": "No virtual-audition-specific info found on pace.edu/sands/admissions, the Key Dates page, or the Sands audition requirements page as of 2026-08-11. Recommend a direct phone/email follow-up with performingarts@pace.edu to confirm virtual-audition availability for a Puerto Rico-based applicant.",
         "pendingChange": null
       },
       "time": "",
       "timezone": "America/New_York",
-      "registrationUrl": "",
+      "registrationUrl": "https://app.getacceptd.com/pace",
       "registrationOpens": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
         "note": "",
         "pendingChange": null
@@ -237,7 +264,7 @@
       "registrationDeadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
         "note": "",
         "pendingChange": null
@@ -249,34 +276,34 @@
   "academics": {
     "testPolicy": {
       "value": "test-optional",
-      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/test-optional-policy",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Pace test-optional — verify.",
+      "note": "Dedicated Test-Optional Policy page confirms: SAT/ACT not required for most applicants; all admitted students (except international first-years) considered for merit scholarships without test scores. Page does not tie the policy to a specific Fall 2027 / 2026-27 cycle statement.",
       "pendingChange": null
     },
     "recommendations": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "Recommendation requirements not captured — verify.",
+      "note": "Not stated on the Sands audition requirements page, Commercial Dance program page, pace.edu/sands/admissions, or the Sands admissions FAQ (checked 2026-08-11). Unconfirmed whether letters of recommendation are required.",
       "pendingChange": null
     },
     "essays": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "Supplemental essays not captured — verify.",
+      "note": "No supplemental-essay requirement found on the Sands-specific pages checked (auditions-sands, sands/admissions, sands/admissions/faq) as of 2026-08-11.",
       "pendingChange": null
     },
     "interview": {
       "value": "Interview part of the Sands audition/interview process",
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Reconfirmed via pace.edu/sands/admissions: live audition/interview required for admission consideration after callback.",
       "pendingChange": null
     }
   },
@@ -287,24 +314,24 @@
       "kind": "talent",
       "amount": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.pace.edu/sands/admissions",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "pace.edu/sands/admissions confirms Pace offers 'artistic scholarships' among its financial considerations but publishes no amount or criteria (checked 2026-08-11).",
         "pendingChange": null
       },
       "deadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No separate talent-scholarship deadline found; presumably tied to audition process (checked 2026-08-11).",
         "pendingChange": null
       },
       "requiresSeparateApp": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
         "note": "",
         "pendingChange": null
@@ -317,27 +344,27 @@
       "name": "Pace academic merit",
       "kind": "merit",
       "amount": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": "up to $33,000 annually",
+        "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "carried_from_2026",
+        "note": "Commercial Dance BFA program page: 'Merit scholarships offer up to $33,000 annually.' No test scores required (all admitted students except international first-years considered automatically). Page ties figure to current catalog, not explicitly to Fall 2027.",
         "pendingChange": null
       },
       "deadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No separate merit-scholarship deadline published; awarded automatically at admission review per program page (checked 2026-08-11).",
         "pendingChange": null
       },
       "requiresSeparateApp": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "",
+        "value": false,
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/test-optional-policy",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "carried_from_2026",
+        "note": "Test-Optional Policy page: 'All admitted students...are considered for a merit scholarship and do not need to submit the SAT or ACT' — implies automatic consideration, no separate application.",
         "pendingChange": null
       },
       "url": "",
@@ -347,27 +374,27 @@
   "financialAid": {
     "fafsaRequired": {
       "value": true,
-      "sourceUrl": "https://www.pace.edu/admission-and-aid/financial-aid",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Key Dates page, Fall 2027 Admission section, lists 'November 15: Early Decision FAFSA Priority Deadline' and 'December 1: Early Action FAFSA priority Deadline,' confirming FAFSA applies to the Fall 2027 cycle.",
       "pendingChange": null
     },
     "cssProfileRequired": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "CSS requirement not captured — likely FAFSA-only; verify.",
+      "note": "No CSS Profile requirement mentioned on the Pace financial aid FAQ (pace.edu/financial-aid/resources/faq, checked 2026-08-11); page discusses FAFSA only. Not an explicit confirmation of FAFSA-only, so left tbd.",
       "pendingChange": null
     },
     "cssCode": "",
     "priorityDeadline": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "",
+      "value": "2026-11-15",
+      "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Key Dates page, Fall 2027 Admission section: 'November 15: Early Decision FAFSA Priority Deadline.' A separate Early Action FAFSA priority deadline of December 1, 2026 is listed on the same page.",
       "pendingChange": null
     },
     "url": "https://www.pace.edu/admission-and-aid/financial-aid"
@@ -375,37 +402,37 @@
   "costs": {
     "year": "2025-26",
     "tuitionAnnual": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "Pace tuition not captured — verify.",
+      "value": "$62,040",
+      "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Commercial Dance BFA program page: full-time undergraduate tuition for 2025–2026 is $62,040. 2026–27 rate not yet published.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "",
+      "note": "Full cost of attendance (incl. room/board/fees) not published on the Commercial Dance BFA program page (checked 2026-08-11).",
       "pendingChange": null
     }
   },
   "programFacts": {
     "cohortSize": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "",
+      "value": 34,
+      "sourceUrl": "https://www.pace.edu/sands/admissions/faq",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Sands Admissions FAQ: 'The BFA Commercial Dance incoming class is 34 per year.' No specific cycle year stated.",
       "pendingChange": null
     },
     "acceptanceRate": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "",
+      "note": "Not published on the Sands admissions FAQ or Commercial Dance BFA program page (checked 2026-08-11).",
       "pendingChange": null
     },
     "genreEmphasis": {
@@ -415,28 +442,34 @@
         "hip hop",
         "tap",
         "ballet",
-        "theater dance"
+        "theater dance",
+        "aerial arts"
       ],
       "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Program page also lists 'aerial arts' among training styles alongside ballet/jazz/hip hop/tap/theater dance — added; not tied to a specific cycle year.",
       "pendingChange": null
     },
     "companyAffiliation": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "",
+      "value": [
+        "Paul Taylor Dance Company",
+        "José Limón Dance Company",
+        "Jessica Lang Dance",
+        "10 Hairy Legs"
+      ],
+      "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "carried_from_2026",
+      "note": "Program page: residencies/collaborations with these companies; guest choreographers have included Andy Blankenbuehler and Mandy Moore. No specific cycle year stated.",
       "pendingChange": null
     },
     "notable": {
       "value": "NYC Commercial Dance BFA integrating acting, vocal training, and choreography.",
       "sourceUrl": "https://www.pace.edu/program/commercial-dance-bfa",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Reconfirmed unchanged. Program page also notes: first bi-coastal BFA program requiring a Los Angeles semester junior year; Pace ranked #4 most-represented university on Broadway (2023–24) and among top 13 musical theater colleges in America (2025).",
       "pendingChange": null
     }
   }

@@ -75,25 +75,25 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
         "note": "Page names the 'Fall 2027 incoming class' — EA Nov 1 CONFIRMED. Priority for merit + admission.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-04-01",
-        "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "College of Fine Arts BFA Dance supplement final deadline ~Apr 1 (was Apr 1 2025 — verify 2027).",
+        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "BFA apply page explicitly headed 'Fall 2027 Applicants': 'Video audition submission: April 1, 2027' — CONFIRMED.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-01-15",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "EA admission letters release on/after Jan 15; Dance admission + merit notification mid-January.",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Page: 'January 15, 2027: Decision Release for Early Action Applicants Begins,' tied explicitly to the Fall 2027 term — CONFIRMED.",
         "pendingChange": null
       },
       "notes": "Apply via UA's own application to avoid a 3–6 week delay before the supplement opens."
@@ -143,17 +143,17 @@
     "fee": {
       "value": "$60",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Dance application fee, paid on submission.",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Dance application fee, paid on submission. Confirmed $60 on the 'Fall 2027 Applicants' page.",
       "pendingChange": null
     },
     "deadline": {
       "value": "2027-04-01",
-      "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Supplement final deadline; app + audition registration open Aug 1.",
+      "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Supplement final deadline; app + audition registration open Aug 1. Confirmed on 'Fall 2027 Applicants' page: 'Video audition submission: April 1, 2027.'",
       "pendingChange": null
     },
     "prescreenRequired": {
@@ -210,34 +210,34 @@
       "city": "Tucson, AZ",
       "venue": "",
       "date": {
-        "value": "2026-09-18",
+        "value": "2026-10-09",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Prior cycle was 'Friday, September 19' — the Fall-2027-cycle date will be ~mid-Sept 2026. Verify.",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Confirmed: 'Friday, October 9, 2026 (1:00–6:00pm)' — page states this audition is 'for first-year and transfer students entering Fall 2027.'",
         "pendingChange": null
       },
-      "time": "",
+      "time": "1:30pm–6:00pm (check-in 10:00am–1:00pm)",
       "timezone": "America/Phoenix",
       "registrationUrl": "https://jazzshowcase.arizona.edu/audition/",
       "registrationOpens": {
         "value": "2026-08-01",
-        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
-        "note": "Audition registration opens Aug 1.",
+        "note": "Audition registration opens Aug 1 — reconfirmed directly on the jazzshowcase.arizona.edu audition page.",
         "pendingChange": null
       },
       "registrationDeadline": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "Register by ~Sept 12 (prior cycle); capacity 100.",
+        "value": "2026-10-02",
+        "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Page: registration 'must be submitted on or before October 2nd, 2026.' Capacity limited to 100 dancers.",
         "pendingChange": null
       },
-      "status": "tbd",
-      "notes": "Best in-person option — preserves first-year Dance Merit talent aid (video-only does NOT)."
+      "status": "announced",
+      "notes": "Best in-person option — preserves first-year Dance Merit talent aid (video-only does NOT). Capacity 100."
     },
     {
       "id": "aud-jan",
@@ -246,14 +246,14 @@
       "city": "Tucson, AZ",
       "venue": "",
       "date": {
-        "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "tbd",
-        "note": "January on-campus dates historically offered — verify 2027 dates.",
+        "value": "2027-01-23",
+        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Confirmed: listed under 'Spring 2027 Audition Dates' on the 'Fall 2027 Applicants' page (check-in 9:00am, audition 10:00am).",
         "pendingChange": null
       },
-      "time": "",
+      "time": "10:00am (check-in 9:00am)",
       "timezone": "America/Phoenix",
       "registrationUrl": "",
       "registrationOpens": {
@@ -272,8 +272,8 @@
         "note": "",
         "pendingChange": null
       },
-      "status": "tbd",
-      "notes": "Must audition in person before ~Feb 1 to be considered for first-year Dance Merit talent aid."
+      "status": "announced",
+      "notes": "Must audition in person to be considered for first-year Dance Merit talent aid (video-only auditioners are not eligible until year 2)."
     },
     {
       "id": "aud-video",
@@ -310,15 +310,51 @@
       },
       "status": "announced",
       "notes": "Saves the flight from San Juan — BUT video-only forfeits first-year Dance Merit talent aid until year 2."
+    },
+    {
+      "id": "aud-fall-oncampus",
+      "label": "In-person — Fall on-campus audition (Tucson)",
+      "format": "in_person",
+      "city": "Tucson, AZ",
+      "venue": "",
+      "date": {
+        "value": "2026-09-26",
+        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "New audition option found on the 'Fall 2027 Applicants' page under 'Fall 2026 Audition Dates' (check-in 9:00am, audition 10:00am) — distinct from the Arizona Jazz Dance Showcase (Oct 9).",
+        "pendingChange": null
+      },
+      "time": "10:00am (check-in 9:00am)",
+      "timezone": "America/Phoenix",
+      "registrationUrl": "",
+      "registrationOpens": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "tbd",
+        "note": "Registration process for this date not detailed separately; app + audition registration generally opens Aug 1.",
+        "pendingChange": null
+      },
+      "registrationDeadline": {
+        "value": null,
+        "sourceUrl": "",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "tbd",
+        "note": "",
+        "pendingChange": null
+      },
+      "status": "announced",
+      "notes": "Earliest in-person option this cycle, ahead of the Oct 9 AJDS showcase and the Jan 23 on-campus date."
     }
   ],
   "academics": {
     "testPolicy": {
       "value": "test-optional",
       "sourceUrl": "https://www.arizona.edu/admissions/first-year/apply",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "confirmed_2027",
-      "note": "SAT/ACT not required for admission or merit — verify still holds.",
+      "note": "Re-verified: 'SAT and ACT scores are not required for general admission... may be used to assist with class placement.' Held unchanged.",
       "pendingChange": null
     },
     "recommendations": {
@@ -422,18 +458,18 @@
       "kind": "talent",
       "amount": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://dance.arizona.edu/future-students/scholarships-financial-aid/",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Still no dollar figures published as of Aug 2026. Page: 'Dance merit-based scholarships for undergraduate applicants are highly competitive and award a range of funding amounts, which reflect the unique gifts each dancer may bring to the program.'",
         "pendingChange": null
       },
       "deadline": {
-        "value": "2027-02-01",
-        "sourceUrl": "https://dance.arizona.edu/future-students/scholarships-financial-aid/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Must audition IN PERSON before ~Feb 1 to be considered as a first-year (was 'before February 1, 2025' — verify).",
+        "value": "2026-11-01",
+        "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "UPDATED from prior Feb-1 placeholder. 'Fall 2027 Applicants' page states: 'To be considered for a first-year Dance Merit Scholarship, [applicants] need to complete their application by November 1, regardless of their audition date.' In-person audition still required for first-year eligibility (video-only auditioners are not eligible until year 2); the Nov 1 date governs the application itself, not the audition date, which may fall as late as the Jan 23, 2027 on-campus date.",
         "pendingChange": null
       },
       "requiresSeparateApp": {
@@ -481,17 +517,17 @@
     "tuitionAnnual": {
       "value": "$44,338 (non-resident tuition + fees)",
       "sourceUrl": "https://bursar.arizona.edu/tuition",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "confirmed_2027",
-      "note": "2026-27 confirmed: $42,600 tuition + $1,738 fees. 3% increase.",
+      "note": "2026-27 confirmed: $42,600 tuition + $1,738 fees. 3% increase. Bursar hub page itself has no line-item figures (directs to a tuition calculator/PDF); cross-checked and unchanged — value held.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
-      "value": "~$60,000 (non-resident, est.)",
+      "value": "$67,770 (on-campus housing) / $63,100 (off-campus housing), non-resident",
       "sourceUrl": "https://financialaid.arizona.edu/cost/incoming",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "2025-26 full COA ~$58,676; full 2026-27 COA not yet published.",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Page explicitly headed '2026-2027 Cost of Attendance for Incoming First-Year and Transfer'; figures are full-year non-resident totals (tuition + fees + living + books + travel + misc).",
       "pendingChange": null
     }
   },

@@ -17,6 +17,105 @@
       "text": "Added Marymount → Northeastern University – New York City. The MMC/Northeastern merger completed July 9–10, 2026; the dance BFA continues as a 4-year NYC program, but application/audition mechanics are mid-transition — watch nyc.northeastern.edu.",
       "refs": [],
       "by": "initial-seed"
+    },
+    {
+      "id": "cl-20260811-1",
+      "date": "2026-08-11",
+      "school": "fordham-ailey",
+      "type": "confirmed",
+      "text": "Fordham/Ailey: confirmed both apps (Fordham Common App + Ailey dance application) share one Nov 1, 2026 deadline for Fall 2027; added the $45 audition fee and recommendation/essay/interview details from the Ailey apply page. Fordham.edu itself remains bot-blocked (CAS login loop) — test policy, tuition, and FAFSA/CSS codes still need a manual browser check.",
+      "refs": ["rounds.priority.academicDeadline", "artisticSupplement.fee", "academics.recommendations", "academics.essays"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-2",
+      "date": "2026-08-11",
+      "school": "nyu-tisch",
+      "type": "confirmed",
+      "text": "NYU Tisch: confirmed ED1/ED2/RD deadlines for Fall 2027 and corrected the prescreen-materials due dates, which run a few days after the academic deadline (ED1 Nov 2, ED2 Jan 4, RD Jan 18). Callback audition dates are now published: ED1 Nov 13, ED2 Jan 19, RD Jan 30–Feb 6, 2027.",
+      "refs": ["rounds.ed1.artsSupplementDeadline", "rounds.ed2.artsSupplementDeadline", "rounds.rd.artsSupplementDeadline", "artisticSupplement.deadline"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-3",
+      "date": "2026-08-11",
+      "school": "pace",
+      "type": "confirmed",
+      "text": "Pace/Sands: confirmed ED and final-deadline dates for Fall 2027 on Pace's Key Dates page; added decision-release dates (ED Dec 1, final Mar 31), the $90 audition fee, FAFSA priority (Nov 15 for ED), the incoming cohort size (34/yr), and affiliated companies. Acceptd remains the confirmed portal.",
+      "refs": ["rounds.ed.decisionRelease", "rounds.final.decisionRelease", "artisticSupplement.fee", "financialAid.priorityDeadline", "programFacts.cohortSize"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-4",
+      "date": "2026-08-11",
+      "school": "suny-purchase",
+      "type": "confirmed",
+      "text": "SUNY Purchase: Fall 2027 audition dates are now published — on-campus auditions Feb 6/12/20/26, 2027, with a Feb 1 application deadline and Feb 8 portfolio-submission deadline. Cost estimates updated to 2026-27 figures. Still unresolved: whether a non-international applicant can request a video audition — the page's alternate-arrangement language remains scoped to international applicants only; an email to dance@purchase.edu is still needed to confirm.",
+      "refs": ["rounds.priority.academicDeadline", "rounds.priority.artsSupplementDeadline", "auditions.aud-campus.date", "costs.tuitionAnnual"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-5",
+      "date": "2026-08-11",
+      "school": "marymount-northeastern",
+      "type": "note",
+      "text": "Marymount/Northeastern: the entire legacy mmm.edu domain now redirects to nyc.northeastern.edu, which still has no dedicated dance-audition page — audition mechanics (portal, prescreen, digital-audition survival) remain unpublished post-merger. EA decision-release date updated to Feb 15, 2027. An unconfirmed lead (an Acceptd portal at app.getacceptd.com/mmm with Jan 10 & Feb 7, 2027 virtual-audition dates) surfaced via search but could not be verified directly — bot-blocked on fetch — and needs a human browser check before it's trusted.",
+      "refs": ["rounds.ea.decisionRelease", "artisticSupplement.portal", "artisticSupplement.deadline"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-6",
+      "date": "2026-08-11",
+      "school": "usc-kaufman",
+      "type": "note",
+      "text": "USC Kaufman: the Portfolio and FAQ pages still explicitly reference the Fall 2026 / 2025-26 cycle — Fall 2027 materials aren't posted yet, so deadlines stay carried_from_2026. Filled in previously-unknown facts: recommendation letters are not accepted or considered, USC merit scholarship terms (Trustee/Presidential/Deans tiers, no separate app), tuition ($73,260/yr), and cost of attendance (~$99,139/yr on/off-campus).",
+      "refs": ["academics.recommendations", "scholarships.sch-merit.amount", "costs.tuitionAnnual", "costs.totalCostOfAttendance"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-7",
+      "date": "2026-08-11",
+      "school": "chapman",
+      "type": "changed",
+      "text": "Chapman: CSS Profile is now required for financial aid (previously recorded as not required) — CSS code 4047, priority Nov 15, 2026 for EA/ED I. All four EA/ED1/ED2/RD academic deadlines were reconfirmed for Fall 2027.",
+      "refs": ["financialAid.cssProfileRequired", "financialAid.cssCode", "financialAid.priorityDeadline"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-8",
+      "date": "2026-08-11",
+      "school": "chapman",
+      "type": "changed",
+      "text": "Chapman: corrected the Creative Supplement deadline — it's due 5 days after the application deadline, not the same day (EA/ED I → Nov 6, 2026; ED II/RD → Jan 20, 2027). Tuition updated to the 2026-27 rate (~$70,394).",
+      "refs": ["artisticSupplement.deadline", "rounds.ea.artsSupplementDeadline", "costs.tuitionAnnual"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-9",
+      "date": "2026-08-11",
+      "school": "arizona",
+      "type": "changed",
+      "text": "Arizona: Fall 2027 audition calendar confirmed — the Arizona Jazz Dance Showcase moved to Oct 9, 2026 (previously carried from Sept 18; registration closes Oct 2, capacity 100), a new Sept 26, 2026 on-campus date was added, and the January on-campus date is confirmed for Jan 23, 2027.",
+      "refs": ["auditions.aud-ajds.date", "auditions.aud-fall-oncampus.date", "auditions.aud-jan.date"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-10",
+      "date": "2026-08-11",
+      "school": "arizona",
+      "type": "changed",
+      "text": "Arizona: clarified the first-year Dance Merit Scholarship gate — it requires the APPLICATION (not the audition) by the Nov 1 EA deadline, regardless of audition date; the audition itself can still happen later in person, but video-only auditioners remain ineligible in year 1. Cost of attendance updated to 2026-27 figures (~$67,770 on-campus / ~$63,100 off-campus, non-resident).",
+      "refs": ["scholarships.sch-dance-merit.deadline", "costs.totalCostOfAttendance"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260811-11",
+      "date": "2026-08-11",
+      "school": "boston-conservatory",
+      "type": "confirmed",
+      "text": "Boston Conservatory: the previously bot-blocked audition-requirements and deadlines pages are now accessible. Filled in EA/RA decision-release dates (Jan 31 / Apr 1, 2027), identified the audition portal as SlideRoom, added the $75/$150 tiered application fee, and published audition dates — Nov 14, 2026 on-campus (Contemporary + Commercial) as part of a 10-city tour, plus a live-online option Dec 5, 2026 (RA: Feb 13, 2027). Tuition/COA updated to 2026-27 published rates (~$55,120 tuition; ~$87,817 total COA).",
+      "refs": ["rounds.ea.decisionRelease", "artisticSupplement.portal", "auditions.aud-contemp.date", "auditions.aud-online.date", "costs.tuitionAnnual"],
+      "by": "weekly-refresh"
     }
   ]
 }

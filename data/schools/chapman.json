@@ -65,18 +65,18 @@
       "binding": false,
       "academicDeadline": {
         "value": "2026-11-01",
-        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
-        "note": "EA Nov 1, 2026 — confirmed on page.",
+        "note": "EA Nov 1, 2026 — reconfirmed. Page quote: \"EA applications are due November 1, 2026\"; page explicitly frames the set as \"Fall 2027 deadlines\" for the 2026-27 cycle.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
-        "value": "2026-11-01",
-        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-        "lastVerified": "2026-07-10",
+        "value": "2026-11-06",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "Dance priority Nov 1; submit Creative Supplement by the application deadline.",
+        "note": "Corrected: Creative Supplement page now reads \"Your Creative Supplement will be due five days after your application deadline\" — i.e. due AFTER, not by, the app deadline. EA/ED I app deadline Nov 1, 2026 → supplement due Nov 6, 2026.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -84,7 +84,7 @@
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/admission-decisions.aspx",
         "lastVerified": "2026-07-10",
         "cycleStatus": "carried_from_2026",
-        "note": "EA decisions ~mid-December.",
+        "note": "EA decisions ~mid-December. Could not reconfirm Aug 2026 — admission-decisions page now only states enrollment-deposit deadlines (May 1 for EA/RD admits), not release timing; needs a browser spot-check.",
         "pendingChange": null
       },
       "notes": ""
@@ -97,17 +97,17 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
-        "note": "",
+        "note": "Reconfirmed — page states \"Early Decision I ... Deadline: November 1.\"",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
-        "value": "2026-11-01",
-        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-        "lastVerified": "2026-07-10",
+        "value": "2026-11-06",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "",
+        "note": "Corrected: Creative Supplement due five days after the app deadline (per creative-supplement.aspx), not on the same date. Nov 1, 2026 + 5 days = Nov 6, 2026.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -127,18 +127,18 @@
       "binding": true,
       "academicDeadline": {
         "value": "2027-01-15",
-        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
-        "note": "",
+        "note": "Reconfirmed — page states \"January 15, 2027 is the deadline for: Early Decision II (binding)...\"",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
-        "value": "2027-01-15",
-        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-        "lastVerified": "2026-07-10",
+        "value": "2027-01-20",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "",
+        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -146,7 +146,7 @@
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
         "lastVerified": "2026-07-10",
         "cycleStatus": "carried_from_2026",
-        "note": "ED II decisions late January.",
+        "note": "ED II decisions late January. Could not reconfirm Aug 2026 — admission-decisions page now only states deposit deadlines, not release timing; needs a browser spot-check.",
         "pendingChange": null
       },
       "notes": ""
@@ -158,18 +158,18 @@
       "binding": false,
       "academicDeadline": {
         "value": "2027-01-15",
-        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "confirmed_2027",
-        "note": "",
+        "note": "Reconfirmed — page states \"RD applications are due January 15, 2027\" and \"January 15, 2027 is the deadline for: ... Regular Decision deadline (all programs).\"",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
-        "value": "2027-01-15",
-        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-        "lastVerified": "2026-07-10",
+        "value": "2027-01-20",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "",
+        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -177,7 +177,7 @@
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
         "lastVerified": "2026-07-10",
         "cycleStatus": "carried_from_2026",
-        "note": "RD decisions mid-March.",
+        "note": "RD decisions mid-March. Could not reconfirm Aug 2026 — admission-decisions page now only states deposit deadlines, not release timing; needs a browser spot-check.",
         "pendingChange": null
       },
       "notes": ""
@@ -187,34 +187,34 @@
     "portal": {
       "value": "Chapman Creative Supplement (Slate Application Status Page)",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Not Acceptd — Chapman's own portal; appears 24–48h after the Common App is submitted.",
+      "note": "Not Acceptd — Chapman's own portal; appears 24–48h after the Common App is submitted. Reconfirmed name (\"Application Status Page\") Aug 2026.",
       "pendingChange": null
     },
     "portalUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
     "fee": {
       "value": "$70 (Common App fee; no separate supplement fee)",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Reconfirmed: \"$70 non-refundable application fee via the Common App\"; Creative Supplement page confirms no separate fee. Page explicitly frames this as the Fall 2027 cycle.",
       "pendingChange": null
     },
     "deadline": {
-      "value": "2026-11-01",
-      "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-      "lastVerified": "2026-07-10",
+      "value": "2026-11-06",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Submit Creative Supplement by the application deadline (submit Common App a few days early).",
+      "note": "Corrected: page now reads \"Your Creative Supplement will be due five days after your application deadline\" (due AFTER, not by/before). Shown here aligned to EA/ED I (Nov 1, 2026 + 5 days). ED II/RD applicants: supplement due Jan 20, 2027 — see that round's artsSupplementDeadline.",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Everyone majoring in Dance submits a pre-screening video; select applicants invited to a live audition.",
+      "note": "Everyone majoring in Dance submits a pre-screening video; select applicants invited to a live audition. Reconfirmed Aug 2026: \"Select applicants will be invited to a live audition session (which are offered in person and virtually).\"",
       "pendingChange": null
     },
     "videoSpec": {
@@ -243,7 +243,7 @@
       "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
       "lastVerified": "2026-07-10",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "NEEDS BROWSER SPOT-CHECK (Aug 2026): automated fetch of admission.aspx could no longer locate this itemized list (page may use tabs/accordions or a linked PDF not captured by the fetch). Left unchanged — no evidence it's wrong, just unconfirmed this pass.",
       "pendingChange": null
     }
   },
@@ -256,10 +256,10 @@
       "venue": "",
       "date": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "Invitees pick from a variety of dates; dates released by email after prescreen review (~Dec–Feb).",
+        "note": "Invitees pick from a variety of dates; dates released by email after prescreen review (~Dec–Feb). Rechecked Aug 2026 — page still says only \"Select applicants will be invited to a live audition session (which are offered in person and virtually)\"; no 2027-cycle dates posted yet, as expected this early.",
         "pendingChange": null
       },
       "time": "",
@@ -267,18 +267,18 @@
       "registrationUrl": "https://go.chapman.edu/portal/danceaudition",
       "registrationOpens": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Not yet posted (checked Aug 2026).",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Not yet posted (checked Aug 2026).",
         "pendingChange": null
       },
       "status": "tbd",
@@ -292,10 +292,10 @@
       "venue": "",
       "date": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "Virtual live-audition option offered to invited applicants.",
+        "note": "Virtual live-audition option offered to invited applicants. Rechecked Aug 2026 — no 2027-cycle dates posted yet, as expected this early.",
         "pendingChange": null
       },
       "time": "",
@@ -303,18 +303,18 @@
       "registrationUrl": "https://go.chapman.edu/portal/virtual-danceaudition",
       "registrationOpens": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Not yet posted (checked Aug 2026).",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Not yet posted (checked Aug 2026).",
         "pendingChange": null
       },
       "status": "announced",
@@ -325,17 +325,17 @@
     "testPolicy": {
       "value": "test-optional",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Test-optional — verify for Fall 2027.",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Reconfirmed Aug 2026 on the page that explicitly lists \"Fall 2027 deadlines\": \"Chapman University has a test-optional admission process.\"",
       "pendingChange": null
     },
     "recommendations": {
       "value": "One teacher letter required (up to two reviewed) via Common App; counselor letter optional. Plus optional dance creative-abilities letter.",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Reconfirmed Aug 2026 on the Fall-2027-deadlines page: \"Chapman only requires one letter of recommendation, but will review up to two letters.\"",
       "pendingChange": null
     },
     "essays": {
@@ -376,9 +376,9 @@
       "amount": {
         "value": "up to $42,000/yr",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/merit-scholarship.aspx",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "Renewable 8 semesters; awarded with admission.",
+        "note": "Renewable 8 semesters; awarded with admission. NEEDS SPOT-CHECK (Aug 2026): the page no longer states specific dollar tiers/amounts in the fetched content — value left unchanged (not contradicted, just unconfirmed).",
         "pendingChange": null
       },
       "deadline": {
@@ -386,7 +386,7 @@
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/merit-scholarship.aspx",
         "lastVerified": "2026-07-10",
         "cycleStatus": "carried_from_2026",
-        "note": "Apply by Nov 1 priority for full consideration.",
+        "note": "Apply by Nov 1 priority for full consideration. Could not reconfirm Aug 2026 — page no longer states an explicit deadline sentence; left unchanged, needs spot-check.",
         "pendingChange": null
       },
       "requiresSeparateApp": {
@@ -406,26 +406,26 @@
       "kind": "talent",
       "amount": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/dance-scholarship.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "Amount still not published; checked dance-scholarship.aspx and copa/dance/admission.aspx Aug 2026 — neither states a dollar figure.",
         "pendingChange": null
       },
       "deadline": {
         "value": null,
-        "sourceUrl": "",
-        "lastVerified": "2026-07-10",
+        "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "tbd",
-        "note": "",
+        "note": "No separate deadline — automatically determined from Creative Supplement + prescreen + live audition review; no explicit date to record.",
         "pendingChange": null
       },
       "requiresSeparateApp": {
         "value": false,
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/dance-scholarship.aspx",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "Automatic when you apply as a BA in Dance; from Creative Supplement + prescreen + live audition.",
+        "note": "Automatic when you apply as a BA in Dance; from Creative Supplement + prescreen + live audition. Reconfirmed Aug 2026: \"No additional paperwork or scholarship application is required.\"",
         "pendingChange": null
       },
       "url": "",
@@ -436,46 +436,46 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Reconfirmed Aug 2026 — page states \"The details below are for those applying to enter in fall 2027\" and requires FAFSA.",
       "pendingChange": null
     },
     "cssProfileRequired": {
-      "value": false,
+      "value": true,
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Chapman does NOT use the CSS Profile.",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "CHANGED (Aug 2026): page now requires the CSS Profile too — \"you will need to submit both the Free Application for Federal Student Aid (FAFSA) and CSS Profile\" — for those \"applying to enter in fall 2027.\" This reverses the prior note that Chapman didn't use the CSS Profile; not a confirmed_2027 fact before, so updated directly per the data contract (no pendingChange needed).",
       "pendingChange": null
     },
-    "cssCode": "",
+    "cssCode": "4047",
     "priorityDeadline": {
-      "value": "2027-03-02",
+      "value": "2026-11-15",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/financing/applying-for-financial-aid.aspx",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "FAFSA priority Mar 2. FAFSA code 001164.",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "CHANGED (Aug 2026): priority deadline is now round-dependent, explicitly for fall 2027 entrants — \"November 15 for Early Action and Early Decision I applicants\" / \"February 1 for Early Decision II and Regular Decision applicants.\" Value here set to the EA/ED I date (Nov 15, 2026); ED II/RD applicants should use Feb 1, 2027 instead. FAFSA code 001164, CSS code 4047.",
       "pendingChange": null
     },
     "url": "https://www.chapman.edu/admission/undergraduate/financing/"
   },
   "costs": {
-    "year": "2025-26",
+    "year": "2026-27",
     "tuitionAnnual": {
-      "value": "~$67,874 (tuition + fees)",
+      "value": "~$70,394 (tuition + mandatory fees, excl. optional health insurance)",
       "sourceUrl": "https://www.chapman.edu/students/tuition-and-aid/sbs/tuition-and-services/index.aspx",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "2025-26; 2026-27 not yet published.",
+      "note": "Updated to 2026-27 published rate: Full-time tuition $34,995/semester ($69,990/yr) + Health Center $122/sem + Associated Student Fee $80/sem (excludes the separately-billed, often-waivable Student Health Insurance ~$2,496/yr). This is the current 2026-27 rate, NOT yet the Fall 2027 (2027-28) matriculation-year rate, which isn't published.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
-      "value": "~$88,000–$94,000",
+      "value": "~$81,050–$93,996 (2025-26, by housing type; on-campus first-year $91,264)",
       "sourceUrl": "https://www.chapman.edu/students/tuition-and-aid/financial-aid/undergraduate/cost-of-attendance.aspx",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Depends on inclusions; avg net price after need aid ~$61,513.",
+      "note": "Depends on inclusions; avg net price after need aid ~$61,513 (unverified this pass). Note: this COA page still publishes 2025-26 figures even though the tuition-and-services page has moved on to 2026-27 rates — the two pages are out of sync; flag for next refresh.",
       "pendingChange": null
     }
   },
@@ -485,7 +485,7 @@
       "sourceUrl": "https://www.chapman.edu/copa/dance/",
       "lastVerified": "2026-07-10",
       "cycleStatus": "carried_from_2026",
-      "note": "~350–400 apps/yr, ~8–12% implied — verify.",
+      "note": "~350–400 apps/yr, ~8–12% implied — verify. Checked copa/dance/ Aug 2026: page no longer states cohort/enrollment figures; value left unchanged, still needs verification.",
       "pendingChange": null
     },
     "acceptanceRate": {
@@ -493,7 +493,7 @@
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year-class-profile.aspx",
       "lastVerified": "2026-07-10",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "NEEDS BROWSER SPOT-CHECK (Aug 2026): the stored sourceUrl (first-year-class-profile.aspx) now returns a 404 Page Not Found. Value left unchanged (not contradicted, just the source page moved/renamed) — do not treat as verified until a working URL is found.",
       "pendingChange": null
     },
     "genreEmphasis": {

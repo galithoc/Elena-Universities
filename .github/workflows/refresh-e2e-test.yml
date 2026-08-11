@@ -15,6 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -22,22 +24,23 @@ jobs:
           prompt: |
             END-TO-END PIPELINE TEST. Do NOT verify any school, do NOT fetch any
             web page, and do NOT modify, add, or delete anything under data/.
-            Your ONLY job is to prove this Action can open a pull request:
+            Your ONLY job is to prove this Action can open a pull request.
 
-            1. Create a new branch named exactly: e2e-test/pipeline-check
-            2. Create a new file at the repository root named E2E_TEST.md whose
-               entire contents are one line:
+            A branch named e2e-test/pipeline-check may already exist from a prior
+            run (it already contains E2E_TEST.md). Steps:
+            1. Ensure the branch e2e-test/pipeline-check exists and contains a
+               root file E2E_TEST.md with one line:
                "End-to-end pipeline test — confirms the weekly-refresh Action can
-               create a branch and open a pull request. Throwaway; safe to close
-               without merging."
-            3. Run `python3 scripts/validate.py` and confirm it still exits 0
-               (it should, since you did not touch data/). If it fails, stop and
-               report — do not edit data to make it pass.
-            4. Commit ONLY E2E_TEST.md, push the branch e2e-test/pipeline-check,
-               and open a pull request against main titled
-               "[e2e-test] pipeline verification" with a one-line body noting it
-               is a throwaway automation test and can be closed without merging.
-
-            Do not modify or delete any existing file. Do not touch
-            data/progress.json or any other data file.
-          claude_args: '--allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*),Bash(git:*),Bash(gh:*),mcp__github__create_pull_request" --max-turns 60 --model claude-sonnet-5'
+               create a branch and open a pull request. Throwaway; safe to close."
+               (Create the branch/file only if missing; otherwise leave as is.)
+            2. Run `python3 scripts/validate.py` and confirm it exits 0.
+            3. Push the branch if it has unpushed commits.
+            4. Open the pull request with the gh CLI (it is authenticated via the
+               GH_TOKEN environment variable):
+                 gh pr create --base main --head e2e-test/pipeline-check \
+                   --title "[e2e-test] pipeline verification" \
+                   --body "Throwaway automation test — confirms the Action can open a PR. Safe to close without merging."
+               If a PR for this branch already exists, run `gh pr list --head e2e-test/pipeline-check` and report its URL instead of failing.
+            5. Print the PR URL as your final message.
+            Do not modify or delete any other file. Do not touch data/.
+          claude_args: '--allowedTools "Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*),Bash(git:*),Bash(gh:*)" --max-turns 60 --model claude-sonnet-5'

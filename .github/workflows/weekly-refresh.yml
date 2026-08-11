@@ -1,17 +1,13 @@
 name: weekly-refresh
-# Runs the refresh-admissions drill once a week and opens a PR with any changes.
-# Requires an ANTHROPIC_API_KEY repository secret
-# (Settings -> Secrets and variables -> Actions).
+# Weekly re-verification of the nine schools. Claude runs the refresh drill and
+# leaves its edits in the working tree; a normal workflow step then commits to a
+# dated branch and opens a PR. Claude never runs git/gh itself — its sandbox is
+# walled off from credentials, so PR creation must happen in a plain step.
 #
-# IMPORTANT: claude-code-action denies Bash, WebFetch, and WebSearch by default.
-# The drill needs all three (fetch school pages, run the validator, regenerate
-# the ICS, push a branch + open a PR). Without the claude_args allowlist below
-# the run "succeeds" but does nothing (shows up as permission_denials + no PR).
-# Bash is scoped to the exact commands the skill runs since this runs unattended
-# against outside web pages.
-#
-# During the Aug-Oct announcement season you can bump the cadence by editing the
-# cron below (e.g. add "0 10 * * 4" for a second weekly run).
+# Requires:
+#   - ANTHROPIC_API_KEY secret (Settings -> Secrets and variables -> Actions)
+#   - Settings -> Actions -> General -> Workflow permissions:
+#       "Allow GitHub Actions to create and approve pull requests" = ON
 on:
   schedule:
     - cron: "0 10 * * 1"      # Mondays 10:00 UTC = 6:00 AM AST
@@ -31,17 +27,49 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
       - uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          base_branch: main
           prompt: |
-            Run the refresh-admissions skill in --mode=pr. Follow it exactly.
-            Re-verify every school's stored source URLs against the live pages,
-            update Facts per CLAUDE.md (never silently change a confirmed_2027
-            value - use pendingChange), append changelog entries, run
-            scripts/validate.py until it passes, regenerate the ICS, and open a
-            pull request summarizing what changed. If nothing material changed,
-            exit without opening a PR.
-          claude_args: '--allowedTools "WebFetch,WebSearch,Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*),Bash(git:*),Bash(gh:*),mcp__github__create_pull_request" --max-turns 150 --model claude-sonnet-5'
+            Run the refresh-admissions skill, steps 1-7 ONLY. Do NOT run git and
+            do NOT open a pull request (the "Ship" step is handled by a later
+            workflow step). Specifically:
+            - Read CLAUDE.md, then re-verify every school's stored source URLs
+              against the live pages with WebFetch.
+            - Update Facts per CLAUDE.md. NEVER silently change a confirmed_2027
+              value - record conflicts as pendingChange. Upgrade to confirmed_2027
+              only with explicit page evidence.
+            - Append human-readable entries to data/changelog.json (by:
+              "weekly-refresh") and update data/meta.json lastRefresh.
+            - Run `python3 scripts/validate.py` and fix the data until it exits 0.
+            - Regenerate the feed with `python3 scripts/build_ics.py`.
+            Leave ALL changes uncommitted in the working tree. If nothing material
+            changed, make no file edits at all. Never touch data/progress.json.
+          claude_args: '--allowedTools "WebFetch,WebSearch,Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*)" --max-turns 150 --model claude-sonnet-5'
+
+      - name: Commit changes and open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No material changes this run - no PR opened."
+            exit 0
+          fi
+          DATE="$(date +%Y-%m-%d)"
+          BR="refresh/${DATE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BR"
+          git add -A
+          git commit -m "refresh: weekly admissions update (${DATE})"
+          git push --force origin "$BR"
+          if [ -z "$(gh pr list --head "$BR" --state open --json number --jq '.[0].number // ""')" ]; then
+            gh pr create --base main --head "$BR" \
+              --title "Weekly refresh — ${DATE}" \
+              --body "Automated weekly re-verification of the nine schools. Review the diff (data/changelog.json has a plain-English summary of what changed) and merge to update the live site and the family calendar. Conflicts with confirmed-2027 values are recorded as pendingChange, never overwritten."
+          fi
+          echo "==== open refresh PR(s) ===="
+          gh pr list --head "$BR" --state open --json number,url,title

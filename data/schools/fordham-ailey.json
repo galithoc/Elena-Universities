@@ -45,72 +45,72 @@
       "label": "Early Action / Priority Performance",
       "binding": false,
       "academicDeadline": {
-        "value": "2027-01-01",
-        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Fordham academic app; select Early Action. NOTE: research shows both apps due Nov 1 — verify exact date.",
+        "value": "2026-11-01",
+        "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Ailey/Fordham apply page: \"Applications open August 1 for fall 2027 enrollment\"; \"Dance Application for The Ailey School and Common Application for Fordham University are due\" Nov 1, 2026 — confirms both apps share one deadline (corrects prior placeholder value of Jan 1).",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-11-01",
-        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Ailey School dance application due Nov 1 (single early deadline; no later RD route into the BFA).",
+        "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Ailey dance application due Nov 1, 2026 (single early deadline; no later RD route into the BFA) — confirmed for fall 2027 enrollment.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-03-01",
-        "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-        "lastVerified": "2026-07-10",
-        "cycleStatus": "carried_from_2026",
-        "note": "Decisions for BFA candidates released rolling AFTER March 1.",
+        "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+        "lastVerified": "2026-08-11",
+        "cycleStatus": "confirmed_2027",
+        "note": "Ailey/Fordham apply page: \"Prospective students will receive a notification of their admission decision from Fordham University in March 2027.\" Page gives month only, not an exact day.",
         "pendingChange": null
       },
-      "notes": "Both the Fordham academic app and the Ailey dance app are required. Research indicates both due Nov 1 — confirm on the BFA page."
+      "notes": "Both the Fordham academic app (Common App) and the Ailey dance application are due Nov 1, 2026 — confirmed via the Ailey/Fordham apply page for fall 2027 enrollment."
     }
   ],
   "artisticSupplement": {
     "portal": {
       "value": "The Ailey School dance application",
-      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
       "note": "",
       "pendingChange": null
     },
     "portalUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
     "fee": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "Audition/application fee not captured — verify.",
+      "value": "$45 audition fee",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "\"$45 audition fee\"; \"Applicants invited to audition are required to submit the audition fee to secure their spot\" (paid after invitation, not at dance-application submission). Separate from the program's $280/year Ailey physical therapy fee (see costs.totalCostOfAttendance note).",
       "pendingChange": null
     },
     "deadline": {
       "value": "2026-11-01",
-      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Dance application due Nov 1; functions as the prescreen (director reviews, then invites).",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Dance application due Nov 1, 2026; functions as the prescreen (director reviews, then invites).",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": true,
-      "sourceUrl": "https://www.fordham.edu/academics/departments/dance/bfa-admission/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Invitation-only: director reviews submitted dance application, invites selected applicants to audition.",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Ailey/Fordham apply page: \"Applicants who show the highest potential will be invited to audition\" — invitation-only after dance-application review.",
       "pendingChange": null
     },
     "videoSpec": {
       "value": null,
       "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "Ailey dance-application video requirements not captured — verify on the Ailey apply page.",
+      "note": "No technical video spec published. Page confirms in-person audition is required for domestic applicants; international applicants may submit a video audition instead (\"applicants may audition by video\") — no format/length/repertoire spec given.",
       "pendingChange": null
     }
   },
@@ -158,30 +158,43 @@
       "sourceUrl": "https://www.fordham.edu/undergraduate-admission/apply/",
       "lastVerified": "2026-07-10",
       "cycleStatus": "carried_from_2026",
-      "note": "Fordham standing test-optional policy — verify for Fall 2027.",
+      "note": "Fordham standing test-optional policy — verify for Fall 2027. NOT re-verified 2026-08-11: fordham.edu redirects to a CAS login gateway (loginp.fordham.edu) for every page on this domain and refuses anonymous fetches — needs a manual browser spot-check.",
       "pendingChange": null
     },
     "recommendations": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "Recommendation requirements not captured — verify.",
+      "value": "One school-counselor recommendation via the Common Application (for Fordham); no additional recommendation specified for the Ailey dance application.",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Ailey/Fordham apply page: a \"recommendation from a school counselor\" is required for first-year applicants through the Common Application.",
       "pendingChange": null
     },
     "essays": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
-      "note": "Supplemental essay prompts not captured — verify on Common App/Fordham.",
+      "value": [
+        {
+          "id": "essay-common",
+          "prompt": "Common App personal essay, submitted to Fordham University.",
+          "wordLimit": null,
+          "required": true
+        },
+        {
+          "id": "essay-ailey-goals",
+          "prompt": "Ailey School dance application essay discussing the applicant's professional goals.",
+          "wordLimit": null,
+          "required": true
+        }
+      ],
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Ailey/Fordham apply page confirms an essay to Fordham plus \"an essay discussing the applicant's professional goals\" to The Ailey School's BFA Dance Application. Exact Fordham/Common App prompt text and any word limits not published on this page — verify on Common App.",
       "pendingChange": null
     },
     "interview": {
-      "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "tbd",
+      "value": "No separate interview stated; applicants are screened from their submitted dance application and, if selected, invited directly to audition.",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
       "note": "",
       "pendingChange": null
     }
@@ -216,24 +229,24 @@
         "pendingChange": null
       },
       "url": "",
-      "notes": "Fordham academic merit; Ailey talent consideration via audition. Verify."
+      "notes": "Fordham academic merit; Ailey talent consideration via audition. Ailey/Fordham apply page (2026-08-11) confirms \"merit-based awards on artistic and academic potential\" plus need-based aid through Fordham, but publishes no specific amounts or a separate scholarship application/deadline."
     }
   ],
   "financialAid": {
     "fafsaRequired": {
       "value": true,
-      "sourceUrl": "https://www.fordham.edu/undergraduate-admission/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Ailey/Fordham apply page: financial aid applicants must \"file the CSS Profile and the FAFSA application.\"",
       "pendingChange": null
     },
     "cssProfileRequired": {
       "value": true,
-      "sourceUrl": "https://www.fordham.edu/undergraduate-admission/",
-      "lastVerified": "2026-07-10",
-      "cycleStatus": "carried_from_2026",
-      "note": "Fordham typically requires CSS Profile — verify.",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
+      "cycleStatus": "confirmed_2027",
+      "note": "Ailey/Fordham apply page: financial aid applicants must \"file the CSS Profile and the FAFSA application.\" No CSS Profile code published on this page (see cssCode below — unverified this session).",
       "pendingChange": null
     },
     "cssCode": "",
@@ -251,18 +264,18 @@
     "year": "2025-26",
     "tuitionAnnual": {
       "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "Fordham tuition not captured — verify.",
+      "note": "Ailey/Fordham apply page: \"Students attending the Ailey/Fordham BFA in Dance program pay tuition directly to Fordham University\" — no dollar figure on this page; page directs applicants to Fordham's site for cost details. Fordham's own tuition/cost pages (fordham.edu) were bot-blocked this session (CAS login redirect loop) — needs a manual browser check.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {
       "value": null,
-      "sourceUrl": "",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
+      "lastVerified": "2026-08-11",
       "cycleStatus": "tbd",
-      "note": "",
+      "note": "Ailey/Fordham apply page notes an additional \"annual physical therapy fee of $280\" charged by Ailey on top of Fordham tuition/fees (Fordham cost-of-attendance figure itself unverified — see tuitionAnnual note).",
       "pendingChange": null
     }
   },

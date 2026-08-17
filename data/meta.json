@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-08-11",
-    "by": "manual-refresh",
-    "summary": "Re-verified all 9 schools against live sources: confirmed several 2026-27 deadline sets for Fall 2027, published new audition dates (Purchase, Arizona, Boston Conservatory), flipped Chapman's CSS Profile requirement to true, and filled in many previously-tbd financial/program facts. Marymount/Northeastern audition mechanics still unpublished post-merger; USC Kaufman's page still on the Fall 2026 cycle."
+    "date": "2026-08-17",
+    "by": "weekly-refresh",
+    "summary": "Re-verified all 9 schools' stored source URLs against live pages. Arizona's base application moved to the Common App for Fall 2027 (Future Wildcat now supplement-only); Pace's prescreen photo spec was refined; Boston Conservatory's post-solo faculty conversation was clarified to cover both dance tracks. USC Kaufman's Portfolio page has gone blank (\"check back soon\") pending its Fall 2027 refresh. Everything else re-confirmed unchanged. Marymount/Northeastern audition mechanics remain unpublished post-merger (Acceptd portal still bot-blocked); Purchase's domestic-video-audition eligibility remains unresolved."
   }
 }

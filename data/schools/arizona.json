@@ -11,7 +11,7 @@
   "campusTimezone": "America/Phoenix",
   "accent": "#c0693a",
   "website": "https://dance.arizona.edu/future-students/bfa/",
-  "applicationSystem": "UA application + College of Fine Arts supplement",
+  "applicationSystem": "Common App (university application, new for Fall 2027) + College of Fine Arts / Future Wildcat supplement",
   "fit": {
     "commercial": "strong",
     "contemporary": "strong",
@@ -75,7 +75,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page names the 'Fall 2027 incoming class' — EA Nov 1 CONFIRMED. Priority for merit + admission.",
         "pendingChange": null
@@ -83,7 +83,7 @@
       "artsSupplementDeadline": {
         "value": "2027-04-01",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "BFA apply page explicitly headed 'Fall 2027 Applicants': 'Video audition submission: April 1, 2027' — CONFIRMED.",
         "pendingChange": null
@@ -91,12 +91,12 @@
       "decisionRelease": {
         "value": "2027-01-15",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page: 'January 15, 2027: Decision Release for Early Action Applicants Begins,' tied explicitly to the Fall 2027 term — CONFIRMED.",
         "pendingChange": null
       },
-      "notes": "Apply via UA's own application to avoid a 3–6 week delay before the supplement opens."
+      "notes": "New for Fall 2027: the base UA application moved to the Common App (previously UA's own application); the Fine Arts supplement/video audition is still submitted via the Future Wildcat portal."
     },
     {
       "id": "rd",
@@ -134,16 +134,16 @@
     "portal": {
       "value": "UA College of Fine Arts application (Future Wildcat portal)",
       "sourceUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
-      "note": "Not Acceptd/SlideRoom — UA's own portal.",
+      "note": "Not Acceptd/SlideRoom — UA's own portal. UPDATE (2026-08-17): the base UA admission application switched to the Common App for Fall 2027 applicants; Future Wildcat remains the portal for the College of Fine Arts / dance supplement only.",
       "pendingChange": null
     },
     "portalUrl": "https://dance.arizona.edu/students/apply/undergraduate/",
     "fee": {
       "value": "$60",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "confirmed_2027",
       "note": "Dance application fee, paid on submission. Confirmed $60 on the 'Fall 2027 Applicants' page.",
       "pendingChange": null
@@ -151,7 +151,7 @@
     "deadline": {
       "value": "2027-04-01",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "confirmed_2027",
       "note": "Supplement final deadline; app + audition registration open Aug 1. Confirmed on 'Fall 2027 Applicants' page: 'Video audition submission: April 1, 2027.'",
       "pendingChange": null
@@ -212,7 +212,7 @@
       "date": {
         "value": "2026-10-09",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Confirmed: 'Friday, October 9, 2026 (1:00–6:00pm)' — page states this audition is 'for first-year and transfer students entering Fall 2027.'",
         "pendingChange": null
@@ -223,7 +223,7 @@
       "registrationOpens": {
         "value": "2026-08-01",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Audition registration opens Aug 1 — reconfirmed directly on the jazzshowcase.arizona.edu audition page.",
         "pendingChange": null
@@ -231,7 +231,7 @@
       "registrationDeadline": {
         "value": "2026-10-02",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page: registration 'must be submitted on or before October 2nd, 2026.' Capacity limited to 100 dancers.",
         "pendingChange": null
@@ -248,7 +248,7 @@
       "date": {
         "value": "2027-01-23",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Confirmed: listed under 'Spring 2027 Audition Dates' on the 'Fall 2027 Applicants' page (check-in 9:00am, audition 10:00am).",
         "pendingChange": null
@@ -320,7 +320,7 @@
       "date": {
         "value": "2026-09-26",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "New audition option found on the 'Fall 2027 Applicants' page under 'Fall 2026 Audition Dates' (check-in 9:00am, audition 10:00am) — distinct from the Arizona Jazz Dance Showcase (Oct 9).",
         "pendingChange": null
@@ -459,7 +459,7 @@
       "amount": {
         "value": null,
         "sourceUrl": "https://dance.arizona.edu/future-students/scholarships-financial-aid/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "tbd",
         "note": "Still no dollar figures published as of Aug 2026. Page: 'Dance merit-based scholarships for undergraduate applicants are highly competitive and award a range of funding amounts, which reflect the unique gifts each dancer may bring to the program.'",
         "pendingChange": null

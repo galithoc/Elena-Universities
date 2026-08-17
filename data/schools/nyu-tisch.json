@@ -48,7 +48,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page's \"DEADLINES AND IMPORTANT DATES (2026-2027)\" table lists Common App Final Nov 1, 2026 for ED1 (entering Fall 2027).",
         "pendingChange": null
@@ -56,7 +56,7 @@
       "artsSupplementDeadline": {
         "value": "2026-11-02",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Pre-Screen Final for ED1 is Nov 2, 2026 (9:00 AM ET) — one day after the Common App deadline, not the same day as previously recorded.",
         "pendingChange": null
@@ -79,7 +79,7 @@
       "academicDeadline": {
         "value": "2027-01-01",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page's \"DEADLINES AND IMPORTANT DATES (2026-2027)\" table lists Common App Final Jan 1, 2027 for ED2 (entering Fall 2027).",
         "pendingChange": null
@@ -87,7 +87,7 @@
       "artsSupplementDeadline": {
         "value": "2027-01-04",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Pre-Screen Final for ED2 is Jan 4, 2027 (9:00 AM ET) — three days after the Common App deadline, not the same day as previously recorded.",
         "pendingChange": null
@@ -110,7 +110,7 @@
       "academicDeadline": {
         "value": "2027-01-05",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Page's \"DEADLINES AND IMPORTANT DATES (2026-2027)\" table lists Common App Final Jan 5, 2027 for RD (entering Fall 2027) — the earlier Fall-2026 wording is resolved.",
         "pendingChange": null
@@ -118,7 +118,7 @@
       "artsSupplementDeadline": {
         "value": "2027-01-18",
         "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "confirmed_2027",
         "note": "Pre-Screen Final for RD is Jan 18, 2027 (9:00 AM ET) — 13 days after the Common App deadline, not the same day as previously recorded.",
         "pendingChange": null
@@ -131,14 +131,14 @@
         "note": "RD decisions ~April 1 — not restated on the 2026-2027 deadlines page; still needs verification.",
         "pendingChange": null
       },
-      "notes": "Common App recommended by Dec 22, 2026 (final Jan 5). Callback Auditions Jan 30 – Feb 6, 2027."
+      "notes": "Common App recommended by Dec 22, 2026 (final Jan 5). Callback Auditions: Jan 30, 2027 (Chicago/LA) or Feb 5–6, 2027 (New York)."
     }
   ],
   "artisticSupplement": {
     "portal": {
       "value": "NYU Pre-Screen Artistic Portal for Dance (personalized link emailed after the Common App is submitted — not Acceptd/SlideRoom)",
       "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "confirmed_2027",
       "note": "Page (2026-2027 cycle): \"After the application is submitted, NYU Undergraduate Admissions will send an email with instructions for auditioning,\" and refers applicants to the \"Pre-Screen Artistic Portal for Dance,\" which opens early October.",
       "pendingChange": null
@@ -147,15 +147,15 @@
     "fee": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "Artistic-review fee not captured — checked both application-requirements and admissions-FAQ pages on 2026-08-11; no fee amount is published on either. Still needs verification (possibly stated only inside the portal itself or via email).",
+      "note": "Artistic-review fee not captured — checked both application-requirements and admissions-FAQ pages on 2026-08-17; no fee amount is published on either. Still needs verification (possibly stated only inside the portal itself or via email).",
       "pendingChange": null
     },
     "deadline": {
       "value": "2027-01-18",
       "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "confirmed_2027",
       "note": "Prescreen due 9:00 AM ET on the applicant's own round deadline — this field mirrors the RD (latest) Pre-Screen Final date. Actual dates differ by round: ED1 Nov 2 2026, ED2 Jan 4 2027, RD Jan 18 2027 — see each round's artsSupplementDeadline.",
       "pendingChange": null
@@ -163,7 +163,7 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://tisch.nyu.edu/dance/application-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "confirmed_2027",
       "note": "2026-2027 cycle deadlines page still requires the Pre-Screen/Artistic Review submission ahead of any callback.",
       "pendingChange": null
@@ -280,17 +280,17 @@
     "recommendations": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "Recommendation requirements not captured — checked application-requirements and admissions-FAQ pages on 2026-08-11; neither states a letter-of-recommendation requirement for Dance. Likely governed by the general Common App / NYU freshman requirements page (out of scope here) — verify there.",
+      "note": "Recommendation requirements not captured — checked application-requirements and admissions-FAQ pages on 2026-08-17; neither states a letter-of-recommendation requirement for Dance. Likely governed by the general Common App / NYU freshman requirements page (out of scope here) — verify there.",
       "pendingChange": null
     },
     "essays": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "NYU + Tisch supplemental essays not captured — checked application-requirements and admissions-FAQ pages on 2026-08-11; neither states essay/personal-statement requirements for Dance. Likely governed by the general Common App / NYU freshman requirements page (out of scope here) — verify there.",
+      "note": "NYU + Tisch supplemental essays not captured — checked application-requirements and admissions-FAQ pages on 2026-08-17; neither states essay/personal-statement requirements for Dance. Likely governed by the general Common App / NYU freshman requirements page (out of scope here) — verify there.",
       "pendingChange": null
     },
     "interview": {
@@ -386,17 +386,17 @@
     "cohortSize": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "Not stated on application-requirements or admissions-FAQ pages (checked 2026-08-11) — verify via a different NYU/Tisch source.",
+      "note": "Not stated on application-requirements or admissions-FAQ pages (checked 2026-08-17) — verify via a different NYU/Tisch source.",
       "pendingChange": null
     },
     "acceptanceRate": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "Not stated on application-requirements or admissions-FAQ pages (checked 2026-08-11) — verify via a different NYU/Tisch source.",
+      "note": "Not stated on application-requirements or admissions-FAQ pages (checked 2026-08-17) — verify via a different NYU/Tisch source.",
       "pendingChange": null
     },
     "genreEmphasis": {

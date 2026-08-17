@@ -75,9 +75,9 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "carried_from_2026",
-        "note": "Re-checked 2026-08-11: page still lists standing ED I & EA = Nov 1, with no explicit Fall 2027 / 2026-27 cycle tie and no NYC/dance-specific carve-out. UNCONFIRMED whether this governs the dance audition timeline (MMC's old RD was Feb 1). Plan for Nov 1.",
+        "note": "Re-checked 2026-08-17: page still lists standing ED I & EA = Nov 1, with no explicit Fall 2027 / 2026-27 cycle tie and no NYC/dance-specific carve-out. UNCONFIRMED whether this governs the dance audition timeline (MMC's old RD was Feb 1). Plan for Nov 1.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -91,7 +91,7 @@
       "decisionRelease": {
         "value": "2027-02-15",
         "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "carried_from_2026",
         "note": "admissions.northeastern.edu now states EA decisions released 'by February 15' (previously recorded as Feb 1 — corrected). No explicit Fall 2027 tie on the page; standing university-wide language.",
         "pendingChange": null
@@ -106,9 +106,9 @@
       "academicDeadline": {
         "value": "2027-01-01",
         "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "carried_from_2026",
-        "note": "Re-confirmed 2026-08-11: page still lists ED II & RD = Jan 1 (also matches ED II's own Jan 1 deadline, notified by Mar 1 — this round conflates RD and ED II). Merit requires applying by the Jan 1 RD deadline. No dance-specific carve-out found — verify.",
+        "note": "Re-confirmed 2026-08-17: page still lists ED II & RD = Jan 1 (also matches ED II's own Jan 1 deadline, notified by Mar 1 — this round conflates RD and ED II). Merit requires applying by the Jan 1 RD deadline. No dance-specific carve-out found — verify.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -122,9 +122,9 @@
       "decisionRelease": {
         "value": "2027-04-01",
         "sourceUrl": "https://admissions.northeastern.edu/application-information/admissions-deadlines-decisions/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "carried_from_2026",
-        "note": "Re-confirmed 2026-08-11: RD decisions 'by April 1' still listed (note: ED II, which shares this round's Jan 1 deadline, is notified earlier — by Mar 1 — but this record tracks RD). No explicit Fall 2027 tie.",
+        "note": "Re-confirmed 2026-08-17: RD decisions 'by April 1' still listed (note: ED II, which shares this round's Jan 1 deadline, is notified earlier — by Mar 1 — but this record tracks RD). No explicit Fall 2027 tie.",
         "pendingChange": null
       },
       "notes": ""
@@ -134,7 +134,7 @@
     "portal": {
       "value": null,
       "sourceUrl": "https://apply.mmm.edu/portal/danceoh",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
       "note": "www.mmm.edu/departments/dance/auditions.php now hard 301-redirects to nyc.northeastern.edu (whole mmm.edu domain appears to be redirecting) — legacy audition page is DEAD. However apply.mmm.edu (the old MMC application portal domain) is still live — a 'Dance Virtual Open House' landing page loads at apply.mmm.edu/portal/danceoh under the 'Northeastern University New York City' header, suggesting the apply.mmm.edu portal brand persists post-merger. A search also surfaced an Acceptd-hosted page at app.getacceptd.com/mmm labeled 'Northeastern University New York City,' implying auditions may now route through Acceptd — but that URL returned HTTP 403 (bot-blocked) on fetch and could NOT be independently verified. Needs a human browser check of both apply.mmm.edu and app.getacceptd.com/mmm.",
       "pendingChange": null
@@ -151,7 +151,7 @@
     "deadline": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
       "note": "Post-merger audition deadline still unknown. Legacy mmm.edu auditions page is dead (301 to nyc.northeastern.edu, which has no dedicated dance/audition subpage). Web-search caching still shows MMC's old digital window language (materials accepted 'Jan 5 through Mar 15') but that cached snippet is dated to the 2026 cycle (Fall 2026 entry), NOT confirmed for Fall 2027. Do not treat as current — needs primary-source or browser check, ideally via the Acceptd portal (app.getacceptd.com/mmm, bot-blocked on fetch).",
       "pendingChange": null
@@ -159,7 +159,7 @@
     "prescreenRequired": {
       "value": false,
       "sourceUrl": "https://www.mmm.edu/departments/dance/auditions.php",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
       "note": "MMC Dance historically had NO prescreen (open audition). Source page is now DEAD (301-redirects to nyc.northeastern.edu as of 2026-08-11 check). A web-search snippet (unverified, not a direct fetch — likely referencing app.getacceptd.com/mmm which is bot-blocked/403) also indicates 'no prescreen audition' post-merger, consistent with this value, but could not be confirmed from a primary source. Left value unchanged pending a human/browser check.",
       "pendingChange": null
@@ -184,7 +184,7 @@
         }
       ],
       "sourceUrl": "https://www.mmm.edu/departments/dance/auditions.php",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
       "note": "PRE-MERGER MMC spec — re-verify under Northeastern. Source page now 301-redirects to nyc.northeastern.edu (checked 2026-08-11); no replacement spec found published. Value left unchanged (not a guess) — needs browser check of the Acceptd portal (app.getacceptd.com/mmm, returned 403 on automated fetch).",
       "pendingChange": null
@@ -200,9 +200,9 @@
       "date": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "tbd",
-        "note": "MMC dance auditions were on-campus or digital; post-merger dates/mechanics still not published on any fetchable primary source as of 2026-08-11 (legacy mmm.edu auditions page now 301-redirects to nyc.northeastern.edu, which has no dedicated audition page). An Acceptd portal at app.getacceptd.com/mmm ('Northeastern University New York City') looks like the likely new home but is bot-blocked (403) — needs a human browser check.",
+        "note": "MMC dance auditions were on-campus or digital; post-merger dates/mechanics still not published on any fetchable primary source as of 2026-08-17 (legacy mmm.edu auditions page now 301-redirects to nyc.northeastern.edu, which has no dedicated audition page). An Acceptd portal at app.getacceptd.com/mmm ('Northeastern University New York City') looks like the likely new home but is bot-blocked (403) — needs a human browser check.",
         "pendingChange": null
       },
       "time": "",
@@ -236,9 +236,9 @@
       "date": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-08-17",
         "cycleStatus": "tbd",
-        "note": "STILL UNCONFIRMED as of 2026-08-11 — the single highest-priority open item for this San Juan applicant. Legacy mmm.edu auditions page (which described the no-travel digital-submission window, Jan 5–Mar 15) now returns a hard 301 redirect to nyc.northeastern.edu, and that page has no dance/audition subpage. A web search surfaced an Acceptd-hosted page, app.getacceptd.com/mmm ('Northeastern University New York City'), plus a search-engine synthesis (NOT a verified primary-source fetch — the underlying page returned HTTP 403/bot-blocked) claiming auditions are now scheduled 'Live Virtual Auditions' via Acceptd's 'Audition Room' on specific dates (Jan 10 & Feb 7, 2027), with no prescreen. IMPORTANT CAVEAT: a scheduled live virtual audition is NOT the same thing as MMC's old open pre-recorded digital-submission window — if accurate, it would mean the asynchronous no-live-component video route may have been replaced by a synchronous scheduled virtual audition. This claim is unverified and must NOT be treated as confirmed; a human needs to log into app.getacceptd.com/mmm (or contact dancerecruit@mmm.edu / 212-517-0609) to confirm mechanics before relying on it. Value intentionally left null/tbd rather than guessed.",
+        "note": "STILL UNCONFIRMED as of 2026-08-17 — the single highest-priority open item for this San Juan applicant. Legacy mmm.edu auditions page (which described the no-travel digital-submission window, Jan 5–Mar 15) now returns a hard 301 redirect to nyc.northeastern.edu, and that page has no dance/audition subpage. A web search surfaced an Acceptd-hosted page, app.getacceptd.com/mmm ('Northeastern University New York City'), plus a search-engine synthesis (NOT a verified primary-source fetch — the underlying page returned HTTP 403/bot-blocked) claiming auditions are now scheduled 'Live Virtual Auditions' via Acceptd's 'Audition Room' on specific dates (Jan 10 & Feb 7, 2027), with no prescreen. IMPORTANT CAVEAT: a scheduled live virtual audition is NOT the same thing as MMC's old open pre-recorded digital-submission window — if accurate, it would mean the asynchronous no-live-component video route may have been replaced by a synchronous scheduled virtual audition. This claim is unverified and must NOT be treated as confirmed; a human needs to log into app.getacceptd.com/mmm (or contact dancerecruit@mmm.edu / 212-517-0609) to confirm mechanics before relying on it. Value intentionally left null/tbd rather than guessed.",
         "pendingChange": null
       },
       "time": "",
@@ -366,26 +366,26 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed 2026-08-11: FAFSA code 002199. Page does not mention NYC campus separately.",
+      "note": "Re-confirmed 2026-08-17: FAFSA code 002199. Page does not mention NYC campus separately.",
       "pendingChange": null
     },
     "cssProfileRequired": {
       "value": true,
       "sourceUrl": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed 2026-08-11: Northeastern requires CSS Profile (code 3667) — NEW hurdle vs MMC. Page still does not distinguish NYC-campus requirements from the rest of the university.",
+      "note": "Re-confirmed 2026-08-17: Northeastern requires CSS Profile (code 3667) — NEW hurdle vs MMC. Page still does not distinguish NYC-campus requirements from the rest of the university.",
       "pendingChange": null
     },
     "cssCode": "3667",
     "priorityDeadline": {
       "value": null,
       "sourceUrl": "https://studentfinance.northeastern.edu/applying-for-aid/undergraduate/how-to-apply/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "tbd",
-      "note": "Page (checked 2026-08-11) only says to file 'by the priority filing date' without stating an actual date, and gives no NYC-campus-specific figure. Still unconfirmed.",
+      "note": "Page (checked 2026-08-17) only says to file 'by the priority filing date' without stating an actual date, and gives no NYC-campus-specific figure. Still unconfirmed.",
       "pendingChange": null
     },
     "url": "https://studentfinance.northeastern.edu/"
@@ -451,7 +451,7 @@
     "notable": {
       "value": "Merger with Northeastern completed July 9–10, 2026; 4-year NYC program. Alumni: Broadway, Radio City Rockette, commercial. Contact dancerecruit@mmm.edu / 212-517-0609.",
       "sourceUrl": "https://news.northeastern.edu/marymount-manhattan-college-merger-faq/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-17",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null

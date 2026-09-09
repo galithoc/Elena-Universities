@@ -32,6 +32,9 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # TEMPORARY (2026-09-09): full output enabled to diagnose why recent
+          # scheduled runs finish in 2-3 min instead of ~13. Remove after diagnosing.
+          show_full_output: true
           prompt: |
             Run the refresh-admissions skill, steps 1-7 ONLY. Do NOT run git and
             do NOT open a pull request (the "Ship" step is handled by a later

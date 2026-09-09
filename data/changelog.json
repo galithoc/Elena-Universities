@@ -116,6 +116,42 @@
       "text": "Boston Conservatory: the previously bot-blocked audition-requirements and deadlines pages are now accessible. Filled in EA/RA decision-release dates (Jan 31 / Apr 1, 2027), identified the audition portal as SlideRoom, added the $75/$150 tiered application fee, and published audition dates — Nov 14, 2026 on-campus (Contemporary + Commercial) as part of a 10-city tour, plus a live-online option Dec 5, 2026 (RA: Feb 13, 2027). Tuition/COA updated to 2026-27 published rates (~$55,120 tuition; ~$87,817 total COA).",
       "refs": ["rounds.ea.decisionRelease", "artisticSupplement.portal", "auditions.aud-contemp.date", "auditions.aud-online.date", "costs.tuitionAnnual"],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260817-1",
+      "date": "2026-08-17",
+      "school": "arizona",
+      "type": "changed",
+      "text": "Arizona: new for Fall 2027 — the base UA admission application has moved to the Common App (previously UA's own application). The Future Wildcat portal remains the destination for the College of Fine Arts / dance video-audition supplement only. All previously confirmed audition dates and fees were re-verified unchanged.",
+      "refs": ["applicationSystem", "rounds.ea.notes", "artisticSupplement.portal"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260817-2",
+      "date": "2026-08-17",
+      "school": "pace",
+      "type": "confirmed",
+      "text": "Pace/Sands: prescreen video-spec wording refined — the two required photos are specifically \"first arabesque en l'air\" plus a pose of the applicant's choosing (not two arabesque photos as previously recorded), and a headshot + resume are itemized alongside it. All Fall 2027 Key Dates deadlines re-confirmed unchanged.",
+      "refs": ["artisticSupplement.videoSpec"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260817-3",
+      "date": "2026-08-17",
+      "school": "usc-kaufman",
+      "type": "note",
+      "text": "USC Kaufman: the Portfolio page has been taken down and now shows only a \"Check back soon\" placeholder — the Fall 2026 content it carried since last cycle is gone and Fall 2027 details haven't appeared yet. All Kaufman deadline/portfolio facts are temporarily unverifiable at the source; re-check closer to the Dec 1 deadline.",
+      "refs": ["rounds.dec1.academicDeadline", "artisticSupplement.portal", "artisticSupplement.deadline"],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260817-4",
+      "date": "2026-08-17",
+      "school": "boston-conservatory",
+      "type": "confirmed",
+      "text": "Boston Conservatory: clarified that the brief post-solo faculty conversation happens for both the Contemporary Dance Performance and Commercial Dance auditions, not just Commercial as previously recorded. All EA/RA deadlines re-confirmed unchanged.",
+      "refs": ["academics.interview"],
+      "by": "weekly-refresh"
     }
   ]
 }

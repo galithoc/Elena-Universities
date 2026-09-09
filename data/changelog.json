@@ -229,6 +229,38 @@
       "text": "Added Loyola Marymount University (Los Angeles). NOTE: LMU awards a BA in Dance across three tracks (Dance; Dance Pedagogy & Social Action; Dance Choreography & Performance) - it is the only non-BFA program on this list. Audition is video-only via Slate after applying: a 3-minute video introduction plus a 2-minute solo (no compilations). Published deadlines recorded as ED I / EA Nov 1, ED II Jan 8, RD Jan 15 with decisions rolling by Apr 1; FAFSA by Nov 1 (ED I), Jan 10 (EA and ED II) or Feb 1 (general). All LMU facts are search-sourced and marked carried_from_2026 or tbd - this session could not reach lmu.edu directly, so the weekly refresh will verify them.",
       "refs": [],
       "by": "manual-refresh"
+    },
+    {
+      "id": "cl-20260909-3",
+      "date": "2026-09-09",
+      "school": "usc-kaufman",
+      "type": "confirmed",
+      "text": "USC Kaufman: the Portfolio page is live again (was a \"Check back soon\" placeholder as of 2026-08-17) with real content, including live-audition dates for the first time this cycle (Jan 16-17, 2027, one day per applicant) and a selection-notification date (by Dec 18, 2026). Also updated wording for the resume (now notes standardized-test info) and the 250-word short-answer prompt (now asks about the applicant's role within their training community, not academic/interdisciplinary opportunities). The Dec 1 application/portfolio deadline itself wasn't restated on this pass and is left unchanged. Page still doesn't explicitly say \"Fall 2027,\" so all facts stay at carried_from_2026.",
+      "refs": [
+        "rounds.dec1.decisionRelease",
+        "artisticSupplement.videoSpec",
+        "academics.essays",
+        "auditions[aud-live].date"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260909-4",
+      "date": "2026-09-09",
+      "school": "loyola-marymount",
+      "type": "confirmed",
+      "text": "LMU: this runner could reach lmu.edu directly (unlike the session that added the school), so most search-sourced LMU facts are now confirmed off the live pages. Corrections: submission portal is the \"LMU Application Status Portal,\" not Slate; Regular Decision releases \"Early March,\" not Apr 1. Newly filled in: test-optional policy, one required recommendation letter, no interview (\"entire audition... submitted online\"), decision-release windows for all four rounds, genre emphasis (ballet/contemporary/hip-hop/jazz), a Bill T. Jones/Arnie Zane Company educational partnership, and exact BA track names. The financial-aid page itself is still on the 2025-26/Fall-2026 FAFSA cycle (not yet refreshed for 2027-28) — those deadlines remain projected estimates.",
+      "refs": [
+        "artisticSupplement.portal",
+        "rounds.rd.decisionRelease",
+        "academics.testPolicy",
+        "academics.recommendations",
+        "academics.interview",
+        "programFacts.genreEmphasis",
+        "programFacts.companyAffiliation",
+        "programFacts.notable"
+      ],
+      "by": "weekly-refresh"
     }
   ]
 }

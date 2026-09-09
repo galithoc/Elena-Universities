@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:global-commonAppOpens@elena-universities
-DTSTAMP:20260817T000000Z
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:📅 Common App opens
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:global-g-commonapp@elena-universities
-DTSTAMP:20260710T000000Z
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:📅 Common App account created + main essay drafted
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:global-fafsaOpens@elena-universities
-DTSTAMP:20260817T000000Z
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:📅 FAFSA opens (2027-28)
@@ -153,7 +153,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:global-g-reels@elena-universities
-DTSTAMP:20260710T000000Z
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:📅 Prescreen reels planned (contemporary + jazz solos\, ballet ba
@@ -357,24 +357,23 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:marymount-northeastern-round-ea-app@elena-universities
-DTSTAMP:20260817T000000Z
+UID:loyola-marymount-round-ed-app@elena-universities
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) due 
- [unconfirmed — last year's date]
+SUMMARY:⏰ LMU: Early Decision I due [unconfirmed — last year's date]
 CATEGORIES:app_deadline
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) 
- due [unconfirmed — last year's date]
+DESCRIPTION:⏰ LMU: Early Decision I due [unconfirmed — last year's date
+ ]
 TRIGGER:-P7D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Marymount/Northeastern: Early Action / ED I (Northeastern) 
- due [unconfirmed — last year's date]
+DESCRIPTION:⏰ LMU: Early Decision I due [unconfirmed — last year's date
+ ]
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
@@ -507,7 +506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:global-g-fafsa@elena-universities
-DTSTAMP:20260710T000000Z
+DTSTAMP:20260909T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:📅 FAFSA submitted (2027-28)
@@ -655,28 +654,6 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:marymount-northeastern-sch-ne-merit@elena-universities
-DTSTAMP:20260811T000000Z
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270102
-SUMMARY:💰 Marymount/Northeastern: Northeastern merit deadline [unconfirm
- ed — last year's date]
-CATEGORIES:scholarship_deadline
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💰 Marymount/Northeastern: Northeastern merit deadline [uncon
- firmed — last year's date]
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💰 Marymount/Northeastern: Northeastern merit deadline [uncon
- firmed — last year's date]
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pace-supplement@elena-universities
 DTSTAMP:20260817T000000Z
 DTSTART;VALUE=DATE:20270103
@@ -731,6 +708,25 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:✈️ Arizona: In-person — January on-campus
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:loyola-marymount-aid-priority@elena-universities
+DTSTAMP:20260909T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:💰 LMU: FAFSA/CSS priority [unconfirmed — last year's date]
+CATEGORIES:aid_deadline
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 LMU: FAFSA/CSS priority [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💰 LMU: FAFSA/CSS priority [unconfirmed — last year's date]
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

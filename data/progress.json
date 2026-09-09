@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-07-10",
+  "updated": "2026-09-09",
   "global": {
     "checklist": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "id": "g-css",
-        "label": "CSS Profile created (needed for USC, Northeastern/Marymount, likely Fordham/NYU)",
+        "label": "CSS Profile created (needed for Chapman; likely USC/Fordham/NYU)",
         "status": "todo",
         "owner": "parents",
         "due": null,
@@ -434,7 +434,7 @@
       ],
       "notes": []
     },
-    "marymount-northeastern": {
+    "loyola-marymount": {
       "roundChoice": null,
       "status": "active",
       "decision": null,
@@ -530,7 +530,7 @@
           "doneOn": null
         }
       ],
-      "notes": []
+      "notes": null
     },
     "usc-kaufman": {
       "roundChoice": null,

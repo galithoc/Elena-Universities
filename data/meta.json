@@ -23,7 +23,7 @@
     "nyu-tisch",
     "pace",
     "suny-purchase",
-    "marymount-northeastern",
+    "loyola-marymount",
     "usc-kaufman",
     "chapman",
     "arizona",
@@ -36,18 +36,18 @@
         "fordham-ailey",
         "nyu-tisch",
         "pace",
-        "suny-purchase",
-        "marymount-northeastern"
+        "suny-purchase"
       ],
-      "note": "Five schools audition in/around NYC (Jan–Mar). One or two well-timed trips can cover several. Purchase is Westchester, ~35 min from Grand Central."
+      "note": "Four schools audition in/around NYC (Jan-Mar). One or two well-timed trips can cover several. Purchase is Westchester, ~35 min from Grand Central."
     },
     "socal": {
       "label": "Southern California",
       "schools": [
         "usc-kaufman",
-        "chapman"
+        "chapman",
+        "loyola-marymount"
       ],
-      "note": "USC (LA) and Chapman (Orange) are ~40 miles apart — combinable into one trip."
+      "note": "USC (LA), LMU (Westchester, ~12 mi from USC) and Chapman (Orange, ~40 mi) are combinable into one Southern California trip. LMU's audition is video-only, so it needs no travel of its own."
     },
     "boston": {
       "label": "Boston",
@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-08-17",
-    "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools' stored source URLs against live pages. Arizona's base application moved to the Common App for Fall 2027 (Future Wildcat now supplement-only); Pace's prescreen photo spec was refined; Boston Conservatory's post-solo faculty conversation was clarified to cover both dance tracks. USC Kaufman's Portfolio page has gone blank (\"check back soon\") pending its Fall 2027 refresh. Everything else re-confirmed unchanged. Marymount/Northeastern audition mechanics remain unpublished post-merger (Acceptd portal still bot-blocked); Purchase's domestic-video-audition eligibility remains unresolved."
+    "date": "2026-09-09",
+    "by": "manual-refresh",
+    "summary": "Added Loyola Marymount (BA in Dance, LA - video-only audition) and removed Marymount/Northeastern at the family's request. Merged the stranded Aug 17 refresh. LMU facts are search-sourced and marked carried_from_2026/tbd pending the weekly refresh, which can reach lmu.edu directly."
   }
 }

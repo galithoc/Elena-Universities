@@ -1,6 +1,6 @@
 # Handoff — Elena, Road to the BFA
 
-A self-updating tracker for nine BFA dance programs (Fall 2027 entry).
+A self-updating tracker for nine dance programs (Fall 2027 entry) — eight BFA plus LMU's BA.
 Prepared 2026-08-11, after the first verified end-to-end run.
 
 - **Site:** https://galithoc.github.io/Elena-Universities/
@@ -64,11 +64,13 @@ usually silently.
 
 ## Open items needing a person
 
-1. **Marymount → Northeastern** — `mmm.edu` now redirects to `nyc.northeastern.edu`,
-   which has no dance-audition page yet. An unverified lead (Acceptd portal
-   `app.getacceptd.com/mmm`, virtual auditions 2027-01-10 and 2027-02-07) was
-   bot-blocked and is deliberately NOT in the data. Confirm in a browser, or contact
-   `dancerecruit@mmm.edu` / 212-517-0609.
+1. **Loyola Marymount (LMU)** — added 2026-09-09 at the family's request, replacing
+   Marymount/Northeastern. **LMU awards a BA in Dance, not a BFA** (three tracks: Dance;
+   Dance Pedagogy & Social Action; Dance Choreography & Performance) — the only non-BFA
+   program on the list. Its audition is video-only via Slate after applying (3-min intro +
+   2-min solo, no compilations). All LMU facts were sourced by web search, not read off the
+   live page, so they are marked `carried_from_2026`/`tbd` — the next weekly refresh runs on
+   GitHub's runners (which can reach lmu.edu) and will verify and upgrade them. Check its PR.
 2. **SUNY Purchase** — on-campus auditions are published (Feb 6/12/20/26 2027) but the
    "alternate arrangements" language is scoped to international applicants. Email
    `dance@purchase.edu` to learn whether a domestic video audition is possible; it

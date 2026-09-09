@@ -32,9 +32,6 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # TEMPORARY (2026-09-09): full output enabled to diagnose why recent
-          # scheduled runs finish in 2-3 min instead of ~13. Remove after diagnosing.
-          show_full_output: true
           prompt: |
             CRITICAL EXECUTION RULE: you are running headless inside a GitHub
             Action. When your turn ends the runner is destroyed immediately.

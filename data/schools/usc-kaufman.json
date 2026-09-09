@@ -70,11 +70,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2026-12-15",
+        "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Live-audition status via the application portal in mid-December (FAQ confirms finalists are notified in mid-December after portfolio review); exact day not published, Dec 15 is an estimate.",
+        "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
         "pendingChange": null
       },
       "notes": ""
@@ -130,17 +130,17 @@
         },
         {
           "id": "vs-resume",
-          "text": "Dance resume uploaded to SlideRoom as a PDF (Kaufman sample format)."
+          "text": "One-page dance resume uploaded to SlideRoom, following the provided template and including standardized test information."
         },
         {
           "id": "vs-written",
-          "text": "Written response of 250 words or less on integrating USC's academic/interdisciplinary opportunities."
+          "text": "Written response of 250 words or less on the applicant's role within their training community."
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked Aug 2026 — components unchanged (two 1-min solos, 60-sec intro video, headshot+action photo, resume PDF, 250-word written response).",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens. Page live again with real content as of 2026-09-09 (was a placeholder 2026-08-17): short-answer prompt and resume instructions have changed wording from the prior (Fall 2026) cycle's captured text — updated to match. Page still doesn't explicitly tie content to Fall 2027.",
       "pendingChange": null
     }
   },
@@ -152,11 +152,11 @@
       "city": "Los Angeles, CA",
       "venue": "",
       "date": {
-        "value": null,
-        "sourceUrl": "https://kaufman.usc.edu/auditions/",
-        "lastVerified": "2026-08-11",
-        "cycleStatus": "tbd",
-        "note": "Finalists invited to an on-campus live audition over one weekend in mid-January. The prior (Fall 2026) cycle's live audition was Sat Jan 17 – Sun Jan 18, 2026, and the Kaufman FAQ explicitly ties that schedule to the \"2025-2026 admission cycle\"; ~25 finalists invited per day. Fall 2027 dates not yet published as of Aug 2026 — verify closer to Dec 2026.",
+        "value": "2027-01-16",
+        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
+        "lastVerified": "2026-09-09",
+        "cycleStatus": "carried_from_2026",
+        "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
         "pendingChange": null
       },
       "time": "",
@@ -165,21 +165,21 @@
       "registrationOpens": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-09",
         "cycleStatus": "tbd",
-        "note": "Registration process/opening not published on kaufman.usc.edu/auditions/ or the FAQ — verify.",
+        "note": "Registration process/opening still not published on the portfolio page as of 2026-09-09 — verify.",
         "pendingChange": null
       },
       "registrationDeadline": {
         "value": null,
         "sourceUrl": "",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-09",
         "cycleStatus": "tbd",
-        "note": "Registration deadline not published — verify.",
+        "note": "Registration deadline still not published as of 2026-09-09 — verify.",
         "pendingChange": null
       },
-      "status": "tbd",
-      "notes": "Prescreen-gated. Ballet, contemporary, improvisation/freestyle and hip-hop classes + interview + ~2-min solo. Pairs with a Chapman trip. ~25 finalists/day invited (per prior-cycle FAQ)."
+      "status": "announced",
+      "notes": "Prescreen-gated. Ballet, contemporary, improvisation/freestyle and hip-hop classes + interview + ~2-min solo. Pairs with a Chapman trip. Dates now published: Jan 16-17, 2027 (applicant attends one day); selection notifications by Dec 18, 2026."
     }
   ],
   "academics": {
@@ -203,13 +203,13 @@
       "value": [
         {
           "id": "essay-kauf",
-          "prompt": "USC Kaufman written response — 250 words on USC's academic/interdisciplinary opportunities.",
+          "prompt": "USC Kaufman written response — 250 words on the applicant's role within their training community.",
           "wordLimit": 250,
           "required": true
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null

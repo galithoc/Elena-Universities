@@ -81,7 +81,7 @@
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "LMU's published Early Decision I deadline (binding). Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched on 2026-09-09 (this runner CAN reach lmu.edu, unlike the prior session): page lists \"November 1: Early Decision and Early Action.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -93,11 +93,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": null,
+        "value": "2026-12-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
-        "cycleStatus": "tbd",
-        "note": "Decision release date not published in the search result. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "cycleStatus": "carried_from_2026",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page states Early Decision I releases \"Mid-December\" — Dec 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
         "pendingChange": null
       },
       "notes": ""
@@ -112,7 +112,7 @@
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "LMU's published Early Action deadline (non-binding). Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched on 2026-09-09 (this runner CAN reach lmu.edu, unlike the prior session): page lists \"November 1: Early Decision and Early Action.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -124,11 +124,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": null,
+        "value": "2026-12-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
-        "cycleStatus": "tbd",
-        "note": "Page states EA decisions are released by late December; no exact date given. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "cycleStatus": "carried_from_2026",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page states Early Action releases \"Mid-December\" — Dec 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
         "pendingChange": null
       },
       "notes": ""
@@ -143,7 +143,7 @@
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "LMU's published Early Decision II deadline (binding). Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched on 2026-09-09 (this runner CAN reach lmu.edu, unlike the prior session): page lists \"January 8: Early Decision II.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -155,11 +155,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": null,
+        "value": "2027-02-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
-        "cycleStatus": "tbd",
-        "note": "Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "cycleStatus": "carried_from_2026",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page states Early Decision II releases \"Mid-February\" — Feb 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
         "pendingChange": null
       },
       "notes": ""
@@ -174,7 +174,7 @@
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "LMU's published Regular Decision deadline. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched on 2026-09-09 (this runner CAN reach lmu.edu, unlike the prior session): page lists \"January 15: Regular Decision.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -186,11 +186,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2027-04-01",
+        "value": "2027-03-01",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Decisions released on a rolling basis by April 1. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "CORRECTED (directly fetched 2026-09-09, this runner CAN reach lmu.edu unlike the prior session): page states Regular Decision releases \"Early March,\" not April 1 as previously recorded from a web-search summary — Mar 1 used as the early-month estimate.",
         "pendingChange": null
       },
       "notes": ""
@@ -198,11 +198,11 @@
   ],
   "artisticSupplement": {
     "portal": {
-      "value": "Slate (LMU application platform)",
+      "value": "LMU Application Status Portal",
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "After applying to LMU, dance applicants are invited to submit the audition through Slate. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "CORRECTED (directly fetched 2026-09-09, this runner CAN reach lmu.edu unlike the prior session): the audition-for-the-major page states both videos are submitted \"via the LMU Application Status Portal,\" not Slate as previously recorded from a web-search summary.",
       "pendingChange": null
     },
     "portalUrl": "",
@@ -211,7 +211,7 @@
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "tbd",
-      "note": "No audition fee mentioned in the material reviewed. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): still no audition fee mentioned on the page.",
       "pendingChange": null
     },
     "deadline": {
@@ -219,7 +219,7 @@
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "tbd",
-      "note": "No standalone audition deadline published; the invitation follows the application. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): no standalone audition/video deadline distinct from the application deadlines (Nov 1 EA/ED, Jan 8 ED2, Jan 15 RD) — videos submitted after applying, via the Application Status Portal.",
       "pendingChange": null
     },
     "prescreenRequired": {
@@ -227,24 +227,24 @@
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "There is no separate prescreen: the virtual video submission IS the audition for the major. No in-person audition option was found. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): confirmed — \"Your entire audition for LMU Dance is submitted online. You do not need to come on campus or schedule an interview.\" No separate prescreen or live audition round.",
       "pendingChange": null
     },
     "videoSpec": {
       "value": [
         {
           "id": "vs-intro",
-          "text": "Video Introduction (max 3 minutes): introduce yourself, share your dance goals and aspirations, and explain why LMU Dance is the right fit for your artistic and professional development."
+          "text": "Personal Statement Video (max 3 minutes): introduce yourself, share your dance goals and aspirations, and why LMU Dance is the right program."
         },
         {
           "id": "vs-solo",
-          "text": "Dance Proficiency Video (max 2 minutes): a solo in any style that best highlights your talents. Compilation videos are NOT accepted. A pre-approval from an LMU dance representative may be uploaded in place of the solo."
+          "text": "Dance Proficiency Video (max 2 minutes): a solo in any style that best showcases your unique talents and skills. Compilation videos are NOT accepted."
         }
       ],
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Two required videos, submitted virtually via Slate. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Two required videos, submitted via the LMU Application Status Portal (directly fetched 2026-09-09 — this runner CAN reach lmu.edu unlike the prior session). Page also states applicants are evaluated on \"coordination, strength, musicality and/or phrasing, and performance quality\"; no mention this pass of a pre-approval-in-place-of-solo option previously recorded.",
       "pendingChange": null
     }
   },
@@ -260,7 +260,7 @@
         "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "tbd",
-        "note": "Submitted after the application; no fixed audition date published. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): still no fixed audition date — videos submitted after the application, via the Application Status Portal.",
         "pendingChange": null
       },
       "time": "",
@@ -271,7 +271,7 @@
         "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "tbd",
-        "note": "Invitation follows application submission. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): invitation to submit still just follows application submission, no fixed opening date.",
         "pendingChange": null
       },
       "registrationDeadline": {
@@ -279,28 +279,28 @@
         "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
         "lastVerified": "2026-09-09",
         "cycleStatus": "tbd",
-        "note": "Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+        "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): no separate registration deadline found.",
         "pendingChange": null
       },
-      "status": "tbd",
-      "notes": "Video-only — no travel required, unlike the NYC and Boston auditions."
+      "status": "announced",
+      "notes": "Video-only — no travel required, unlike the NYC and Boston auditions. Confirmed 2026-09-09: \"Your entire audition for LMU Dance is submitted online. You do not need to come on campus or schedule an interview.\""
     }
   ],
   "academics": {
     "testPolicy": {
-      "value": null,
+      "value": "test-optional",
       "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
       "lastVerified": "2026-09-09",
-      "cycleStatus": "tbd",
-      "note": "Not captured in the material reviewed. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "cycleStatus": "carried_from_2026",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): \"National SAT/ACT test scores (test optional)\"; \"The ACT or SAT is optional for students.\" No explicit Fall 2027 tie.",
       "pendingChange": null
     },
     "recommendations": {
-      "value": null,
+      "value": "One letter of recommendation required, from a school official (teacher or counselor/principal recommended).",
       "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
       "lastVerified": "2026-09-09",
-      "cycleStatus": "tbd",
-      "note": "Not captured in the material reviewed. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "cycleStatus": "carried_from_2026",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): \"Submit a letter of recommendation with your application... A letter from a teacher and a letter from your counselor or principal are recommended. One letter of recommendation is required.\"",
       "pendingChange": null
     },
     "essays": {
@@ -308,15 +308,15 @@
       "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "tbd",
-      "note": "Not captured in the material reviewed. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): no essay/personal-statement requirement stated on this page (Common App main essay likely still applies as the base application — not LMU-specific). Left tbd since absence isn't a confirmed \"no essay\" statement.",
       "pendingChange": null
     },
     "interview": {
-      "value": null,
-      "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
+      "value": "No interview required for the dance major — the LMU Dance audition page states: \"Your entire audition for LMU Dance is submitted online. You do not need to come on campus or schedule an interview.\"",
+      "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
       "lastVerified": "2026-09-09",
-      "cycleStatus": "tbd",
-      "note": "Not captured in the material reviewed. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "cycleStatus": "carried_from_2026",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session).",
       "pendingChange": null
     }
   },
@@ -359,7 +359,7 @@
       "sourceUrl": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "FAFSA deadlines by round: Early Decision I applicants seeking aid file by Nov 1; Early Action and Early Decision II by Jan 10; first-year applicants generally by Feb 1. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page's FAFSA-deadline table is still captioned for the \"2026-2027 FAFSA\" / Fall 2026 admission plans (ED/Verto Nov 1 2025, EA/ED2 Jan 10 2026, RD Feb 1 2026) — one cycle behind Elena's Fall 2027 entry. Page not yet refreshed for the 2027-28 aid year; round-relative deadlines (same day-of-month per round) carried forward as the best estimate.",
       "pendingChange": null
     },
     "cssProfileRequired": {
@@ -367,7 +367,7 @@
       "sourceUrl": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "tbd",
-      "note": "No CSS Profile requirement was found in the material reviewed — needs confirming. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page still makes no mention of a CSS Profile requirement for prospective undergrads.",
       "pendingChange": null
     },
     "cssCode": "",
@@ -376,7 +376,7 @@
       "sourceUrl": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Feb 1 is the stated FAFSA deadline for first-year applicants. Note the California Cal Grant / CADAA March 2 date applies to California residents and is not expected to apply to a Puerto Rico applicant. Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page's own table currently shows Feb 1, 2026 (Regular Decision, Fall 2026/aid-year 2026-27) — one cycle behind. Value here projects the same Feb 1 day-of-month forward to Elena's Fall 2027 cycle; re-verify once LMU posts 2027-28 dates. California Cal Grant/CADAA March 2 date applies to CA residents only, not a Puerto Rico applicant.",
       "pendingChange": null
     },
     "url": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/"
@@ -418,27 +418,32 @@
       "pendingChange": null
     },
     "genreEmphasis": {
-      "value": null,
-      "sourceUrl": "https://cfa.lmu.edu/programs/dance/academics/majorindance/",
-      "lastVerified": "2026-09-09",
-      "cycleStatus": "tbd",
-      "note": "Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
-      "pendingChange": null
-    },
-    "companyAffiliation": {
-      "value": null,
-      "sourceUrl": "https://cfa.lmu.edu/programs/dance/academics/majorindance/",
-      "lastVerified": "2026-09-09",
-      "cycleStatus": "tbd",
-      "note": "Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
-      "pendingChange": null
-    },
-    "notable": {
-      "value": "Three BA tracks: Dance; Dance Pedagogy & Social Action; Dance Choreography & Performance.",
+      "value": [
+        "ballet",
+        "contemporary",
+        "hip-hop",
+        "jazz"
+      ],
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/academics/majorindance/",
       "lastVerified": "2026-09-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Surfaced via web search on 2026-09-09; this session could not fetch lmu.edu directly (network egress block), so it has not been read off the live page. The weekly refresh runs on GitHub's runners, which can reach lmu.edu, and will verify and upgrade this.",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page states the program's foundation is \"ballet, contemporary, hip-hop, and jazz, which are pedagogically sequenced to align with the University's distinguished core curriculum.\"",
+      "pendingChange": null
+    },
+    "companyAffiliation": {
+      "value": "Bill T. Jones / Arnie Zane Company Educational Partnership",
+      "sourceUrl": "https://cfa.lmu.edu/programs/dance/academics/majorindance/",
+      "lastVerified": "2026-09-09",
+      "cycleStatus": "carried_from_2026",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page names this partnership as a co-curricular opportunity.",
+      "pendingChange": null
+    },
+    "notable": {
+      "value": "Three BA tracks: Dance; Dance Pedagogy and Social Action; Choreography and Performance. Students move through the program as a cohort; ~54% of coursework is shared across all three tracks.",
+      "sourceUrl": "https://cfa.lmu.edu/programs/dance/academics/majorindance/",
+      "lastVerified": "2026-09-09",
+      "cycleStatus": "carried_from_2026",
+      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session) — corrected exact track names from the page (\"BA in Dance,\" \"BA in Dance Pedagogy and Social Action,\" \"BA in Choreography and Performance\").",
       "pendingChange": null
     }
   }

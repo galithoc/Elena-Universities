@@ -673,6 +673,29 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:usc-kaufman-aud-live@elena-universities
+DTSTAMP:20260909T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:✈️ USC Kaufman: On-campus live audition — Los Angeles (invite
+ d) [unconfirmed — last year's date]
+DESCRIPTION:Los Angeles\, CA
+CATEGORIES:audition
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✈️ USC Kaufman: On-campus live audition — Los Angeles (in
+ vited) [unconfirmed — last year's date]
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✈️ USC Kaufman: On-campus live audition — Los Angeles (in
+ vited) [unconfirmed — last year's date]
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:nyu-tisch-supplement@elena-universities
 DTSTAMP:20260817T000000Z
 DTSTART;VALUE=DATE:20270118

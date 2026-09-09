@@ -36,6 +36,14 @@ jobs:
           # scheduled runs finish in 2-3 min instead of ~13. Remove after diagnosing.
           show_full_output: true
           prompt: |
+            CRITICAL EXECUTION RULE: you are running headless inside a GitHub
+            Action. When your turn ends the runner is destroyed immediately.
+            Therefore: do NOT spawn subagents or background tasks, and do NOT
+            end your turn to "wait" for anything. Any work not finished inside
+            this single turn is lost. Do all nine schools yourself, inline and
+            sequentially, and only finish once the files are written, the
+            validator passes and the ICS is rebuilt.
+
             Run the refresh-admissions skill, steps 1-7 ONLY. Do NOT run git and
             do NOT open a pull request (the "Ship" step is handled by a later
             workflow step). Specifically:
@@ -50,7 +58,7 @@ jobs:
             - Regenerate the feed with `python3 scripts/build_ics.py`.
             Leave ALL changes uncommitted in the working tree. If nothing material
             changed, make no file edits at all. Never touch data/progress.json.
-          claude_args: '--allowedTools "WebFetch,WebSearch,Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*)" --max-turns 150 --model claude-sonnet-5'
+          claude_args: '--allowedTools "WebFetch,WebSearch,Read,Edit,Write,Glob,Grep,Bash(python3:*),Bash(python:*)" --disallowedTools "Task" --max-turns 150 --model claude-sonnet-5'
 
       - name: Commit changes and open PR
         env:

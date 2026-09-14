@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-09",
+    "date": "2026-09-14",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. LMU: this runner reached lmu.edu directly, confirming/correcting most of its search-sourced facts (portal name, RD decision date, test policy, recommendations, interview, genre emphasis, company affiliation, track names). USC Kaufman: portfolio page is live again with new audition dates (Jan 16-17, 2027) and updated essay/resume wording. All other schools re-checked with no material changes since the Aug 17 refresh."
+    "summary": "Re-verified all 9 schools against live sources. Chapman: decision-release estimates shifted (ED I now mid-December, ED II now early-to-mid February) and a previously-uncaptured Creative Supplement Goal Statement (500 words) was found. Fordham.edu remains bot-blocked (CAS login loop); all other facts across all schools re-confirmed unchanged."
   }
 }

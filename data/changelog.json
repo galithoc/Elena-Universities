@@ -261,6 +261,19 @@
         "programFacts.notable"
       ],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260914-1",
+      "date": "2026-09-14",
+      "school": "chapman",
+      "type": "changed",
+      "text": "Chapman: decision-release estimates shifted on the current early-options page — ED I now reads \"mid-December\" (was Dec 5) and ED II now reads \"early to mid-February\" (was Jan 31). Also found a Creative Supplement checklist item not previously captured: a 500-word-max Goal Statement, alongside the resume, photo, and prescreen videos. All other Fall 2027 facts across the nine tracked schools were re-verified against live sources with no other material changes.",
+      "refs": [
+        "rounds.ed1.decisionRelease",
+        "rounds.ed2.decisionRelease",
+        "artisticSupplement.videoSpec"
+      ],
+      "by": "weekly-refresh"
     }
   ]
 }

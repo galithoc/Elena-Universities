@@ -56,7 +56,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page (no longer bot-blocked) confirms: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
         "pendingChange": null
@@ -64,7 +64,7 @@
       "artsSupplementDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Pre-screen (if required) due with the application, Nov 1.",
         "pendingChange": null
@@ -72,7 +72,7 @@
       "decisionRelease": {
         "value": "2027-01-31",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page: \"Notification of Early Action admissions and scholarship decisions are issued\" Jan 31.",
         "pendingChange": null
@@ -87,7 +87,7 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Confirmed via deadlines page: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
         "pendingChange": null
@@ -95,7 +95,7 @@
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "",
         "pendingChange": null
@@ -103,7 +103,7 @@
       "decisionRelease": {
         "value": "2027-04-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page: undergraduate admission/financial-aid notification issued Apr 1; tuition deposit due May 1.",
         "pendingChange": null
@@ -140,7 +140,7 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "Re-confirmed: pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition. Page still does not tie any of this explicitly to \"Fall 2027\" or the \"2026-27\" cycle.",
       "pendingChange": null
@@ -157,7 +157,7 @@
         }
       ],
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "Re-confirmed unchanged.",
       "pendingChange": null
@@ -338,7 +338,7 @@
       "requiresSeparateApp": {
         "value": false,
         "sourceUrl": "https://bostonconservatory.berklee.edu/financial-aid",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Re-confirmed: \"All entering students are automatically considered for institutional scholarships as part of the admissions process\"; \"There is no separate application for institutional scholarship consideration.\"",
         "pendingChange": null

@@ -56,7 +56,7 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students. Page still reads \"The USC Kaufman Portfolio for admission to Fall 2026 includes the below components\" as of Aug 2026 — not yet refreshed for the 2026-27/Fall 2027 cycle. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
         "pendingChange": null
@@ -64,7 +64,7 @@
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "USC Kaufman Portfolio via SlideRoom due Dec 1. Page still explicitly labeled \"Fall 2026\" as of Aug 2026.",
         "pendingChange": null
@@ -72,7 +72,7 @@
       "decisionRelease": {
         "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
         "pendingChange": null
@@ -84,7 +84,7 @@
     "portal": {
       "value": "SlideRoom (uscdance.slideroom.com)",
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
       "pendingChange": null
@@ -101,7 +101,7 @@
     "deadline": {
       "value": "2026-12-01",
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "Page still explicitly labeled \"Fall 2026\" as of Aug 2026. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
       "pendingChange": null
@@ -109,7 +109,7 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "Portfolio is prescreen-gated; no open live audition.",
       "pendingChange": null
@@ -138,7 +138,7 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-09",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "No ballet-barre segment specified, unlike many peer prescreens. Page live again with real content as of 2026-09-09 (was a placeholder 2026-08-17): short-answer prompt and resume instructions have changed wording from the prior (Fall 2026) cycle's captured text — updated to match. Page still doesn't explicitly tie content to Fall 2027.",
       "pendingChange": null
@@ -154,7 +154,7 @@
       "date": {
         "value": "2027-01-16",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-14",
         "cycleStatus": "carried_from_2026",
         "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
         "pendingChange": null
@@ -209,7 +209,7 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-09",
+      "lastVerified": "2026-09-14",
       "cycleStatus": "carried_from_2026",
       "note": "",
       "pendingChange": null

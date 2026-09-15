@@ -1,36 +1,90 @@
 # Handoff — Elena, Road to the BFA
 
-A self-updating tracker for nine dance programs (Fall 2027 entry) — eight BFA plus LMU's BA.
-Prepared 2026-08-11 after the first verified end-to-end run; revised 2026-09-11 after a
-full audit of the refresh automation.
+Two pages and a self-updating data pipeline for nine dance programs (Fall 2027 entry) —
+eight BFA plus LMU's BA.
+Prepared 2026-08-11; revised 2026-09-15 after the first unattended refresh proved the fix holds.
 
-- **Site:** https://galithoc.github.io/Elena-Universities/
+- **The tracker:** https://galithoc.github.io/Elena-Universities/ — schools, deadlines, progress
+- **The calendar:** https://galithoc.github.io/Elena-Universities/senior-year.html — her whole year
 - **Calendar feed:** https://galithoc.github.io/Elena-Universities/elena-deadlines.ics
 - **Repo:** https://github.com/galithoc/Elena-Universities (default branch `main`)
 
-Read `CLAUDE.md` first — it is the binding data contract. This file explains how
-the system runs and what needs a person.
+Read `CLAUDE.md` first — it is the binding data contract. This file explains how the system
+runs and what needs a person.
+
+---
+
+## Two things need a person right now
+
+**1. PR #7 is open and unmerged.** Monday's refresh did real work and opened it; until it is
+merged the live site is one refresh out of date. This is the exact failure that left PR #3
+sitting for three weeks in August. Merge it.
+
+It carries a genuine find: **Chapman's Creative Supplement includes a 500-word Goal Statement**
+that was not previously captured — a writing task nobody knew about, due 6 November. It also
+shifted Chapman's decision estimates (ED I now "mid-December", ED II now "early to mid-February").
+
+**2. Arizona: the 1 November application is now the deadline that matters.**
+Elena has chosen the **23 January on-campus audition** in Tucson over the September and October
+dates. That is safe on aid: Arizona's Fall 2027 page states applicants *"need to complete their
+application by November 1, regardless of their audition date"*, and January is still an
+in-person audition, so she keeps first-year Dance Merit eligibility — only video-only auditioners
+are excluded until year 2. **The risk moved rather than disappeared:** if the 1 November
+application slips, the talent aid goes with it.
+
+Two follow-ups: no registration deadline is published for the January date, unlike the October
+showcase which had a hard cutoff and a cap of 100 — confirm with the department. And 23 Jan in
+Tucson pairs with Boston Conservatory's Los Angeles audition on 24 Jan: one trip, two schools.
+
+**3. Elena's calendar entries need importing once.** Her hours were first entered in a
+throwaway copy of the calendar that has since been retired. Open the calendar →
+**Print → Import** → load `elena-calendar-migrate.json`. Until that is done the calendar on the
+site is empty of her own data. If the file is lost, the retired page keeps a backup copy.
 
 ---
 
 ## What's imminent
 
-The automation is healthy again, so the bottleneck is now decisions, not data.
-As of 2026-09-11:
+As of 2026-09-15. The automation is healthy, so the bottleneck is decisions.
 
 | When | What | Why it matters |
 |---|---|---|
-| **15 days** — 2026-09-26 | Arizona, fall on-campus audition (Tucson) | Earliest in-person option this cycle. **Video-only forfeits first-year Dance Merit talent aid** until year 2 — in-person does not. |
-| **28 days** — 2026-10-09 | Arizona Jazz Dance Showcase (Tucson) | Same aid logic; capacity 100, so it can fill. |
-| **51 days** — 2026-11-01 | Application deadline for **seven of the nine** | Fordham/Ailey (EA), NYU Tisch (ED), Pace (ED), LMU (ED + EA), Chapman (EA + ED), Arizona (EA). |
-| **64 days** — 2026-11-14 | Boston Conservatory on-campus auditions | Live-online alternative on 2026-12-05 may avoid the flight. |
-| **81 days** — 2026-12-01 | Pace RD; USC Kaufman priority | |
+| **47 days** — Sun 1 Nov | **Seven applications** — including Arizona, which now protects her talent aid | Arizona EA · Boston EA + prescreen · Chapman EA + ED · Fordham/Ailey · LMU EA + ED · NYU ED · Pace ED. Falls on a Sunday. |
+| **48 days** — Mon 2 Nov | NYU prescreen, 9:00 ET = **10:00 in San Juan** | US daylight saving ends 1 Nov, so Puerto Rico is an hour ahead. |
+| **52 days** — Fri 6 Nov | Chapman Creative Supplement **+ 500-word Goal Statement** | The new find from PR #7. |
+| **60 days** — Sat 14 Nov | Boston Conservatory auditions | Fee doubles to $150 after 1 Nov. |
+| **77 days** — Tue 1 Dec | Pace RD · USC app + SlideRoom · Boston RD | |
 
-**No round has been chosen for any of the nine schools** — `roundChoice` is still
-`null` everywhere, which the validator reports as nine warnings on every run. That is
-the decision gating everything else: ED is binding and can only be used once, EA and
-RD are not. Seven of the nine share the same 2026-11-01 date, so the choice cannot be
-staggered. Set it on the site's Progress view.
+**Six fully free weekends remain before 1 November**: 19–20 and 26–27 Sep, 3–4, 10–11, 17–18
+and 24–25 Oct. Against them sits the video work for seven schools. That is the real constraint,
+and it is why the calendar counts weekends rather than hours.
+
+Choosing the January audition bought two of those weekends back — the Tucson trip and the day
+after the showcase were going to eat 26–27 Sep and 10–11 Oct.
+
+**No application round has been chosen for any of the nine schools.** `roundChoice` is null
+everywhere, which the validator reports as nine warnings on every run. ED is binding and can
+only be used once; seven of the nine share the same 1 November date, so the choice cannot be
+staggered.
+
+---
+
+## The two pages
+
+Both are served from this repo, and they are deliberately separate things.
+
+| | Tracker (`index.html`) | Calendar (`senior-year.html`) |
+|---|---|---|
+| Answers | What does each school want, and when? | Where does her time actually go? |
+| Data | `data/*.json`, refreshed weekly by the Action | Her own entries, in browser storage |
+| Edited by | The refresh + the family via Claude | Elena, directly |
+
+The calendar is **not** linked from the tracker's nav, on purpose: the nav's "Calendar" tab is
+the deadline agenda, and two things called calendar would be confusing. Reach it by bookmark.
+
+Her calendar entries live in `localStorage` and are **never written to this repo** — it is
+public and her daily schedule is not something to publish. Export/Import in the Print panel
+moves a calendar between her phone and her laptop as a file.
 
 ---
 
@@ -38,135 +92,94 @@ staggered. Set it on the site's Progress view.
 
 Only step 4 involves a human.
 
-1. **Monday 10:00 UTC** (6:00 AM Puerto Rico) — the `weekly-refresh` workflow fires.
-2. **Claude re-checks all nine schools** — reads each school's stored source URLs,
-   updates the data, appends a plain-English changelog, runs the validator until it
-   passes, regenerates the ICS. Takes 6–15 minutes.
-3. **A pull request appears — only if something changed.** Branch
-   `refresh/YYYY-MM-DD`. If nothing material moved, no PR and no noise.
-4. **You review and merge.** `data/changelog.json` carries the human summary.
-5. **Site + calendars update themselves** via the Pages deploy on merge to `main`.
+1. **Monday, 10:00 UTC** — the `weekly-refresh` workflow fires.
+2. **All nine schools get re-checked** against their stored source URLs; data updated, changelog
+   appended, validator run until green, ICS regenerated. Takes 6–15 minutes.
+3. **A pull request appears — only if something changed.** Branch `refresh/YYYY-MM-DD`.
+4. **You review and merge.** `data/changelog.json` carries the plain-English summary.
+5. **Site and calendars update themselves** via the Pages deploy on merge to `main`.
 
-> **Step 4 is a real dependency, not a formality.** The 2026-08-17 refresh did genuine
-> work and opened PR #3 — which then sat unmerged for three weeks. The automation was
-> fine; the site was stale the whole time because nobody clicked merge. **An open
-> refresh PR means the live site and the family calendar are out of date.** If a PR is
-> open on a Monday, merge it that week.
-
-Run it on demand: **Actions → weekly-refresh → Run workflow**, or `/refresh-admissions`
-in a Claude session opened on the repo.
+> **Step 4 is a real dependency.** An open refresh PR means the live site and the family
+> calendar are out of date. If one is open on a Monday, merge it that week.
 
 ---
 
-## Is it actually self-updating? — audited 2026-09-11
+## Is it self-updating? Yes — proved 14 September
 
-Yes, now. It was not between roughly 2026-08-24 and 2026-09-09, and the failure was
-invisible: the job finished **green** every Monday while doing nothing at all.
+It was not, between roughly 24 August and 9 September: the job finished **green every Monday
+while doing nothing at all**.
 
-| Run | Date | Duration | What really happened |
-|---|---|---|---|
-| 8 | 2026-08-11 | 13.6 min | Real pass → PR #2 |
-| 9 | 2026-08-17 | 7.8 min | Real pass → PR #3 — *then left unmerged for 3 weeks* |
-| 10 | 2026-08-24 | 2.7 min | **Silent no-op** |
-| 11 | 2026-08-31 | 3.2 min | **Silent no-op** |
-| 12 | 2026-09-07 | 1.8 min | **Silent no-op** |
-| 13 | 2026-09-09 | 2.9 min | Silent no-op, but with full logging on — root cause found |
-| 14 | 2026-09-09 | 6.0 min | Real pass → PR #4 (USC dates, LMU corrections) |
+| Run | Date | Trigger | Duration | What happened |
+|---|---|---|---|---|
+| 9 | 17 Aug | schedule | 7.8 min | Real pass → PR #3, then left unmerged three weeks |
+| 10–12 | 24 Aug – 7 Sep | schedule | 1.8–3.2 min | **Silent no-ops** |
+| 13 | 9 Sep | manual | 2.9 min | No-op, but with full logging — cause found |
+| 14 | 9 Sep | manual | 6.0 min | Real pass → PR #4 |
+| **15** | **14 Sep** | **schedule** | **6.2 min** | **Real pass → PR #7 — first unattended proof** |
 
-**Root cause.** The drill was fanning out to nine background subagents — one per school —
-and then ending its turn to wait for their completion notifications. Headless inside a
-GitHub Action there is no next turn: the runner is torn down the instant the turn ends,
-killing all nine before any of them wrote a file. The run's own result line said it
-outright: `started_in_background: 9, completed: 0, failed: 0`. The workflow then saw a
-clean working tree, correctly reported *"No material changes — no PR opened"*, and
-exited green.
+**What went wrong.** The refresh was fanning out to nine background helpers, one per school, then
+ending its turn to wait for them. Running unattended inside a GitHub Action there is no next
+turn: the machine is destroyed the instant the turn ends, killing all nine before any wrote a
+file. The workflow then correctly saw an unchanged repo, reported *"No material changes — no PR
+opened"*, and exited green.
 
-**Fix** (commit `86d5179`), in two layers so neither alone has to hold:
+**The fix** (commit `86d5179`), in two layers:
+- The prompt opens with a rule that it is running unattended, must not delegate to background
+  helpers, and must not end its turn to wait.
+- `--disallowedTools "Task"` makes delegation impossible even if it tries.
 
-1. The prompt opens with a `CRITICAL EXECUTION RULE` — headless, no subagents, no
-   ending the turn to wait, do all nine schools inline and sequentially.
-2. `claude_args` carries `--disallowedTools "Task"`, so delegation is impossible even
-   if the model is inclined to try.
-
-**Verified** by run 14: 6.0 minutes instead of 2.9, and a real PR with real findings —
-USC Kaufman's portfolio page back up with new audition dates (2027-01-16/17), and seven
-LMU facts corrected against the live page.
-
-**Duration is the tell.** A genuine nine-school pass takes 6–15 minutes. Anything under
-about 4 minutes did no work, whatever the checkmark says.
-
-**Still to confirm:** every run since the fix was triggered by hand. The first fully
-unattended proof is the scheduled Monday run. Check its duration.
-
-**Note on the PR history:** PRs #1–#4 all show *closed*, not *merged*, on GitHub. Their
-content is in `main` — they were squash-merged locally and the PRs closed afterwards,
-because the API token available in that session could not merge. Nothing was lost.
+**How to spot a regression: duration.** A genuine nine-school pass takes 6–15 minutes. Anything
+under about four minutes did no work, whatever the green checkmark says.
 
 ---
 
 ## Settings that must stay as they are
 
-Each of these, alone, silently breaks the weekly PR — the job reports success while
-doing nothing. Every one of them has actually happened at least once. If refreshes stop
-appearing, check in this order.
+Each of these alone silently breaks the weekly PR — the job reports success while doing nothing.
+Every one has actually happened at least once.
 
 | Setting | Where | Symptom if wrong |
 |---|---|---|
 | Funded `ANTHROPIC_API_KEY` | Settings → Secrets and variables → Actions | Job fails in ~10s (balance ran out) |
-| Actions may create pull requests | Settings → Actions → General → Workflow permissions | Branch pushes, but no PR: *"GitHub Actions is not permitted to create or approve pull requests"* |
+| Actions may create pull requests | Settings → Actions → General → Workflow permissions | Branch pushes, but no PR appears |
 | Default branch is `main` | Settings → Branches | Scheduled runs target the wrong branch |
-| Tool allowlist in `weekly-refresh.yml` | `claude_args: --allowedTools …` | Run "succeeds" having done nothing — the action denies web access and shell commands by default |
-| `--disallowedTools "Task"` **and** the `CRITICAL EXECUTION RULE` prompt preamble | `weekly-refresh.yml` | Run "succeeds" in 2–3 minutes having done nothing — work is delegated to subagents the runner kills on teardown. Do not remove either half. |
+| Tool allowlist in `weekly-refresh.yml` | `claude_args: --allowedTools …` | Run "succeeds" having done nothing |
+| `--disallowedTools "Task"` **and** the execution-rule preamble | `weekly-refresh.yml` | Run "succeeds" in 2–3 minutes having done nothing. **Do not remove either half.** |
 
-**Architectural rule — do not undo:** Claude in the workflow **only edits files**.
-All git and PR work happens in a separate, ordinary workflow step. Claude's sandbox is
-walled off from credentials, so having it run `git push` or `gh pr create` fails,
-usually silently.
+**Architectural rule — do not undo:** in the workflow, Claude **only edits files**. All git and
+PR work happens in a separate, ordinary workflow step, because its sandbox is walled off from
+credentials — having it run `git push` itself fails, usually silently.
 
 ---
 
 ## Data invariants
 
 - **Never edit `data/progress.json` by automation** — it is the family's checklist.
-- **Never silently overwrite a `confirmed_2027` value** — record a `pendingChange`
-  with source and date instead.
-- **Never reuse, renumber, or delete an id** — a cancelled audition gets
-  `status: "cancelled"`, it is not removed.
+- **Never silently overwrite a `confirmed_2027` value** — record a `pendingChange` instead.
+- **Never reuse, renumber, or delete an id** — a cancelled audition gets `status: "cancelled"`.
 - **Only mark `confirmed_2027` with explicit page evidence**, else `carried_from_2026`.
 - **The validator is the gate** — fix the data, never loosen `scripts/validate.py`.
+- **Removing a school does not delete its changelog history** — set those entries' `school` to
+  `null` rather than stripping them, or the validator fails on the orphaned reference.
 - Serialization: 2-space indent, UTF-8, `ensure_ascii=False`, trailing newline.
 
 ---
 
 ## Open items needing a person
 
-1. **Choose a round for each school** — see *What's imminent*. Nine `roundChoice`
-   values are null and seven deadlines land on the same day.
-2. **Arizona: book or skip the in-person audition** — 2026-09-26 or 2026-10-09.
-   In-person is the only path to first-year Dance Merit talent aid. This is the only
-   open item with a deadline inside a month.
-3. **Loyola Marymount (LMU)** — added 2026-09-09, replacing Marymount/Northeastern.
-   **LMU awards a BA in Dance, not a BFA** (tracks: Dance; Dance Pedagogy & Social
-   Action; Dance Choreography & Performance) — the only non-BFA program on the list,
-   worth a deliberate keep-or-drop decision rather than drift. Its audition is
-   video-only, requested through the LMU Application Status Portal after applying
-   (3-min intro + 2-min solo, no compilations). The 2026-09-09 refresh reached
-   `lmu.edu` directly and verified most of its facts, but LMU's pages never tie dates
-   to the Fall 2027 cycle, so everything stays `carried_from_2026` by contract.
-4. **SUNY Purchase** — on-campus auditions are published (Feb 6/12/20/26 2027) but the
-   "alternate arrangements" language is scoped to international applicants. Email
-   `dance@purchase.edu` to learn whether a domestic video audition is possible; it
-   decides whether a February trip is required.
-5. **Fordham** — `fordham.edu` traps the fetcher in a CAS login loop; test policy,
-   tuition, and FAFSA/CSS codes need a manual browser check. (The Ailey side verified:
-   both applications share the 2026-11-01 deadline, $45 audition fee.)
-6. **Boston Conservatory** — every date still `carried_from_2026`. Not yet worrying,
-   but its first audition is 2026-11-14, so if the page has not been restated for
-   Fall 2027 by mid-October, confirm by phone.
-
-*Resolved since the last handoff:* USC Kaufman's portfolio page is live again with
-Fall 2027 audition dates (2027-01-16/17); Marymount/Northeastern's unpublished
-post-merger audition mechanics stopped mattering when the school was removed.
+1. **Merge PR #7** and **import the calendar file** — see the top of this document.
+2. **Confirm how to register for Arizona's 23 January audition** — no deadline is published for
+   that date.
+3. **Choose a round for each school** — nine nulls, and seven deadlines on one day.
+4. **SUNY Purchase**: is there a video-audition path for a domestic applicant? Email
+   `dance@purchase.edu`. It decides whether February means a trip to Westchester. Its artistic
+   recommendation must also be emailed by the recommender directly — ask a teacher now.
+5. **Fordham**: `fordham.edu` traps the fetcher in a CAS login loop; test policy, tuition and the
+   FAFSA/CSS codes still need a manual browser check.
+6. **Boston Conservatory**: every date still `carried_from_2026`, and its fee doubles after
+   1 Nov. Confirm by phone if the page has not been restated by mid-October.
+7. **A data conflict worth verifying**: SUNY Purchase's portfolio deadline (8 Feb) falls *after*
+   its earliest audition date (6 Feb), though the portfolio is what unlocks audition signup.
 
 ---
 
@@ -174,11 +187,12 @@ post-merger audition mechanics stopped mattering when the school was removed.
 
 ```
 CLAUDE.md              the data contract — binding
-PLAN.md                original approved build plan
 HANDOFF.md             this file
-index.html             app shell
+PLAN.md                original approved build plan
+index.html             the tracker app shell
+senior-year.html       the calendar — standalone, self-contained
 elena-deadlines.ics    generated feed — never hand-edit
-assets/                app.js, app.css, fonts.css
+assets/                app.js, app.css, fonts.css  (tracker only)
 data/
   meta.json            student, cycle, school list, regions, lastRefresh
   progress.json        family checklist — automation never touches
@@ -186,7 +200,7 @@ data/
   schools/*.json       nine schools
 scripts/
   validate.py          schema + integrity gate; must exit 0
-  build_ics.py         regenerates the calendar
+  build_ics.py         regenerates the calendar feed
 .claude/skills/refresh-admissions/SKILL.md
                        the drill — Action and human sessions run identical steps
 .github/workflows/
@@ -199,30 +213,25 @@ scripts/
 
 ## Common tasks
 
-- **Change cadence** — edit the `cron` in `weekly-refresh.yml`. During Aug–Oct
-  announcement season a second run (`0 10 * * 4`) is reasonable. Times are UTC;
-  Puerto Rico is UTC−4 year-round.
+- **Change cadence** — edit the `cron` in `weekly-refresh.yml`. During Aug–Oct announcement
+  season a second run (`0 10 * * 4`) is reasonable. Times are UTC; Puerto Rico is UTC−4.
 - **Hand-edit a fact** — edit the school file, add a `changelog.json` entry with
-  `by: "manual-refresh"`, then run `python3 scripts/validate.py` and
-  `python3 scripts/build_ics.py` before committing.
-- **Add a school** — add the slug to `meta.json` `schools`, create
-  `data/schools/<slug>.json` modeled on an existing file, assign a region, validate.
-  Candidates discussed but not added: Point Park, UC Irvine, SMU, CalArts.
-- **Remove a school** — delete `data/schools/<slug>.json` and its `meta.json` and
-  `progress.json` entries, but **do not delete its changelog history**: set those
-  entries' `school` to `null` and prefix the text, or the validator fails on the
-  orphaned reference. (This is how Marymount/Northeastern was removed.)
-- **Run locally** — static site, no build step: `python3 -m http.server` and open it.
+  `by: "manual-refresh"`, then run `python3 scripts/validate.py` and `python3 scripts/build_ics.py`.
+- **Add a school** — add the slug to `meta.json` `schools`, create `data/schools/<slug>.json`
+  modeled on an existing file, assign a region, validate. Candidates discussed but not added:
+  Point Park, UC Irvine, SMU, CalArts.
+- **Change the calendar** — `senior-year.html` is one self-contained file with no build step and
+  no dependencies on the tracker. Edit and commit.
+- **Run locally** — static site: `python3 -m http.server` and open it.
 
 ---
 
 ## Cost
 
-The weekly job bills to your own Anthropic API key: roughly **$2–4 per full
-nine-school run**, less on quiet weeks — about **$10–16/month** at one run per week.
-GitHub Pages and Actions are free at this scale. Set a spend limit and low-balance
-alert in the Anthropic console, so a dry balance surfaces as a warning rather than as
-months of quietly missing refreshes.
+The weekly job bills to your own Anthropic API key: roughly **$2–4 per full nine-school run**,
+about **$10–16/month** at one run per week. GitHub Pages and Actions are free at this scale.
+Set a spend limit and low-balance alert in the Anthropic console, so a dry balance surfaces as a
+warning rather than as months of quietly missing refreshes.
 
 ---
 
@@ -230,11 +239,12 @@ months of quietly missing refreshes.
 
 | Symptom | Cause |
 |---|---|
-| No PR on a Monday | Normal if nothing changed — but check the run's **duration**: under ~4 minutes means it did no work |
-| Job green in 2–3 minutes | The subagent failure above. Confirm `--disallowedTools "Task"` and the `CRITICAL EXECUTION RULE` preamble are still in `weekly-refresh.yml` |
+| No PR on a Monday | Normal if nothing changed — but check the run's **duration**: under ~4 min means it did no work |
+| Job green in 2–3 minutes | The delegation failure above. Confirm `--disallowedTools "Task"` and the execution-rule preamble are still in the workflow |
 | Job green, nothing happened | Check `permission_denials_count` in the run result; >0 means the tool allowlist was narrowed |
 | Branch pushed, no PR | "Actions may create pull requests" was turned off |
 | Job fails in seconds | API balance or key |
-| Site shows old dates | Look for an **open** refresh PR first — an unmerged PR is the most likely cause. Then check the `deploy-pages` run |
-| A date looks wrong | `data/changelog.json` records what changed and from which source; every fact on the site carries its source link and verification date |
+| Site shows old dates | Look for an **open** refresh PR first — that is the most likely cause. Then check the `deploy-pages` run |
+| Calendar is empty | Her entries are per-browser. Import her file, or use Export on the device that has them |
+| A date looks wrong | `data/changelog.json` records what changed and from which source; every fact carries its source link and verification date |
 | Validator warns "no round chosen" | Expected until `roundChoice` is set per school — warnings, not errors |

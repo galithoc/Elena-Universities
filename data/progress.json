@@ -824,7 +824,14 @@
           "doneOn": null
         }
       ],
-      "notes": []
+      "notes": [
+        {
+          "id": "n-20260915-arizona-january",
+          "date": "2026-09-15",
+          "by": "family",
+          "text": "Elena has chosen the Jan 23, 2027 on-campus audition in Tucson, passing over the Sep 26 and Oct 9 in-person dates. This does NOT affect first-year Dance Merit talent aid: Arizona's Fall 2027 page states applicants \"need to complete their application by November 1, regardless of their audition date\", and Jan 23 is still an in-person audition, so she stays eligible (only video-only auditioners are excluded until year 2). The Nov 1 application deadline therefore becomes the thing that protects the aid. Registration requirements for the January date are not published — confirm with the department. Jan 23 in Tucson pairs with Boston Conservatory's Los Angeles audition on Jan 24."
+        }
+      ]
     },
     "boston-conservatory": {
       "roundChoice": null,

@@ -24,7 +24,19 @@ It carries a genuine find: **Chapman's Creative Supplement includes a 500-word G
 that was not previously captured — a writing task nobody knew about, due 6 November. It also
 shifted Chapman's decision estimates (ED I now "mid-December", ED II now "early to mid-February").
 
-**2. Elena's calendar entries need importing once.** Her hours were first entered in a
+**2. Arizona: the 1 November application is now the deadline that matters.**
+Elena has chosen the **23 January on-campus audition** in Tucson over the September and October
+dates. That is safe on aid: Arizona's Fall 2027 page states applicants *"need to complete their
+application by November 1, regardless of their audition date"*, and January is still an
+in-person audition, so she keeps first-year Dance Merit eligibility — only video-only auditioners
+are excluded until year 2. **The risk moved rather than disappeared:** if the 1 November
+application slips, the talent aid goes with it.
+
+Two follow-ups: no registration deadline is published for the January date, unlike the October
+showcase which had a hard cutoff and a cap of 100 — confirm with the department. And 23 Jan in
+Tucson pairs with Boston Conservatory's Los Angeles audition on 24 Jan: one trip, two schools.
+
+**3. Elena's calendar entries need importing once.** Her hours were first entered in a
 throwaway copy of the calendar that has since been retired. Open the calendar →
 **Print → Import** → load `elena-calendar-migrate.json`. Until that is done the calendar on the
 site is empty of her own data. If the file is lost, the retired page keeps a backup copy.
@@ -37,18 +49,18 @@ As of 2026-09-15. The automation is healthy, so the bottleneck is decisions.
 
 | When | What | Why it matters |
 |---|---|---|
-| **11 days** — Sat 26 Sep | Arizona on-campus audition, Tucson | **Still not registered.** In-person preserves first-year Dance Merit talent aid; video-only forfeits it until year 2. |
-| **17 days** — Fri 2 Oct | Arizona showcase registration closes | Capacity 100 — it can fill before the date. |
-| **24 days** — Fri 9 Oct | Arizona Jazz Dance Showcase | The alternative in-person date. Same aid logic. |
-| **47 days** — Sun 1 Nov | **Seven applications** | Arizona EA · Boston EA + prescreen · Chapman EA + ED · Fordham/Ailey · LMU EA + ED · NYU ED · Pace ED. Falls on a Sunday. |
+| **47 days** — Sun 1 Nov | **Seven applications** — including Arizona, which now protects her talent aid | Arizona EA · Boston EA + prescreen · Chapman EA + ED · Fordham/Ailey · LMU EA + ED · NYU ED · Pace ED. Falls on a Sunday. |
 | **48 days** — Mon 2 Nov | NYU prescreen, 9:00 ET = **10:00 in San Juan** | US daylight saving ends 1 Nov, so Puerto Rico is an hour ahead. |
 | **52 days** — Fri 6 Nov | Chapman Creative Supplement **+ 500-word Goal Statement** | The new find from PR #7. |
 | **60 days** — Sat 14 Nov | Boston Conservatory auditions | Fee doubles to $150 after 1 Nov. |
 | **77 days** — Tue 1 Dec | Pace RD · USC app + SlideRoom · Boston RD | |
 
-**Four fully free weekends remain before 1 November**: 19–20 Sep, 3–4 Oct, 17–18 Oct, 24–25 Oct.
-Against them sits the video work for seven schools. That is the real constraint, and it is why
-the calendar counts weekends rather than hours.
+**Six fully free weekends remain before 1 November**: 19–20 and 26–27 Sep, 3–4, 10–11, 17–18
+and 24–25 Oct. Against them sits the video work for seven schools. That is the real constraint,
+and it is why the calendar counts weekends rather than hours.
+
+Choosing the January audition bought two of those weekends back — the Tucson trip and the day
+after the showcase were going to eat 26–27 Sep and 10–11 Oct.
 
 **No application round has been chosen for any of the nine schools.** `roundChoice` is null
 everywhere, which the validator reports as nine warnings on every run. ED is binding and can
@@ -156,8 +168,8 @@ credentials — having it run `git push` itself fails, usually silently.
 ## Open items needing a person
 
 1. **Merge PR #7** and **import the calendar file** — see the top of this document.
-2. **Register for Arizona** — 26 Sep or 9 Oct, or accept the video route and lose first-year
-   talent aid. Eleven days.
+2. **Confirm how to register for Arizona's 23 January audition** — no deadline is published for
+   that date.
 3. **Choose a round for each school** — nine nulls, and seven deadlines on one day.
 4. **SUNY Purchase**: is there a video-audition path for a domestic applicant? Email
    `dance@purchase.edu`. It decides whether February means a trip to Westchester. Its artistic

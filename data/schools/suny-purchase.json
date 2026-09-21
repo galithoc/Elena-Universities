@@ -56,17 +56,17 @@
       "academicDeadline": {
         "value": "2027-02-01",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
+        "note": "Reconfirmed 2026-09-21. Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-02-08",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
+        "note": "Reconfirmed 2026-09-21. Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -93,9 +93,9 @@
     "fee": {
       "value": "$65 audition fee (+ $50 application fee)",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed verbatim (\"$65, non-refundable fee\") on the live Fall-2027 audition-info page.",
+      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed 2026-09-21 (\"$65 non-refundable fee\") on the live Fall-2027 audition-info page.",
       "pendingChange": null
     },
     "deadline": {
@@ -138,9 +138,9 @@
         }
       ],
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "Added the College Essay copy requirement, newly surfaced on an Aug 2026 re-check of the audition page.",
+      "note": "Reconfirmed 2026-09-21 (90-second solo, resume, photo, recommendation, essay copy all still stated as before).",
       "pendingChange": null
     }
   },
@@ -154,9 +154,9 @@
       "date": {
         "value": "2027-02-06",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Four Fall 2027 on-campus audition dates now published — applicant registers for ONE: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027 (supersedes prior-cycle Feb 8/14/22/28, 2026 dates). Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
+        "note": "Reconfirmed 2026-09-21 — all four Fall 2027 on-campus audition dates unchanged: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027. Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
         "pendingChange": null
       },
       "time": "",
@@ -190,9 +190,9 @@
       "date": {
         "value": null,
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "tbd",
-        "note": "Aug 2026 re-check: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
+        "note": "Re-checked 2026-09-21: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
         "pendingChange": null
       },
       "time": "",

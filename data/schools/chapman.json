@@ -97,25 +97,25 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed — page states \"Early Decision I ... Deadline: November 1.\"",
+        "note": "Reconfirmed 2026-09-21 — page states \"Early Decision I ... Deadline: November 1.\"",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-11-06",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "carried_from_2026",
-        "note": "Corrected: Creative Supplement due five days after the app deadline (per creative-supplement.aspx), not on the same date. Nov 1, 2026 + 5 days = Nov 6, 2026.",
+        "note": "Corrected: Creative Supplement due five days after the app deadline (per creative-supplement.aspx), not on the same date. Nov 1, 2026 + 5 days = Nov 6, 2026. Reconfirmed 2026-09-21.",
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2026-12-05",
+        "value": "2026-12-15",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "carried_from_2026",
-        "note": "ED I decisions by early December.",
+        "note": "CORRECTED 2026-09-21: page now describes ED I decision as \"mid-December notification,\" not \"early December\" as previously recorded — estimate moved from Dec 5 to Dec 15, 2026.",
         "pendingChange": null
       },
       "notes": ""
@@ -136,17 +136,17 @@
       "artsSupplementDeadline": {
         "value": "2027-01-20",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "carried_from_2026",
-        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027.",
+        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027. Reconfirmed 2026-09-21.",
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2027-01-31",
+        "value": "2027-02-05",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "carried_from_2026",
-        "note": "ED II decisions late January. Could not reconfirm Aug 2026 — admission-decisions page now only states deposit deadlines, not release timing; needs a browser spot-check.",
+        "note": "CORRECTED 2026-09-21: page now describes ED II decision as \"early to mid-February notification,\" not \"late January\" as previously recorded — estimate moved from Jan 31 to Feb 5, 2027.",
         "pendingChange": null
       },
       "notes": ""
@@ -221,29 +221,37 @@
       "value": [
         {
           "id": "vs-intro",
-          "text": "Introduction video, 60 seconds or less: name, where you're from, experience, why Chapman."
+          "text": "Introduction video, 60 seconds or less: name, hometown, performing experience, why Chapman; filmed as a medium shot from the chest up."
         },
         {
           "id": "vs-solo",
-          "text": "Dance solo, 2 minutes: wide range of technique/artistry; no zooming, close-ups, or editing."
+          "text": "Dance Audition Video, 2 minutes: solo demonstrating technique/artistry, self- or other-choreographed (must credit choreographer); no zooming, close-ups, or editing; should include transitioning to/from the floor, jumping, balancing, traveling, and moments of full-body expansion."
         },
         {
           "id": "vs-multi",
           "text": "Optional: if skilled in more than one form (jazz/modern/ballet/tap), present two shorter pieces."
         },
         {
+          "id": "vs-goal-statement",
+          "text": "Creative Supplement Goal Statement, 500 words or fewer."
+        },
+        {
           "id": "vs-resume",
           "text": "Resume: training, teachers, performance/technical experience, directors/choreographers, media work."
         },
         {
+          "id": "vs-photo",
+          "text": "Photograph of the applicant."
+        },
+        {
           "id": "vs-rec",
-          "text": "Letter of recommendation (creative abilities) — not required but highly encouraged."
+          "text": "Additional recommender to address creative talents — optional, not required."
         }
       ],
-      "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-      "lastVerified": "2026-07-10",
+      "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "NEEDS BROWSER SPOT-CHECK (Aug 2026): automated fetch of admission.aspx could no longer locate this itemized list (page may use tabs/accordions or a linked PDF not captured by the fetch). Left unchanged — no evidence it's wrong, just unconfirmed this pass.",
+      "note": "Found and expanded via creative-supplement.aspx (2026-09-21), resolving the prior admission.aspx spot-check gap: added a 500-word Creative Supplement Goal Statement and an applicant photograph (previously uncaptured), plus more detail on the solo video's required movement content and the intro video's framing. Page doesn't explicitly tie this to Fall 2027.",
       "pendingChange": null
     }
   },

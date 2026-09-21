@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-09",
+    "date": "2026-09-21",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. LMU: this runner reached lmu.edu directly, confirming/correcting most of its search-sourced facts (portal name, RD decision date, test policy, recommendations, interview, genre emphasis, company affiliation, track names). USC Kaufman: portfolio page is live again with new audition dates (Jan 16-17, 2027) and updated essay/resume wording. All other schools re-checked with no material changes since the Aug 17 refresh."
+    "summary": "Re-verified all 9 schools against live sources. New finds: a previously-untracked Pace Early Action round (Nov 15 deadline); Chapman's Creative Supplement page now yields its full pre-screen spec (Goal Statement + photo, newly captured) and corrected ED I/ED II decision-release estimates; Boston Conservatory's Contemporary/Commercial on-campus audition dates were corrected (had been recorded swapped); Fordham/Ailey's two required audition photos and USC Kaufman's video-response prompt/filming guidance were newly captured; LMU's FAFSA requirement was upgraded to confirmed_2027 (page now explicitly cites the 2027-28 cycle). NYU Tisch and Fordham's general pages remained unreachable this session."
   }
 }

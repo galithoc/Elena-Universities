@@ -106,11 +106,20 @@
       "pendingChange": null
     },
     "videoSpec": {
-      "value": null,
+      "value": [
+        {
+          "id": "vs-photo-tendu",
+          "text": "Dance photograph — first position tendu à la seconde."
+        },
+        {
+          "id": "vs-photo-arabesque",
+          "text": "Dance photograph — first arabesque."
+        }
+      ],
       "sourceUrl": "https://ailey.org/training/apply-aileyfordham-bfa-dance-program",
-      "lastVerified": "2026-08-11",
-      "cycleStatus": "tbd",
-      "note": "No technical video spec published. Page confirms in-person audition is required for domestic applicants; international applicants may submit a video audition instead (\"applicants may audition by video\") — no format/length/repertoire spec given.",
+      "lastVerified": "2026-09-21",
+      "cycleStatus": "confirmed_2027",
+      "note": "Re-fetched 2026-09-21: the BFA Dance Application requires an essay on professional goals plus \"two specified dance photographs\" (first position tendu à la seconde and first arabesque) — previously no photo/video spec had been found on this page. Still no technical video spec: in-person audition required for domestic applicants; international applicants may submit a video audition instead, with no format/length/repertoire spec given. Page ties the overall application cycle explicitly to fall 2027 enrollment.",
       "pendingChange": null
     }
   },

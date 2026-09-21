@@ -261,6 +261,87 @@
         "programFacts.notable"
       ],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-1",
+      "date": "2026-09-21",
+      "school": "fordham-ailey",
+      "type": "new",
+      "text": "Fordham/Ailey: found the BFA Dance Application requires two specified dance photographs (first position tendu à la seconde and first arabesque), previously no photo/video spec had been captured for this school.",
+      "refs": [
+        "artisticSupplement.videoSpec"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-2",
+      "date": "2026-09-21",
+      "school": "pace",
+      "type": "new",
+      "text": "Pace: discovered a previously-untracked Early Action (non-binding) admission plan on the Key Dates page (Nov 15, 2026 application deadline; Dec 15, 2026 decision) and added it as a new round. Also noted a Regular Decision FAFSA priority deadline of Feb 15, 2027, and that the Sands talent-scholarship review is now described as a \"holistic review process\" beginning Fall 2026. Separately, the Performing Arts audition-dates source URL (performingarts.pace.edu/audition-dates) now 301-redirects to an unrelated Dyson College department page — flagged as stale.",
+      "refs": [
+        "rounds[ea]",
+        "financialAid.priorityDeadline",
+        "scholarships[sch-talent].amount",
+        "sources[src-aud-dates]"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-3",
+      "date": "2026-09-21",
+      "school": "chapman",
+      "type": "changed",
+      "text": "Chapman: the Creative Supplement page (previously un-fetchable for this list) now yields the full pre-screen video spec, revealing two new required items — a 500-word Creative Supplement Goal Statement and an applicant photograph — plus more detail on the required solo-video movement content. Also corrected the ED I decision-release estimate from early December to mid-December (Dec 5 → Dec 15, 2026) and ED II from late January to early/mid-February (Jan 31 → Feb 5, 2027), matching the early-options page's current wording.",
+      "refs": [
+        "artisticSupplement.videoSpec",
+        "rounds[ed1].decisionRelease",
+        "rounds[ed2].decisionRelease"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-4",
+      "date": "2026-09-21",
+      "school": "boston-conservatory",
+      "type": "changed",
+      "text": "Boston Conservatory: corrected the Contemporary/Commercial on-campus audition-date assignment, which had been recorded swapped — Contemporary Dance Performance's exclusive Boston on-campus date is Jan 16, 2027 and Commercial Dance's is Jan 17, 2027 (not the reverse as previously recorded).",
+      "refs": [
+        "auditions[aud-contemp].date",
+        "auditions[aud-commercial].date"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-5",
+      "date": "2026-09-21",
+      "school": "usc-kaufman",
+      "type": "changed",
+      "text": "USC Kaufman: the portfolio page's 60-second video-response prompt is specifically about \"addressing a setback\" the applicant has faced in dance (previously recorded as a generic prompt), and now publishes filming/technical guidance (camera proximity, no jump cuts/dissolves, horizontal orientation) not previously captured.",
+      "refs": [
+        "artisticSupplement.videoSpec"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-6",
+      "date": "2026-09-21",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: financialaid.lmu.edu now explicitly references the \"2027-2028 FAFSA\" and its associated March 2, 2027 California state deadline, tying the page directly to Elena's Fall 2027 entry year — upgraded fafsaRequired from carried_from_2026 to confirmed_2027. The exact 2027-28 FAFSA-specific priority deadline itself is still listed as \"TBA.\"",
+      "refs": [
+        "financialAid.fafsaRequired"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260921-7",
+      "date": "2026-09-21",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

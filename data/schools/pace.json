@@ -40,7 +40,7 @@
     },
     {
       "id": "src-aud-dates",
-      "label": "Performing Arts audition dates",
+      "label": "Performing Arts audition dates (STALE — now 301s to the unrelated Dyson College dept page as of 2026-09-21, needs a replacement URL)",
       "url": "https://performingarts.pace.edu/audition-dates",
       "checkFor": [
         "audition dates",
@@ -80,25 +80,25 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, 'Fall 2027 Admission (September Start)' section: 'November 1: Early Decision (Binding) Application Deadline.' Binding only if audition/interview completed by Dec 1 per pace.edu/sands/admissions.",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, 'Fall 2027 Admission' section: 'November 1: Early Decision (Binding) Application Deadline.' Binding only if audition/interview completed by Dec 1 per pace.edu/sands/admissions.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-01-03",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2026-12-01",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, Fall 2027 Admission section: 'December 1: Early Decision decision Notification.' pace.edu/sands/admissions confirms combined academic+artistic decision for ED applicants issued in December.",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'December 1: Early Decision decision Notification.' pace.edu/sands/admissions confirms combined academic+artistic decision for ED applicants issued in December.",
         "pendingChange": null
       },
       "notes": "Submit the Pace admissions application BEFORE beginning the artistic review."
@@ -111,28 +111,59 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, Fall 2027 Admission section: 'December 1: Sands College of Performing Arts Application Deadline.'",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'December 1: Sands College of Performing Arts Application Deadline.'",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-01-03",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'January 3: Final Date to submit a pre-screen for Sands College of Performing Arts.'",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-03-31",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "lastVerified": "2026-08-17",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "confirmed_2027",
-        "note": "Key Dates page, Fall 2027 Admission section: 'March 31: Sands College of Performing Arts Decision Notification.'",
+        "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'March 31: Sands College of Performing Arts Decision Notification.'",
         "pendingChange": null
       },
       "notes": ""
+    },
+    {
+      "id": "ea",
+      "type": "EA",
+      "label": "Early Action (non-binding)",
+      "binding": false,
+      "academicDeadline": {
+        "value": "2026-11-15",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-09-21",
+        "cycleStatus": "confirmed_2027",
+        "note": "Newly found 2026-09-21: Key Dates page, Fall 2027 Admission section, lists a separate 'November 15: Early Action (Non-Binding) Application Deadline' — not previously tracked as its own round. Sands applicants presumably still follow the shared Jan 3 pre-screen pipeline; unclear how this interacts with the Sands-specific Dec 1 application deadline on the 'ed'/'final' rounds — needs a human/admissions-office check.",
+        "pendingChange": null
+      },
+      "artsSupplementDeadline": {
+        "value": "2027-01-03",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-09-21",
+        "cycleStatus": "confirmed_2027",
+        "note": "Assumed to share the same Sands pre-screen pipeline as the other rounds (Jan 3, 2027 final pre-screen date) — not separately itemized for EA on the Key Dates page.",
+        "pendingChange": null
+      },
+      "decisionRelease": {
+        "value": "2026-12-15",
+        "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
+        "lastVerified": "2026-09-21",
+        "cycleStatus": "confirmed_2027",
+        "note": "Newly found 2026-09-21: Key Dates page: 'December 15: Early Action decision Notification.'",
+        "pendingChange": null
+      },
+      "notes": "Newly discovered 2026-09-21 — a general Pace Early Action plan distinct from the existing 'ed' (binding ED) and 'final' (Sands application deadline) rounds. Also on this page: 'December 1: Early Action FAFSA priority Deadline' and 'February 15: Regular Decision FAFSA Priority Deadline' (RD FAFSA priority not yet separately modeled here). Needs a human check on how EA interacts with the Sands-specific Dec 1/Jan 3 pipeline."
     }
   ],
   "artisticSupplement": {
@@ -148,9 +179,9 @@
     "fee": {
       "value": 90,
       "sourceUrl": "https://www.pace.edu/sands/admissions",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "pace.edu/sands/admissions: 'A $90.00 non-refundable audition fee will be collected at the time of your Acceptd upload.' Page states no specific cycle year for the fee amount.",
+      "note": "Reconfirmed 2026-09-21: 'A $90 non-refundable audition fee' collected at Acceptd upload. Page states no specific cycle year for the fee amount.",
       "pendingChange": null
     },
     "deadline": {
@@ -164,9 +195,9 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/program-specific-requirements/auditions-sands",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "Not gated in the usual sense: after the pre-screen, dancers must attend a scheduled audition (pick date on Acceptd). Reconfirmed via pace.edu/sands/admissions 5-step process (Academic Application -> Audition/Portfolio Upload -> Callback Decision -> Live Audition/Interview -> Decision Letter).",
+      "note": "Not gated in the usual sense: after the pre-screen, dancers must attend a scheduled audition (pick date on Acceptd). Reconfirmed 2026-09-21 via pace.edu/sands/admissions 5-step process (Academic Application -> Audition/Portfolio Upload -> Callback Decision -> Live Audition/Interview -> Decision Letter).",
       "pendingChange": null
     },
     "videoSpec": {
@@ -323,9 +354,9 @@
       "amount": {
         "value": null,
         "sourceUrl": "https://www.pace.edu/sands/admissions",
-        "lastVerified": "2026-08-11",
+        "lastVerified": "2026-09-21",
         "cycleStatus": "tbd",
-        "note": "pace.edu/sands/admissions confirms Pace offers 'artistic scholarships' among its financial considerations but publishes no amount or criteria (checked 2026-08-11).",
+        "note": "Still no amount or criteria published. Reconfirmed 2026-09-21: page now states 'Beginning Fall 2026, admitted students are considered for institutional scholarships through a holistic review process' weighing artistic talent, academic achievement, and financial need — still no dollar figures.",
         "pendingChange": null
       },
       "deadline": {
@@ -383,9 +414,9 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "confirmed_2027",
-      "note": "Key Dates page, Fall 2027 Admission section, lists 'November 15: Early Decision FAFSA Priority Deadline' and 'December 1: Early Action FAFSA priority Deadline,' confirming FAFSA applies to the Fall 2027 cycle.",
+      "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section, lists 'November 15: Early Decision FAFSA Priority Deadline,' 'December 1: Early Action FAFSA priority Deadline,' and 'February 15: Regular Decision FAFSA Priority Deadline' — confirming FAFSA applies to the Fall 2027 cycle across all three plans.",
       "pendingChange": null
     },
     "cssProfileRequired": {
@@ -400,9 +431,9 @@
     "priorityDeadline": {
       "value": "2026-11-15",
       "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "confirmed_2027",
-      "note": "Key Dates page, Fall 2027 Admission section: 'November 15: Early Decision FAFSA Priority Deadline.' A separate Early Action FAFSA priority deadline of December 1, 2026 is listed on the same page.",
+      "note": "Reconfirmed 2026-09-21. Key Dates page, Fall 2027 Admission section: 'November 15: Early Decision FAFSA Priority Deadline.' Separate priority deadlines also listed: Early Action Dec 1, 2026; Regular Decision Feb 15, 2027 (not separately modeled — this field mirrors the ED/earliest priority date).",
       "pendingChange": null
     },
     "url": "https://www.pace.edu/admission-and-aid/financial-aid"

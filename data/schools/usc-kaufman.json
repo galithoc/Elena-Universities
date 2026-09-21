@@ -122,7 +122,7 @@
         },
         {
           "id": "vs-intro",
-          "text": "60-second video introduction responding to a prompt."
+          "text": "60-second video response addressing a setback the applicant has faced in dance."
         },
         {
           "id": "vs-headshot",
@@ -135,12 +135,16 @@
         {
           "id": "vs-written",
           "text": "Written response of 250 words or less on the applicant's role within their training community."
+        },
+        {
+          "id": "vs-filming",
+          "text": "Filming guidance: full body visible in frame at close camera proximity; no jump cuts, dissolves, or musical overlays; horizontal phone orientation recommended."
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-09",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "No ballet-barre segment specified, unlike many peer prescreens. Page live again with real content as of 2026-09-09 (was a placeholder 2026-08-17): short-answer prompt and resume instructions have changed wording from the prior (Fall 2026) cycle's captured text — updated to match. Page still doesn't explicitly tie content to Fall 2027.",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked 2026-09-21: the 60-second video-response prompt is specifically about \"addressing a setback\" the applicant has faced in dance (updated from the previously recorded generic \"responding to a prompt\"); also found explicit filming/technical guidance not previously captured. Page still doesn't explicitly tie content to Fall 2027.",
       "pendingChange": null
     }
   },
@@ -359,9 +363,9 @@
         "commercial"
       ],
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-09-21",
       "cycleStatus": "carried_from_2026",
-      "note": "'The New Movement' — hybrid. BFA page re-checked Aug 2026: describes \"a hybrid art form comprised of intersecting dance techniques\" without enumerating individual genres on this page; the specific genre list here is carried from prior verification (live-audition page names ballet/contemporary/improv-freestyle/hip-hop classes).",
+      "note": "'The New Movement' — hybrid. Re-checked 2026-09-21: BFA page still describes \"a hybrid art form comprised of intersecting dance techniques expressed in new media, scholarship, studio practice and choreography\" without enumerating individual genres; the specific genre list here is carried from prior verification (live-audition page names ballet/contemporary/improv-freestyle/hip-hop classes). Cohort size, acceptance rate, and company affiliation still not published on this page.",
       "pendingChange": null
     },
     "companyAffiliation": {

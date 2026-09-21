@@ -14,15 +14,26 @@ runs and what needs a person.
 
 ---
 
-## Two things need a person right now
+## Three things need a person right now
 
-**1. PR #7 is open and unmerged.** Monday's refresh did real work and opened it; until it is
-merged the live site is one refresh out of date. This is the exact failure that left PR #3
-sitting for three weeks in August. Merge it.
+**1. Three pieces of work nobody knew about.** The 21 September refresh (PR #9, merged) re-read
+all nine schools and found:
 
-It carries a genuine find: **Chapman's Creative Supplement includes a 500-word Goal Statement**
-that was not previously captured — a writing task nobody knew about, due 6 November. It also
-shifted Chapman's decision estimates (ED I now "mid-December", ED II now "early to mid-February").
+- **Chapman's Creative Supplement needs a 500-word Goal Statement and an applicant photograph**,
+  due 6 November. Neither was ever captured.
+- **Fordham/Ailey requires two specified dance photographs** — first position tendu à la seconde
+  and first arabesque. The arabesque overlaps what Pace and Arizona already ask for, so one
+  shoot covers several.
+- **Pace has a non-binding Early Action round** that was never tracked: application 15 November,
+  decision 15 December — an alternative to its 1 December Regular Decision.
+
+It also fixed a date that was simply wrong: **Boston Conservatory's exclusive Boston auditions
+had Contemporary and Commercial the wrong way round.** Contemporary is 16 January, Commercial
+is 17 January.
+
+PR #7, the 14 September refresh, was closed as superseded — #9 found everything it did and more,
+and its only unique change was a `lastVerified` bump on a school unreachable in both runs.
+
 
 **2. Arizona: the 1 November application is now the deadline that matters.**
 Elena has chosen the **23 January on-campus audition** in Tucson over the September and October
@@ -51,7 +62,8 @@ As of 2026-09-15. The automation is healthy, so the bottleneck is decisions.
 |---|---|---|
 | **47 days** — Sun 1 Nov | **Seven applications** — including Arizona, which now protects her talent aid | Arizona EA · Boston EA + prescreen · Chapman EA + ED · Fordham/Ailey · LMU EA + ED · NYU ED · Pace ED. Falls on a Sunday. |
 | **48 days** — Mon 2 Nov | NYU prescreen, 9:00 ET = **10:00 in San Juan** | US daylight saving ends 1 Nov, so Puerto Rico is an hour ahead. |
-| **52 days** — Fri 6 Nov | Chapman Creative Supplement **+ 500-word Goal Statement** | The new find from PR #7. |
+| **52 days** — Fri 6 Nov | Chapman Creative Supplement **+ 500-word Goal Statement** | Plus a required applicant photograph. Found 21 Sep. |
+| **55 days** — Sun 15 Nov | **Pace Early Action** — newly found, non-binding | Decision 15 Dec. Worth weighing against Pace RD on 1 Dec. |
 | **60 days** — Sat 14 Nov | Boston Conservatory auditions | Fee doubles to $150 after 1 Nov. |
 | **77 days** — Tue 1 Dec | Pace RD · USC app + SlideRoom · Boston RD | |
 
@@ -100,7 +112,8 @@ Only step 4 involves a human.
 5. **Site and calendars update themselves** via the Pages deploy on merge to `main`.
 
 > **Step 4 is a real dependency.** An open refresh PR means the live site and the family
-> calendar are out of date. If one is open on a Monday, merge it that week.
+> calendar are out of date. If one is open on a Monday, merge it that week. Two refreshes sat unmerged
+> through September, which is why #7 and #9 overlapped and one had to be discarded.
 
 ---
 
@@ -115,7 +128,8 @@ while doing nothing at all**.
 | 10–12 | 24 Aug – 7 Sep | schedule | 1.8–3.2 min | **Silent no-ops** |
 | 13 | 9 Sep | manual | 2.9 min | No-op, but with full logging — cause found |
 | 14 | 9 Sep | manual | 6.0 min | Real pass → PR #4 |
-| **15** | **14 Sep** | **schedule** | **6.2 min** | **Real pass → PR #7 — first unattended proof** |
+| 15 | 14 Sep | schedule | 6.2 min | Real pass → PR #7, later closed as superseded |
+| **16** | **21 Sep** | **schedule** | **6.2 min** | **Real pass → PR #9, merged — three new findings** |
 
 **What went wrong.** The refresh was fanning out to nine background helpers, one per school, then
 ending its turn to wait for them. Running unattended inside a GitHub Action there is no next

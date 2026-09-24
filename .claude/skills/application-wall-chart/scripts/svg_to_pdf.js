@@ -16,8 +16,7 @@ function load() {
                    '/usr/lib/node_modules/playwright']) {
     try { return require(p); } catch (e) { /* try the next one */ }
   }
-  console.error('playwright not found. npm i -g playwright (chromium is preinstalled\n' +
-                'in this container at /opt/pw-browsers — do not run "playwright install")');
+  console.error('playwright not found:  npm i -g playwright');
   process.exit(1);
 }
 
@@ -36,7 +35,19 @@ function load() {
   }
 
   const { chromium } = load();
-  const browser = await chromium.launch();
+  let browser;
+  try {
+    browser = await chromium.launch();
+  } catch (e) {
+    if (/execut|download|browserType.launch/i.test(e.message)) {
+      console.error('playwright is installed but its chromium is not:\n' +
+        '  npx playwright install chromium\n' +
+        'If your environment ships a browser already, point at it instead:\n' +
+        '  PLAYWRIGHT_BROWSERS_PATH=/path/to/browsers node svg_to_pdf.js ...');
+      process.exit(1);
+    }
+    throw e;
+  }
   const ctx = await browser.newContext();
 
   // Block the network outright. If anything in the sheet still needs fetching,

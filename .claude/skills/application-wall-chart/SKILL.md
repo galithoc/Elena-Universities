@@ -125,7 +125,9 @@ about, and it is the reason the sheet stays useful in February.
 Write a spec JSON (see `reference/spec.md`), then:
 
 ```bash
-pip install Pillow fonttools brotli
+pip install Pillow fonttools brotli        # logo prep, font subsetting
+npm install -g playwright                  # PDF export only
+npx playwright install chromium            # the browser is a separate download
 
 python3 scripts/prep_logos.py raw/*.png raw/*.jpg --out logos/
 python3 scripts/fetch_fonts.py --out fonts.css
@@ -135,6 +137,10 @@ node    scripts/svg_to_pdf.js chart.svg 36x24 chart.pdf
 
 Send both files. The SVG is what a print shop wants; the PDF is what the person
 paying can open and proof themselves.
+
+The SVG needs nothing but Python. Node and a browser are for the PDF step alone,
+so if Playwright will not install, still deliver the SVG and say why the PDF is
+missing — a print shop can work from the SVG.
 
 ### The rules that are not obvious
 

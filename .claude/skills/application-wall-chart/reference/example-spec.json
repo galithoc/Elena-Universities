@@ -1,0 +1,31 @@
+{
+  "title": "ROAD TO BFA",
+  "subtitle": "Elena — nine schools, one sheet. Tick it when it's done, not when it's started.",
+  "asOf": "24 Sep 2026",
+  "blankHeading": "WHAT THIS SHEET DOESN'T KNOW ABOUT YET",
+  "footnote": "Deadlines are the school's own published dates as of the date above. Boxes left of the grid say who owns the task. Verify anything you are about to spend money on.",
+  "blankLines": 9,
+  "schools": [
+    {"logo":"logos/fordham-ailey.png","mono":"FA","name":["FORDHAM","AILEY"],"color":"#a12a38","due":"1 NOV","round":"Early — only route","audition":"Invited · Jan–Mar"},
+    {"logo":"logos/arizona.png","mono":"AZ","name":["ARIZONA"],"color":"#c0693a","due":"1 NOV","round":"EA — protects talent aid","audition":"23 Jan · Tucson"},
+    {"logo":"logos/pace.png","mono":"P","name":["PACE","SANDS"],"color":"#3b82b8","due":"1 DEC","round":"Regular Decision","audition":"Assigned after callback"},
+    {"logo":"logos/usc-kaufman.png","mono":"USC","name":["USC","KAUFMAN"],"color":"#cc3b3b","due":"1 DEC","round":"Single deadline","audition":"16–17 Jan · LA, invited"},
+    {"logo":"logos/boston-conservatory.png","mono":"BC","name":["BOSTON","CONSERV."],"color":"#c9a24a","due":"1 DEC","round":"Regular Action","audition":"24 Jan – 13 Feb"},
+    {"logo":"logos/nyu-tisch.png","mono":"NYU","name":["NYU","TISCH"],"color":"#9d6cd0","due":"5 JAN","round":"Regular Decision","audition":"Callback 30 Jan / 5–6 Feb"},
+    {"logo":"logos/lmu.png","mono":"LMU","name":["LOYOLA","MARYMOUNT"],"color":"#4a6fa5","due":"15 JAN","round":"Regular Decision","audition":"Video only"},
+    {"logo":"logos/chapman.png","mono":"CH","name":["CHAPMAN"],"color":"#d15b7a","due":"15 JAN","round":"Regular Decision","audition":"Invited · Dec–Feb"},
+    {"logo":"logos/suny-purchase.png","mono":"SP","name":["SUNY","PURCHASE"],"color":"#2f9c8f","due":"1 FEB","round":"Only route offered","audition":"6 · 12 · 20 · 26 Feb"}
+  ],
+  "rows": [
+    {"label":"Supplemental essays drafted","owner":"elena"},
+    {"label":"Recommendations requested","owner":"elena"},
+    {"label":"Prescreen / audition video filmed","owner":"elena"},
+    {"label":"Prescreen / supplement submitted","owner":"both"},
+    {"label":"Application submitted","owner":"both"},
+    {"label":"Audition registered","owner":"parents"},
+    {"label":"Flights / hotel booked","owner":"parents"},
+    {"label":"Audition completed","owner":"elena"},
+    {"label":"FAFSA / CSS sent to this school","owner":"parents"},
+    {"label":"Decision received","owner":"both"}
+  ]
+}

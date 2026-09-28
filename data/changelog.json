@@ -342,6 +342,27 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260928-1",
+      "date": "2026-09-28",
+      "school": "usc-kaufman",
+      "type": "confirmed",
+      "text": "USC Kaufman: the Dec 1, 2026 application/portfolio deadline is now confirmed for Fall 2027 -- admission.usc.edu/apply/first-year/ explicitly names the \"Kaufman School of Dance\" among the performing-arts majors that must apply Regular Decision by December 1 for Fall 2027 admission. (The Kaufman-specific portfolio page itself has dropped the deadline sentence and now only shows the Dec 18 notification and Jan 16-17 audition dates.) Value unchanged; upgraded from carried_from_2026 to confirmed_2027.",
+      "refs": [
+        "rounds.dec1.academicDeadline",
+        "rounds.dec1.artsSupplementDeadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20260928-2",
+      "date": "2026-09-28",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified all 9 schools' stored source URLs against the live pages. All other previously-recorded facts (deadlines, audition dates, fees, video specs) re-confirmed unchanged this pass -- lastVerified dates bumped accordingly. Known blockers persist unchanged: fordham.edu still redirects to a CAS login gateway for every page; Pace's performingarts.pace.edu/audition-dates source still 301s to an unrelated Dyson College department page.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-21",
+    "date": "2026-09-28",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. New finds: a previously-untracked Pace Early Action round (Nov 15 deadline); Chapman's Creative Supplement page now yields its full pre-screen spec (Goal Statement + photo, newly captured) and corrected ED I/ED II decision-release estimates; Boston Conservatory's Contemporary/Commercial on-campus audition dates were corrected (had been recorded swapped); Fordham/Ailey's two required audition photos and USC Kaufman's video-response prompt/filming guidance were newly captured; LMU's FAFSA requirement was upgraded to confirmed_2027 (page now explicitly cites the 2027-28 cycle). NYU Tisch and Fordham's general pages remained unreachable this session."
+    "summary": "Re-verified all 9 schools against live sources. Only material find: USC Kaufman's Dec 1 application/portfolio deadline is now explicitly confirmed for Fall 2027 via admission.usc.edu (Kaufman's own portfolio page dropped the deadline sentence, but the general USC admission page names the Kaufman School of Dance directly) -- upgraded from carried_from_2026 to confirmed_2027, value unchanged. All other stored facts re-confirmed unchanged across Fordham/Ailey, NYU Tisch, Pace, SUNY Purchase, LMU, Chapman, Arizona, and Boston Conservatory; lastVerified dates bumped. Fordham.edu remains CAS-gated and Pace's performingarts.pace.edu audition-dates source still mis-redirects, as before."
   }
 }

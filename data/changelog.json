@@ -342,6 +342,51 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261005-1",
+      "date": "2026-10-05",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Pace/Sands: the Key Dates page now reads \"January 4: Final Date to submit a pre-screen for Sands College of Performing Arts\" — one day later than the stored confirmed_2027 value of Jan 3, 2027. Not overwritten per the never-silently-change rule; recorded as a pendingChange on the ED, Early Action, and final rounds' pre-screen deadlines and on artisticSupplement.deadline, awaiting a human to accept the Jan 4 date.",
+      "refs": [
+        "rounds.ed.artsSupplementDeadline",
+        "rounds.final.artsSupplementDeadline",
+        "rounds.ea.artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261005-2",
+      "date": "2026-10-05",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: the first-year applicants page now gives a round-by-round FAFSA priority breakdown instead of one date — ED I by Nov 1, 2026; ED II and EA by Jan 10, 2027; RD by Feb 1, 2027. The stored priorityDeadline Fact keeps the RD (latest/general) date; the note now records the earlier ED I/ED II/EA dates. Page still doesn't tie this to a specific aid year, so cycleStatus stays carried_from_2026.",
+      "refs": [
+        "financialAid.priorityDeadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261005-3",
+      "date": "2026-10-05",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. Besides the Pace pre-screen pendingChange and the LMU FAFSA-breakdown update, all other previously confirmed/carried deadlines, fees, and audition dates were reconfirmed unchanged (lastVerified bumped). NYU Tisch's artistic-review fee and essay/recommendation requirements remain unpublished on the fetched pages; Fordham's general fordham.edu pages remain gated behind a CAS login redirect, same as prior refreshes.",
+      "refs": [],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261005-4",
+      "date": "2026-10-05",
+      "school": "chapman",
+      "type": "note",
+      "text": "Chapman: flagged a discrepancy between two official pages on the Early Decision II notification estimate — early-options.aspx says \"early to mid-February\" (the stored Feb 5, 2027 value) while first-year/index.aspx says \"late January.\" Value held at the Feb 5 estimate pending resolution; both are carried_from_2026 estimates, not hard confirmed dates.",
+      "refs": [
+        "rounds.ed2.decisionRelease"
+      ],
+      "by": "weekly-refresh"
     }
   ]
 }

@@ -56,7 +56,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page (no longer bot-blocked) confirms: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
         "pendingChange": null
@@ -64,7 +64,7 @@
       "artsSupplementDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Pre-screen (if required) due with the application, Nov 1.",
         "pendingChange": null
@@ -72,7 +72,7 @@
       "decisionRelease": {
         "value": "2027-01-31",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page: \"Notification of Early Action admissions and scholarship decisions are issued\" Jan 31.",
         "pendingChange": null
@@ -87,7 +87,7 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Confirmed via deadlines page: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
         "pendingChange": null
@@ -95,7 +95,7 @@
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "",
         "pendingChange": null
@@ -103,7 +103,7 @@
       "decisionRelease": {
         "value": "2027-04-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page: undergraduate admission/financial-aid notification issued Apr 1; tuition deposit due May 1.",
         "pendingChange": null
@@ -173,7 +173,7 @@
       "date": {
         "value": "2026-11-14",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Earliest of many announced in-person dates shared by both tracks (soonest-upcoming, used as the canonical single value for this Fact). CORRECTED 2026-09-21: the audition-dates-and-locations page's own per-track listing shows Contemporary Dance's exclusive Boston on-campus date is Jan 16, 2027 (not Jan 17 as previously recorded) -- Commercial Dance's exclusive on-campus date is Jan 17, 2027 instead. Full list, EA-eligible dates marked with *: Nov 14, 2026* (Boston, on campus), Nov 21, 2026* (Boston, on campus), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 16, 2027* (Boston, on campus -- Contemporary only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston, on campus), Feb 6, 2027 (Boston, on campus). Page text doesn't literally say \"Fall 2027\"/\"2026-27,\" though the date range only makes sense for that cycle.",
         "pendingChange": null
@@ -209,7 +209,7 @@
       "date": {
         "value": "2026-11-14",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Same shared schedule as Contemporary Dance Performance except the Boston-on-campus-only date, which for Commercial is Jan 17, 2027 (not Jan 16). CORRECTED 2026-09-21 (previously recorded swapped). Full list, EA-eligible dates marked *: Nov 14, 2026* (Boston), Nov 21, 2026* (Boston), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 17, 2027* (Boston -- Commercial only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston), Feb 6, 2027 (Boston). Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
         "pendingChange": null
@@ -245,7 +245,7 @@
       "date": {
         "value": "2026-12-05",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-05",
         "cycleStatus": "carried_from_2026",
         "note": "Two online audition dates announced: Dec 5, 2026 (EA-eligible, per asterisk) and Feb 13, 2027 (Regular Action only). Using the earlier as the canonical value. Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
         "pendingChange": null
@@ -285,9 +285,9 @@
     "recommendations": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-05",
       "cycleStatus": "tbd",
-      "note": "Still ambiguous: application-steps page states \"At least one recommendation letter is required for applicants to all music programs\" but does not explicitly extend this to Dance or Theater. No fetched page (application-steps, audition-process, dance-audition-requirements, FAQ) states a Dance-specific recommendation requirement — verify directly with admissions.",
+      "note": "Re-checked 2026-10-05 via application-steps page: still only states 'At least one recommendation letter is required for applicants to all music programs' with no Dance-specific statement found on any fetched page — verify directly with admissions.",
       "pendingChange": null
     },
     "essays": {
@@ -359,9 +359,9 @@
     "cssProfileRequired": {
       "value": null,
       "sourceUrl": "",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-05",
       "cycleStatus": "tbd",
-      "note": "Still unresolved: fetched both the financial-aid page and the \"Determining Financial Need\" page (https://bostonconservatory.berklee.edu/financial-aid/determining-financial-need) — neither mentions CSS Profile at all, only FAFSA. Absence isn't proof it's not required; leaving as tbd rather than inferring false.",
+      "note": "Re-checked 2026-10-05: application-steps, financial-aid, and determining-financial-need pages still make no mention of CSS Profile at all, only FAFSA. Absence isn't proof it's not required; leaving as tbd rather than inferring false.",
       "pendingChange": null
     },
     "cssCode": "",

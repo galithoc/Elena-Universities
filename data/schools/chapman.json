@@ -97,25 +97,25 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21 — page states \"Early Decision I ... Deadline: November 1.\"",
+        "note": "Reconfirmed 2026-10-12 — page states \"Early Decision I ... Deadline: November 1.\"",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-11-06",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Corrected: Creative Supplement due five days after the app deadline (per creative-supplement.aspx), not on the same date. Nov 1, 2026 + 5 days = Nov 6, 2026. Reconfirmed 2026-09-21.",
+        "note": "Corrected: Creative Supplement due five days after the app deadline (per creative-supplement.aspx), not on the same date. Nov 1, 2026 + 5 days = Nov 6, 2026. Reconfirmed 2026-10-12: \"Your Creative Supplement will be due five days after your application deadline.\"",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2026-12-15",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "CORRECTED 2026-09-21: page now describes ED I decision as \"mid-December notification,\" not \"early December\" as previously recorded — estimate moved from Dec 5 to Dec 15, 2026.",
+        "note": "Reconfirmed 2026-10-12: page describes ED I decision as \"mid-December notification\" — Dec 15 estimate held.",
         "pendingChange": null
       },
       "notes": ""
@@ -127,26 +127,26 @@
       "binding": true,
       "academicDeadline": {
         "value": "2027-01-15",
-        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/index.aspx",
-        "lastVerified": "2026-08-11",
+        "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed — page states \"January 15, 2027 is the deadline for: Early Decision II (binding)...\"",
+        "note": "Reconfirmed 2026-10-12, cross-checked via early-options.aspx: \"January 15\" for Early Decision II.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-01-20",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027. Reconfirmed 2026-09-21.",
+        "note": "Corrected: Creative Supplement due five days after the app deadline. Jan 15, 2027 + 5 days = Jan 20, 2027. Reconfirmed 2026-10-12.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-02-05",
         "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/first-year/early-options.aspx",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "CORRECTED 2026-09-21: page now describes ED II decision as \"early to mid-February notification,\" not \"late January\" as previously recorded — estimate moved from Jan 31 to Feb 5, 2027.",
+        "note": "Reconfirmed 2026-10-12: page describes ED II decision as \"early to mid-February notification\" — Feb 5 estimate held.",
         "pendingChange": null
       },
       "notes": ""
@@ -204,17 +204,17 @@
     "deadline": {
       "value": "2026-11-06",
       "sourceUrl": "https://www.chapman.edu/admission/undergraduate/how-to-apply/creative-supplement.aspx",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Corrected: page now reads \"Your Creative Supplement will be due five days after your application deadline\" (due AFTER, not by/before). Shown here aligned to EA/ED I (Nov 1, 2026 + 5 days). ED II/RD applicants: supplement due Jan 20, 2027 — see that round's artsSupplementDeadline.",
+      "note": "Reconfirmed 2026-10-12: \"Your Creative Supplement will be due five days after your application deadline\" (due AFTER, not by/before). Shown here aligned to EA/ED I (Nov 1, 2026 + 5 days). ED II/RD applicants: supplement due Jan 20, 2027 — see that round's artsSupplementDeadline.",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://www.chapman.edu/copa/dance/admission.aspx",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Everyone majoring in Dance submits a pre-screening video; select applicants invited to a live audition. Reconfirmed Aug 2026: \"Select applicants will be invited to a live audition session (which are offered in person and virtually).\"",
+      "note": "Everyone majoring in Dance submits a pre-screening video (via the Creative Supplement); select applicants invited to a live audition. Reconfirmed 2026-10-12: \"Select applicants will be invited to a live audition session (which are offered in person and virtually).\"",
       "pendingChange": null
     },
     "videoSpec": {

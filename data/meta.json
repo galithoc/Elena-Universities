@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-21",
+    "date": "2026-10-12",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. New finds: a previously-untracked Pace Early Action round (Nov 15 deadline); Chapman's Creative Supplement page now yields its full pre-screen spec (Goal Statement + photo, newly captured) and corrected ED I/ED II decision-release estimates; Boston Conservatory's Contemporary/Commercial on-campus audition dates were corrected (had been recorded swapped); Fordham/Ailey's two required audition photos and USC Kaufman's video-response prompt/filming guidance were newly captured; LMU's FAFSA requirement was upgraded to confirmed_2027 (page now explicitly cites the 2027-28 cycle). NYU Tisch and Fordham's general pages remained unreachable this session."
+    "summary": "Re-verified all 9 schools against live sources. NYU Tisch's application-requirements and FAQ pages were reachable this session and yielded new callback-notification dates and per-session callback times/locations. Flagged a pendingChange at Pace: the Sands pre-screen deadline now reads Jan 4, 2027 on the Key Dates page, one day later than the stored confirmed_2027 Jan 3 value — not overwritten, awaiting a human check. Other new finds: LMU's solo video can be replaced with a \"Pre-Approval\" verification; Boston Conservatory's live-online audition is confirmed NOT a pre-screen (a true pre-recorded audition is offered only by exception); USC Kaufman's portfolio page no longer restates its Dec 1 deadline text (value held, flagged for a SlideRoom spot-check); Fordham/Ailey's photo spec now also names the required attire. All other previously confirmed_2027 facts across Arizona, Chapman, SUNY Purchase, and Pace were reconfirmed unchanged. Fordham's general admissions pages (fordham.edu) remain CAS-gated and unreachable."
   }
 }

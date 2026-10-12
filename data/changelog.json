@@ -342,6 +342,77 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-1",
+      "date": "2026-10-12",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Pace/Sands: the Key Dates page now reads \"January 4\" for the Sands pre-screen submission deadline, one day later than the stored Jan 3, 2027 confirmed_2027 value from the 2026-09-21 refresh. Not overwritten per the never-silently-change rule — flagged as a pendingChange on the ED, Early Action, and Final rounds' artsSupplementDeadline and on artisticSupplement.deadline pending a human check (could be a site correction or a transient copy error).",
+      "refs": [
+        "rounds[ed].artsSupplementDeadline",
+        "rounds[final].artsSupplementDeadline",
+        "rounds[ea].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-2",
+      "date": "2026-10-12",
+      "school": "nyu-tisch",
+      "type": "new",
+      "text": "NYU Tisch: tisch.nyu.edu was reachable this session (unlike several recent refreshes). Added previously-uncaptured callback-notification dates (ED1 Nov 4, ED2 Jan 6, RD Jan 21, 2026-27) and the specific per-session callback times/locations for the Regular Decision round (Jan 30 Chicago 9am-3pm CT or LA 10am-4pm PT; Feb 5 NY 9am-12pm or 3pm-6pm ET; Feb 6 NY 10am-4pm ET). All previously confirmed ED1/ED2/RD deadlines reconfirmed unchanged.",
+      "refs": [
+        "rounds[ed1].notes",
+        "rounds[ed2].notes",
+        "rounds[rd].notes"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-3",
+      "date": "2026-10-12",
+      "school": "usc-kaufman",
+      "type": "note",
+      "text": "USC Kaufman: the Portfolio page no longer restates a submission deadline at all (previously \"Fall 2026\"-labeled Dec 1 text) — it now only states the Dec 18, 2026 live-audition-invite notification date and defers all component details to SlideRoom. The stored Dec 1 deadline is held unchanged (not a confirmed removal) but flagged for a SlideRoom/human spot-check before relying on it.",
+      "refs": [
+        "rounds[dec1].academicDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-4",
+      "date": "2026-10-12",
+      "school": "loyola-marymount",
+      "type": "new",
+      "text": "LMU: the Dance Proficiency Video can be replaced with verification of a \"Pre-Approval\" in place of submitting the solo video — newly confirmed on the audition-for-the-major page (criteria/process not detailed there). Also cross-checked the Feb 1, 2027 FAFSA priority date directly against the first-year-applicants deadlines table (previously sourced only from the financial-aid office page, which still lists Fall 2027 dates as \"TBA\").",
+      "refs": [
+        "artisticSupplement.videoSpec",
+        "financialAid.priorityDeadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-5",
+      "date": "2026-10-12",
+      "school": "boston-conservatory",
+      "type": "new",
+      "text": "Boston Conservatory: clarified that the live-online audition is a full live audition, not a pre-screen (\"the online audition is not a pre-screen\") — a fully pre-recorded, non-live audition is offered only as an exception for applicants who truly cannot do in-person or online-live.",
+      "refs": [
+        "artisticSupplement.prescreenRequired"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261012-6",
+      "date": "2026-10-12",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. Arizona's Oct 9, 2026 Jazz Dance Showcase and Sept 26, 2026 on-campus audition dates have now passed; all other Arizona, Chapman, Fordham/Ailey, and SUNY Purchase facts reconfirmed unchanged. Fordham's general admissions pages (fordham.edu) remain CAS-gated and unreachable, same as prior refreshes.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

@@ -56,17 +56,17 @@
       "academicDeadline": {
         "value": "2027-02-01",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21. Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
+        "note": "Reconfirmed 2026-10-12. Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-02-08",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21. Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
+        "note": "Reconfirmed 2026-10-12. Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -93,23 +93,23 @@
     "fee": {
       "value": "$65 audition fee (+ $50 application fee)",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed 2026-09-21 (\"$65 non-refundable fee\") on the live Fall-2027 audition-info page.",
+      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed 2026-10-12 (\"$65 non-refundable fee\") on the live Fall-2027 audition-info page.",
       "pendingChange": null
     },
     "deadline": {
       "value": null,
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "tbd",
-      "note": "Still no explicit registration cutoff — page only says \"Advanced registration is required.\" Note the Feb 8, 2027 Portfolio Submission deadline falls AFTER the first on-campus audition date (Feb 6, 2027); mechanism unclear — needs a call/email to dance@purchase.edu to clarify, do not assume.",
+      "note": "Still no explicit registration cutoff — page only says \"Advanced registration is required\" and that registration opens only after résumé, photo, and fee are received. Note the Feb 8, 2027 Portfolio Submission deadline falls AFTER the first on-campus audition date (Feb 6, 2027); mechanism unclear — needs a call/email to dance@purchase.edu to clarify, do not assume.",
       "pendingChange": null
     },
     "prescreenRequired": {
       "value": false,
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
       "note": "No prescreen video for Dance. Submit resume + photo + fee, then register for the live audition.",
       "pendingChange": null
@@ -138,9 +138,9 @@
         }
       ],
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Reconfirmed 2026-09-21 (90-second solo, resume, photo, recommendation, essay copy all still stated as before).",
+      "note": "Reconfirmed 2026-10-12 (90-second solo, resume, photo, recommendation, essay copy all still stated as before; audition day itself also includes a ballet class, modern/contemporary combinations, and improvisation prompts ahead of finalists' solo + interview).",
       "pendingChange": null
     }
   },
@@ -154,9 +154,9 @@
       "date": {
         "value": "2027-02-06",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21 — all four Fall 2027 on-campus audition dates unchanged: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027. Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
+        "note": "Reconfirmed 2026-10-12 — all four Fall 2027 on-campus audition dates unchanged: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027. Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
         "pendingChange": null
       },
       "time": "",
@@ -190,9 +190,9 @@
       "date": {
         "value": null,
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "tbd",
-        "note": "Re-checked 2026-09-21: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
+        "note": "Re-checked 2026-10-12: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of Puerto Rico or other US territories, or of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
         "pendingChange": null
       },
       "time": "",

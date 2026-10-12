@@ -56,25 +56,25 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Deadlines page (no longer bot-blocked) confirms: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
+        "note": "Reconfirmed 2026-10-12: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Pre-screen (if required) due with the application, Nov 1.",
+        "note": "Reconfirmed 2026-10-12: pre-screen (if required) due with the application, Nov 1.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-01-31",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Deadlines page: \"Notification of Early Action admissions and scholarship decisions are issued\" Jan 31.",
+        "note": "Reconfirmed 2026-10-12: \"Notification of Early Action admissions and scholarship decisions are issued\" Jan 31.",
         "pendingChange": null
       },
       "notes": "EA audition completion cutoff confirmed as Jan 21 on the deadlines page (\"Auditions to the Dance, Music, and Theater Divisions completed by January 21 are Early-Action eligible\"). Note: the audition-dates-and-locations page footnote instead says auditioning \"by January 20\" for EA eligibility — minor Jan 20 vs Jan 21 discrepancy between the two official pages, unresolved."
@@ -87,15 +87,15 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Confirmed via deadlines page: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
+        "note": "Reconfirmed 2026-10-12: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
         "note": "",
         "pendingChange": null
@@ -103,9 +103,9 @@
       "decisionRelease": {
         "value": "2027-04-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Deadlines page: undergraduate admission/financial-aid notification issued Apr 1; tuition deposit due May 1.",
+        "note": "Reconfirmed 2026-10-12: undergraduate admission/financial-aid notification issued Apr 1; tuition deposit due May 1.",
         "pendingChange": null
       },
       "notes": "Supporting documents (transcripts, recommendation letters, online interview) due Jan 15."
@@ -140,9 +140,9 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed: pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition. Page still does not tie any of this explicitly to \"Fall 2027\" or the \"2026-27\" cycle.",
+      "note": "Re-confirmed 2026-10-12: pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition. Clarified this pass: the live-online audition itself is NOT a pre-screen (\"the online audition is not a pre-screen\") — it's a full live audition conducted remotely. A fully pre-recorded (non-live) audition is offered only as an exception for applicants who cannot do in-person or online-live. Page still does not tie any of this explicitly to \"Fall 2027\" or the \"2026-27\" cycle.",
       "pendingChange": null
     },
     "videoSpec": {
@@ -157,9 +157,9 @@
         }
       ],
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-12",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed unchanged.",
+      "note": "Re-confirmed 2026-10-12, unchanged.",
       "pendingChange": null
     }
   },
@@ -173,9 +173,9 @@
       "date": {
         "value": "2026-11-14",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Earliest of many announced in-person dates shared by both tracks (soonest-upcoming, used as the canonical single value for this Fact). CORRECTED 2026-09-21: the audition-dates-and-locations page's own per-track listing shows Contemporary Dance's exclusive Boston on-campus date is Jan 16, 2027 (not Jan 17 as previously recorded) -- Commercial Dance's exclusive on-campus date is Jan 17, 2027 instead. Full list, EA-eligible dates marked with *: Nov 14, 2026* (Boston, on campus), Nov 21, 2026* (Boston, on campus), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 16, 2027* (Boston, on campus -- Contemporary only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston, on campus), Feb 6, 2027 (Boston, on campus). Page text doesn't literally say \"Fall 2027\"/\"2026-27,\" though the date range only makes sense for that cycle.",
+        "note": "Earliest of many announced in-person dates shared by both tracks (soonest-upcoming, used as the canonical single value for this Fact). Reconfirmed 2026-10-12: Contemporary Dance's exclusive Boston on-campus date is Jan 16, 2027; Commercial Dance's exclusive on-campus date is Jan 17, 2027. Full list, EA-eligible dates marked with *: Nov 14, 2026* (Boston, on campus), Nov 21, 2026* (Boston, on campus), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 16, 2027* (Boston, on campus -- Contemporary only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston, on campus), Feb 6, 2027 (Boston, on campus). Page text doesn't literally say \"Fall 2027\"/\"2026-27,\" though the date range only makes sense for that cycle.",
         "pendingChange": null
       },
       "time": "",
@@ -209,9 +209,9 @@
       "date": {
         "value": "2026-11-14",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Same shared schedule as Contemporary Dance Performance except the Boston-on-campus-only date, which for Commercial is Jan 17, 2027 (not Jan 16). CORRECTED 2026-09-21 (previously recorded swapped). Full list, EA-eligible dates marked *: Nov 14, 2026* (Boston), Nov 21, 2026* (Boston), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 17, 2027* (Boston -- Commercial only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston), Feb 6, 2027 (Boston). Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
+        "note": "Same shared schedule as Contemporary Dance Performance except the Boston-on-campus-only date, which for Commercial is Jan 17, 2027 (not Jan 16). Reconfirmed 2026-10-12. Full list, EA-eligible dates marked *: Nov 14, 2026* (Boston), Nov 21, 2026* (Boston), Jan 3, 2027* (Atlanta, GA), Jan 5, 2027* (Chicago, IL), Jan 7, 2027* (New York, NY), Jan 8, 2027* (New York, NY), Jan 17, 2027* (Boston -- Commercial only), Jan 24, 2027 (Los Angeles, CA), Jan 30, 2027 (Boston), Feb 6, 2027 (Boston). Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
         "pendingChange": null
       },
       "time": "",
@@ -245,9 +245,9 @@
       "date": {
         "value": "2026-12-05",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/audition-dates-and-locations",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-12",
         "cycleStatus": "carried_from_2026",
-        "note": "Two online audition dates announced: Dec 5, 2026 (EA-eligible, per asterisk) and Feb 13, 2027 (Regular Action only). Using the earlier as the canonical value. Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
+        "note": "Reconfirmed 2026-10-12: two online audition dates announced: Dec 5, 2026 (EA-eligible, per asterisk) and Feb 13, 2027 (Regular Action only). Using the earlier as the canonical value. Page doesn't literally say \"Fall 2027\"/\"2026-27.\"",
         "pendingChange": null
       },
       "time": "",

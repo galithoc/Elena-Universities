@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-21",
+    "date": "2026-10-19",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. New finds: a previously-untracked Pace Early Action round (Nov 15 deadline); Chapman's Creative Supplement page now yields its full pre-screen spec (Goal Statement + photo, newly captured) and corrected ED I/ED II decision-release estimates; Boston Conservatory's Contemporary/Commercial on-campus audition dates were corrected (had been recorded swapped); Fordham/Ailey's two required audition photos and USC Kaufman's video-response prompt/filming guidance were newly captured; LMU's FAFSA requirement was upgraded to confirmed_2027 (page now explicitly cites the 2027-28 cycle). NYU Tisch and Fordham's general pages remained unreachable this session."
+    "summary": "Re-verified all 9 schools against live sources. Fordham/Ailey, SUNY Purchase, USC Kaufman, Chapman, Arizona, and Boston Conservatory facts all reconfirmed unchanged. One material find: LMU's financial-aid priority deadline (Feb 1, 2027) upgraded to confirmed_2027 — the page now has an explicit Fall 2027 Cycle Deadlines table tied to the 2027-2028 FAFSA. NYU Tisch and Pace were unreachable this session (TLS certificate errors on both domains); Fordham's general pages remain behind a CAS login gateway — all unchanged from the prior refresh."
   }
 }

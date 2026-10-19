@@ -342,6 +342,26 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261019-1",
+      "date": "2026-10-19",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: financialaid.lmu.edu now publishes an explicit \"Fall 2027 Cycle Deadlines\" table tying the Regular Decision FAFSA/CADAA priority deadline (Feb 1, 2027) to the 2027-2028 FAFSA — upgraded financialAid.priorityDeadline from carried_from_2026 to confirmed_2027. The page also has an internal inconsistency (one subsection lists the CA Dream Act deadline as \"March 2, 2026\" instead of 2027) flagged for a human to confirm with LMU Financial Aid.",
+      "refs": [
+        "financialAid.priorityDeadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261019-2",
+      "date": "2026-10-19",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. Fordham/Ailey, SUNY Purchase, USC Kaufman, Chapman, Arizona, and Boston Conservatory facts were reconfirmed unchanged (lastVerified bumped). NYU Tisch (tisch.nyu.edu) and Pace (pace.edu) could not be reached this session (TLS certificate errors on both domains), and Fordham's general pages (fordham.edu) remain behind a CAS login gateway — all three are unchanged from the prior refresh and still need a manual browser spot-check. A web search cross-check of Pace's Jan 3, 2027 pre-screen deadline found no conflicting information beyond the pre-existing Jan 3 vs Jan 4 discrepancy already on file.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

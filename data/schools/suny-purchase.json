@@ -56,17 +56,17 @@
       "academicDeadline": {
         "value": "2027-02-01",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21. Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance.",
+        "note": "Reconfirmed 2026-09-21. Dance BFA Application Deadline: Feb 1, 2027, listed under the deadlines page's 'Fall 2027' cycle section. EA is NOT offered to Dance. Reconfirmed 2026-10-26, unchanged.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2027-02-08",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/deadlines/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21. Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up.",
+        "note": "Reconfirmed 2026-09-21. Portfolio Submission (resume + photo + $65 fee) due Feb 8, 2027 per the Fall 2027 Dance BFA row on the deadlines page — unlocks audition sign-up. Reconfirmed 2026-10-26, unchanged.",
         "pendingChange": null
       },
       "decisionRelease": {
@@ -93,9 +93,9 @@
     "fee": {
       "value": "$65 audition fee (+ $50 application fee)",
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed 2026-09-21 (\"$65 non-refundable fee\") on the live Fall-2027 audition-info page.",
+      "note": "Non-refundable audition fee, paid via the Admissions Portal. Re-confirmed 2026-09-21 (\"$65 non-refundable fee\") on the live Fall-2027 audition-info page. Reconfirmed 2026-10-26, unchanged.",
       "pendingChange": null
     },
     "deadline": {
@@ -109,9 +109,9 @@
     "prescreenRequired": {
       "value": false,
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "No prescreen video for Dance. Submit resume + photo + fee, then register for the live audition.",
+      "note": "No prescreen video for Dance. Submit resume + photo + fee, then register for the live audition. Reconfirmed 2026-10-26, unchanged.",
       "pendingChange": null
     },
     "videoSpec": {
@@ -138,9 +138,9 @@
         }
       ],
       "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "Reconfirmed 2026-09-21 (90-second solo, resume, photo, recommendation, essay copy all still stated as before).",
+      "note": "Reconfirmed 2026-09-21 (90-second solo, resume, photo, recommendation, essay copy all still stated as before). Reconfirmed 2026-10-26, unchanged.",
       "pendingChange": null
     }
   },
@@ -154,9 +154,9 @@
       "date": {
         "value": "2027-02-06",
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "confirmed_2027",
-        "note": "Reconfirmed 2026-09-21 — all four Fall 2027 on-campus audition dates unchanged: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027. Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance.",
+        "note": "Reconfirmed 2026-09-21 — all four Fall 2027 on-campus audition dates unchanged: Sat Feb 6, Fri Feb 12, Sat Feb 20, Fri Feb 26, 2027. Value here is the earliest date; see the audition's 'notes' field for the full list. No tour cities for Dance. Reconfirmed 2026-10-26, unchanged.",
         "pendingChange": null
       },
       "time": "",
@@ -190,9 +190,9 @@
       "date": {
         "value": null,
         "sourceUrl": "https://www.purchase.edu/admissions/apply-to-purchase/dance/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "tbd",
-        "note": "Re-checked 2026-09-21: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu.",
+        "note": "Re-checked 2026-09-21: page still frames this ONLY for international applicants — exact quote: \"International Applicants: If you are unable to attend in person, please contact dance@purchase.edu to discuss alternate arrangements.\" No mention of a domestic/distance path. A PR-based applicant's eligibility remains UNCONFIRMED — still requires directly emailing dance@purchase.edu. Re-checked again 2026-10-26, still unchanged/unresolved.",
         "pendingChange": null
       },
       "time": "",
@@ -354,11 +354,11 @@
   "costs": {
     "year": "2026-27",
     "tuitionAnnual": {
-      "value": "~$19,966 (OUT-OF-STATE tuition + fees, 2026-27 tentative)",
+      "value": "~$19,966 (OUT-OF-STATE tuition + fees, 2026-27)",
       "sourceUrl": "https://www.purchase.edu/offices/student-financial-services/tuition-and-fees/",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "PR residents pay OUT-OF-STATE. Page labeled \"Tentative Costs for 2026–2027\": tuition $9,010/sem + fees $973/sem = $19,966/yr (off-campus rate; tuition+fees only). This is the 2026-27 (current) academic year, NOT yet Elena's 2027-28 entry-year rate — still to be published.",
+      "note": "PR residents pay OUT-OF-STATE. Page section \"Costs for 2026–2027\": tuition $9,010/sem + fees $973/sem = $19,966/yr (off-campus rate; tuition+fees only); on-campus with room+meals totals $38,914/yr. This is the 2026-27 (current) academic year, NOT yet Elena's 2027-28 entry-year rate — still to be published. Reconfirmed 2026-10-26.",
       "pendingChange": null
     },
     "totalCostOfAttendance": {

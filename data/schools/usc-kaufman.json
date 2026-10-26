@@ -58,7 +58,7 @@
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
         "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students. Page still reads \"The USC Kaufman Portfolio for admission to Fall 2026 includes the below components\" as of Aug 2026 — not yet refreshed for the 2026-27/Fall 2027 cycle. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
+        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students. Page still reads \"The USC Kaufman Portfolio for admission to Fall 2026 includes the below components\" as of Aug 2026 — not yet refreshed for the 2026-27/Fall 2027 cycle. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass. NOTE (2026-10-26): page is live with real content again but did not explicitly restate this Dec 1 deadline in this pass's fetch — value held unchanged, not contradicted.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
@@ -66,15 +66,15 @@
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
         "lastVerified": "2026-08-11",
         "cycleStatus": "carried_from_2026",
-        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1. Page still explicitly labeled \"Fall 2026\" as of Aug 2026.",
+        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1. Page still explicitly labeled \"Fall 2026\" as of Aug 2026. NOTE (2026-10-26): not explicitly restated in this pass's fetch — value held unchanged, not contradicted.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "carried_from_2026",
-        "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
+        "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date. Reconfirmed 2026-10-26, unchanged.",
         "pendingChange": null
       },
       "notes": ""
@@ -86,7 +86,7 @@
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
       "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
+      "note": "NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass. NOTE (2026-10-26): page is live again but a direct re-check this pass did not re-state the portal name explicitly — value held unchanged pending a clearer confirmation.",
       "pendingChange": null
     },
     "portalUrl": "https://uscdance.slideroom.com",
@@ -103,7 +103,7 @@
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
       "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "Page still explicitly labeled \"Fall 2026\" as of Aug 2026. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
+      "note": "Page still explicitly labeled \"Fall 2026\" as of Aug 2026. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass. NOTE (2026-10-26): still not explicitly restated — value held unchanged.",
       "pendingChange": null
     },
     "prescreenRequired": {
@@ -134,7 +134,7 @@
         },
         {
           "id": "vs-written",
-          "text": "Written response of 250 words or less on the applicant's role within their training community."
+          "text": "Written response of 250 words or less on the applicant's natural role within their current dance group/training community and what peers would say they bring."
         },
         {
           "id": "vs-filming",
@@ -142,9 +142,9 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked 2026-09-21: the 60-second video-response prompt is specifically about \"addressing a setback\" the applicant has faced in dance (updated from the previously recorded generic \"responding to a prompt\"); also found explicit filming/technical guidance not previously captured. Page still doesn't explicitly tie content to Fall 2027.",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked 2026-09-21: the 60-second video-response prompt is specifically about \"addressing a setback\" the applicant has faced in dance (updated from the previously recorded generic \"responding to a prompt\"); also found explicit filming/technical guidance not previously captured. Page still doesn't explicitly tie content to Fall 2027. Reconfirmed 2026-10-26: short-answer prompt text refined slightly (\"natural role in your current dance group and what peers would say you bring\"); resume now also instructs writing \"IP\" plus planned test month, or \"Will not be submitting,\" for pending/no SAT-ACT scores.",
       "pendingChange": null
     }
   },
@@ -158,9 +158,9 @@
       "date": {
         "value": "2027-01-16",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-10-26",
         "cycleStatus": "carried_from_2026",
-        "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
+        "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026. Reconfirmed 2026-10-26, unchanged.",
         "pendingChange": null
       },
       "time": "",
@@ -314,7 +314,7 @@
       "sourceUrl": "https://financialaid.usc.edu/",
       "lastVerified": "2026-08-11",
       "cycleStatus": "carried_from_2026",
-      "note": "financialaid.usc.edu (aid year 2026-27, i.e. Fall 2026 entrants): \"The 2026-27 FAFSA and CSS Profile will be available on October 1, 2025\" and \"The deadline for Regular Decision applicants is February 4, 2026.\" The 2027-28 aid-year page (relevant to Elena's Fall 2027 entry) was not yet posted as of Aug 2026; expect an analogous ~Oct 2026 opening and ~early-Feb 2027 priority date.",
+      "note": "financialaid.usc.edu (aid year 2026-27, i.e. Fall 2026 entrants): \"The 2026-27 FAFSA and CSS Profile will be available on October 1, 2025\" and \"The deadline for Regular Decision applicants is February 4, 2026.\" The 2027-28 aid-year page (relevant to Elena's Fall 2027 entry) was not yet posted as of Aug 2026; expect an analogous ~Oct 2026 opening and ~early-Feb 2027 priority date. Re-checked 2026-10-26: page still shows only 2026-27 dates — 2027-28 cycle not yet published.",
       "pendingChange": null
     },
     "url": "https://financialaid.usc.edu/"
@@ -342,17 +342,17 @@
     "cohortSize": {
       "value": "~24 dancers per year",
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "Deliberately tiny cohort. The official BFA page still does not itself state a cohort figure as of Aug 2026 re-check — this number is a widely repeated secondary-source estimate (e.g. CollegeVine), not a Kaufman-published figure. Treat as an estimate.",
+      "note": "Deliberately tiny cohort. The official BFA page still does not itself state a cohort figure as of Aug 2026 re-check — this number is a widely repeated secondary-source estimate (e.g. CollegeVine), not a Kaufman-published figure. Treat as an estimate. Re-checked 2026-10-26, still not published.",
       "pendingChange": null
     },
     "acceptanceRate": {
       "value": "Est. ~8–12% program acceptance",
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "Estimate — the official BFA page does not publish an acceptance rate as of Aug 2026 re-check; figure comes from third-party estimates.",
+      "note": "Estimate — the official BFA page does not publish an acceptance rate as of Aug 2026 re-check; figure comes from third-party estimates. Re-checked 2026-10-26, still not published.",
       "pendingChange": null
     },
     "genreEmphasis": {
@@ -363,17 +363,17 @@
         "commercial"
       ],
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "carried_from_2026",
-      "note": "'The New Movement' — hybrid. Re-checked 2026-09-21: BFA page still describes \"a hybrid art form comprised of intersecting dance techniques expressed in new media, scholarship, studio practice and choreography\" without enumerating individual genres; the specific genre list here is carried from prior verification (live-audition page names ballet/contemporary/improv-freestyle/hip-hop classes). Cohort size, acceptance rate, and company affiliation still not published on this page.",
+      "note": "'The New Movement' — hybrid. Re-checked 2026-09-21: BFA page still describes \"a hybrid art form comprised of intersecting dance techniques expressed in new media, scholarship, studio practice and choreography\" without enumerating individual genres; the specific genre list here is carried from prior verification (live-audition page names ballet/contemporary/improv-freestyle/hip-hop classes). Cohort size, acceptance rate, and company affiliation still not published on this page. Re-checked 2026-10-26, unchanged.",
       "pendingChange": null
     },
     "companyAffiliation": {
       "value": null,
       "sourceUrl": "https://kaufman.usc.edu/degrees/bfa/",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-10-26",
       "cycleStatus": "tbd",
-      "note": "No resident/affiliated company disclosed on the BFA program page — re-checked Aug 2026, still not mentioned.",
+      "note": "No resident/affiliated company disclosed on the BFA program page — re-checked Aug 2026, still not mentioned. Re-checked 2026-10-26, still not mentioned.",
       "pendingChange": null
     },
     "notable": {

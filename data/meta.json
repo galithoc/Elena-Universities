@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-09-21",
+    "date": "2026-11-02",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. New finds: a previously-untracked Pace Early Action round (Nov 15 deadline); Chapman's Creative Supplement page now yields its full pre-screen spec (Goal Statement + photo, newly captured) and corrected ED I/ED II decision-release estimates; Boston Conservatory's Contemporary/Commercial on-campus audition dates were corrected (had been recorded swapped); Fordham/Ailey's two required audition photos and USC Kaufman's video-response prompt/filming guidance were newly captured; LMU's FAFSA requirement was upgraded to confirmed_2027 (page now explicitly cites the 2027-28 cycle). NYU Tisch and Fordham's general pages remained unreachable this session."
+    "summary": "Re-verified all 9 schools against live sources. Pace's Sands pre-screen deadline now reads Jan 4, 2027 on the Key Dates page (one day later than the stored confirmed_2027 value of Jan 3) — recorded as a pendingChange across the affected rounds rather than silently overwritten. LMU: EA decision-release estimate corrected to late December per the page's own body text (contradicting its table); audition-video submission portal corrected back to Slate (with the Application Status Portal used only by pre-approval applicants); FAFSA/CADAA priority deadline upgraded to confirmed_2027. All other schools' previously confirmed_2027 and carried_from_2026 facts were reconfirmed unchanged. Fordham's general fordham.edu pages remained behind a CAS login gateway this session."
   }
 }

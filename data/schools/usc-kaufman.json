@@ -72,7 +72,7 @@
       "decisionRelease": {
         "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
         "pendingChange": null
@@ -158,7 +158,7 @@
       "date": {
         "value": "2027-01-16",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
         "pendingChange": null

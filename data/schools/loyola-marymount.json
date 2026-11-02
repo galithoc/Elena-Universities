@@ -79,7 +79,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu, unlike the prior session): page lists \"November 1: Early Decision and Early Action.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
@@ -95,7 +95,7 @@
       "decisionRelease": {
         "value": "2026-12-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu unlike the prior session): page states Early Decision I releases \"Mid-December\" — Dec 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
         "pendingChange": null
@@ -110,7 +110,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu, unlike the prior session): page lists \"November 1: Early Decision and Early Action.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
@@ -124,11 +124,11 @@
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2026-12-15",
+        "value": "2026-12-22",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
-        "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu unlike the prior session): page states Early Action releases \"Mid-December\" — Dec 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
+        "note": "CORRECTED 2026-11-02: the page's deadlines table still lists EA notification as \"Mid-December,\" but its body text now explicitly states \"All Early Action notifications will be sent by late December\" — using the more specific body-text wording (Dec 22 as the late-month estimate) over the table's vaguer label. No explicit Fall 2027 tie.",
         "pendingChange": null
       },
       "notes": ""
@@ -141,7 +141,7 @@
       "academicDeadline": {
         "value": "2027-01-08",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu, unlike the prior session): page lists \"January 8: Early Decision II.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
@@ -157,7 +157,7 @@
       "decisionRelease": {
         "value": "2027-02-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu unlike the prior session): page states Early Decision II releases \"Mid-February\" — Feb 15 used as the mid-month estimate. No explicit Fall 2027 tie.",
         "pendingChange": null
@@ -172,7 +172,7 @@
       "academicDeadline": {
         "value": "2027-01-15",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-09-21 (originally directly fetched 2026-09-09; this runner CAN reach lmu.edu, unlike the prior session): page lists \"January 15: Regular Decision.\" Page does not explicitly tie the cycle to Fall 2027, so held at carried_from_2026.",
         "pendingChange": null
@@ -188,7 +188,7 @@
       "decisionRelease": {
         "value": "2027-03-01",
         "sourceUrl": "https://admission.lmu.edu/learnmore/prospectivestudents/first-yearapplicants/",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-02",
         "cycleStatus": "carried_from_2026",
         "note": "CORRECTED (originally directly fetched 2026-09-09, reconfirmed 2026-09-21; this runner CAN reach lmu.edu unlike the prior session): page states Regular Decision releases \"Early March,\" not April 1 as previously recorded from a web-search summary — Mar 1 used as the early-month estimate.",
         "pendingChange": null
@@ -198,11 +198,11 @@
   ],
   "artisticSupplement": {
     "portal": {
-      "value": "LMU Application Status Portal",
+      "value": "Slate (general applicants); pre-approval-only applicants use the LMU Application Status Portal instead",
       "sourceUrl": "https://cfa.lmu.edu/programs/dance/admission/auditionforthemajor/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-11-02",
       "cycleStatus": "carried_from_2026",
-      "note": "CORRECTED (directly fetched 2026-09-09, this runner CAN reach lmu.edu unlike the prior session): the audition-for-the-major page states both videos are submitted \"via the LMU Application Status Portal,\" not Slate as previously recorded from a web-search summary.",
+      "note": "CORRECTED 2026-11-02: the audition-for-the-major page now reads \"you will gain access to Slate, where you will need to\" submit the two audition videos; pre-approval applicants instead use the \"LMU Application Status Portal.\" This reverses the 2026-09-21 correction (which had recorded Slate as replaced by the Application Status Portal for everyone) — both portals exist, used by different applicant paths.",
       "pendingChange": null
     },
     "portalUrl": "",
@@ -357,7 +357,7 @@
     "fafsaRequired": {
       "value": true,
       "sourceUrl": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-11-02",
       "cycleStatus": "confirmed_2027",
       "note": "UPGRADED to confirmed_2027 (2026-09-21): financialaid.lmu.edu now explicitly references the \"2027-2028 FAFSA\" and the applicable \"March 2, 2027\" CA state deadline, tying the page directly to Elena's Fall 2027 entry year. Exact 2027-28 FAFSA-specific deadline itself is still listed as \"TBA\" on the page.",
       "pendingChange": null
@@ -374,9 +374,9 @@
     "priorityDeadline": {
       "value": "2027-02-01",
       "sourceUrl": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/",
-      "lastVerified": "2026-09-21",
-      "cycleStatus": "carried_from_2026",
-      "note": "Directly fetched 2026-09-09 (this runner CAN reach lmu.edu unlike the prior session): page's own table currently shows Feb 1, 2026 (Regular Decision, Fall 2026/aid-year 2026-27) — one cycle behind. Value here projects the same Feb 1 day-of-month forward to Elena's Fall 2027 cycle; re-verify once LMU posts 2027-28 dates. California Cal Grant/CADAA March 2 date applies to CA residents only, not a Puerto Rico applicant.",
+      "lastVerified": "2026-11-02",
+      "cycleStatus": "confirmed_2027",
+      "note": "UPGRADED to confirmed_2027 (2026-11-02): financialaid.lmu.edu's \"Entering Fall 2027\" deadlines table lists the Regular Decision FAFSA/CADAA deadline as Feb 1, 2027, matching the stored value, and explicitly ties the admission-plan table (ED, Verto, EA, ED2, RD) to the Fall 2027 entry year. Note: a separate bullet on the same page says \"March 2, 2026\" for the CA Dream Act deadline, which conflicts with the \"March 2, 2027\" date given elsewhere on the page for the 2027-2028 cycle — likely a typo on LMU's page, not applicable to a PR resident anyway.",
       "pendingChange": null
     },
     "url": "https://financialaid.lmu.edu/prospectivestudents/applyingforaid/"

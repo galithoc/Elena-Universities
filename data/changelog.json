@@ -342,6 +342,62 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261102-1",
+      "date": "2026-11-02",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Pace: the Key Dates page now reads \"January 4: Final Date to submit a pre-screen for Sands College of Performing Arts\" — one day later than the stored confirmed_2027 value of January 3, 2027. Value held at Jan 3 (per the never-silently-change rule) with a pendingChange recorded across the ED, Early Action, final-deadline rounds, and the shared artisticSupplement.deadline fact.",
+      "refs": [
+        "rounds.ed.artsSupplementDeadline",
+        "rounds.final.artsSupplementDeadline",
+        "rounds.ea.artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261102-2",
+      "date": "2026-11-02",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: admission.lmu.edu's body text now explicitly states Early Action notifications \"will be sent by late December,\" contradicting the same page's own deadlines table (\"Mid-December\") — updated the EA decisionRelease estimate from Dec 15 to Dec 22, 2026 (not a confirmed_2027 fact, so updated directly per the data contract).",
+      "refs": [
+        "rounds.ea.decisionRelease"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261102-3",
+      "date": "2026-11-02",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: the audition-for-the-major page now states the two required audition videos are submitted via Slate, with the \"LMU Application Status Portal\" used only by pre-approval applicants — reversing the 2026-09-21 correction that had recorded the Application Status Portal as the sole submission portal for everyone.",
+      "refs": [
+        "artisticSupplement.portal"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261102-4",
+      "date": "2026-11-02",
+      "school": "loyola-marymount",
+      "type": "confirmed",
+      "text": "LMU: financialaid.lmu.edu's \"Entering Fall 2027\" deadlines table confirms the Regular Decision FAFSA/CADAA deadline as Feb 1, 2027, matching the stored priority-deadline value and explicitly tying the admission-plan table to the Fall 2027 entry year — upgraded financialAid.priorityDeadline from carried_from_2026 to confirmed_2027.",
+      "refs": [
+        "financialAid.priorityDeadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261102-5",
+      "date": "2026-11-02",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. Arizona, Boston Conservatory, Chapman, Fordham/Ailey, NYU Tisch, SUNY Purchase, and USC Kaufman's previously confirmed_2027 and carried_from_2026 deadlines, fees, audition dates, and financial-aid terms were all reconfirmed unchanged (lastVerified bumped). Fordham's general fordham.edu pages remained behind a CAS login gateway and could not be re-verified this session, same as prior refreshes.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

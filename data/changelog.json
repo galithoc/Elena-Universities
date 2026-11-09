@@ -342,6 +342,65 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools; all previously confirmed_2027 deadlines, fees, and audition dates for Pace, SUNY Purchase, Arizona, and Boston Conservatory were reconfirmed unchanged. NYU Tisch's domain (tisch.nyu.edu) and Fordham's general pages (fordham.edu, CAS login gateway) remained unreachable this session, same as prior refreshes — those facts are unchanged and still need a manual browser spot-check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261109-1",
+      "date": "2026-11-09",
+      "school": "fordham-ailey",
+      "type": "proposed",
+      "text": "Fordham/Ailey: the Ailey/Fordham apply page now splits the previously-shared Nov 1, 2026 deadline into two distinct dates — Ailey dance application due Nov 6, 2026 and Fordham Common Application due Nov 8, 2026. Both facts were confirmed_2027, so the new dates are recorded as pendingChange rather than overwritten; a human should accept or reject both.",
+      "refs": [
+        "rounds[priority].academicDeadline",
+        "rounds[priority].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261109-2",
+      "date": "2026-11-09",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Pace: the Key Dates page now reads \"January 4: Final Date to submit a pre-screen for Sands College of Performing Arts\" — one day later than the stored Jan 3, 2027 confirmed_2027 value shared across the ED, EA, and final rounds plus artisticSupplement.deadline. Recorded as pendingChange on all four facts rather than overwritten.",
+      "refs": [
+        "rounds[ed].artsSupplementDeadline",
+        "rounds[final].artsSupplementDeadline",
+        "rounds[ea].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261109-3",
+      "date": "2026-11-09",
+      "school": "loyola-marymount",
+      "type": "changed",
+      "text": "LMU: financialaid.lmu.edu now has a dedicated \"Fall 2027 entry\" section explicitly stating the Regular Decision FAFSA priority deadline is Feb 1, 2027 — upgraded priorityDeadline from carried_from_2026 to confirmed_2027 (value unchanged). Also updated the audition-submission portal description: the audition-for-the-major page names \"Slate\" as the platform reached via the LMU Application Status Portal.",
+      "refs": [
+        "financialAid.priorityDeadline",
+        "artisticSupplement.portal"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261109-4",
+      "date": "2026-11-09",
+      "school": "boston-conservatory",
+      "type": "changed",
+      "text": "Boston Conservatory: the deadlines page now reads \"March 31: Undergraduate admission and financial aid decisions are released\" for Regular Action — corrected from the previously recorded April 1 (not a confirmed_2027 fact, so updated directly).",
+      "refs": [
+        "rounds[ra].decisionRelease"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261109-5",
+      "date": "2026-11-09",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. NYU Tisch's deadlines table, SUNY Purchase's full dance/deadlines/tuition pages, USC Kaufman's portfolio spec/audition/decision dates, Chapman's early-options/creative-supplement/financial-aid pages, and Arizona's apply/deadlines/jazz-showcase pages all reconfirmed unchanged (lastVerified bumped). Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway) — test policy, tuition, and FAFSA/CSS codes there still need a manual browser check.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }

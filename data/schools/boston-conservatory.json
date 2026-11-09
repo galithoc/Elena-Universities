@@ -56,23 +56,23 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Deadlines page (no longer bot-blocked) confirms: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
+        "note": "Reconfirmed 2026-11-09: \"Your application and pre-screen materials (if applicable) must be completed by this date\" = Nov 1. Supporting documents (transcripts, recs, online interview) due separately by Dec 1.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Pre-screen (if required) due with the application, Nov 1.",
+        "note": "Pre-screen (if required) due with the application, Nov 1. Reconfirmed 2026-11-09.",
         "pendingChange": null
       },
       "decisionRelease": {
         "value": "2027-01-31",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
         "note": "Deadlines page: \"Notification of Early Action admissions and scholarship decisions are issued\" Jan 31.",
         "pendingChange": null
@@ -87,25 +87,25 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Confirmed via deadlines page: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
+        "note": "Reconfirmed 2026-11-09: \"Your application and pre-screen materials (if applicable) must be submitted by this date\" = Dec 1 (pre-screen materials recommended by Nov 1). Supporting documents due separately by Jan 15.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
         "note": "",
         "pendingChange": null
       },
       "decisionRelease": {
-        "value": "2027-04-01",
+        "value": "2027-03-31",
         "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/deadlines",
-        "lastVerified": "2026-09-21",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Deadlines page: undergraduate admission/financial-aid notification issued Apr 1; tuition deposit due May 1.",
+        "note": "CORRECTED 2026-11-09: deadlines page now reads \"March 31: Undergraduate admission and financial aid decisions are released\" — one day earlier than the April 1 value previously recorded. Tuition deposit still due May 1.",
         "pendingChange": null
       },
       "notes": "Supporting documents (transcripts, recommendation letters, online interview) due Jan 15."
@@ -140,9 +140,9 @@
     "prescreenRequired": {
       "value": true,
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-11-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed: pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition. Page still does not tie any of this explicitly to \"Fall 2027\" or the \"2026-27\" cycle.",
+      "note": "Reconfirmed 2026-11-09: pre-recorded material submitted; for the online option, ballet + modern submitted 48h before the live online audition. Page still does not tie any of this explicitly to \"Fall 2027\" or the \"2026-27\" cycle.",
       "pendingChange": null
     },
     "videoSpec": {
@@ -157,9 +157,9 @@
         }
       ],
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-11-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Re-confirmed unchanged.",
+      "note": "Reconfirmed 2026-11-09, unchanged.",
       "pendingChange": null
     }
   },
@@ -308,9 +308,9 @@
     "interview": {
       "value": "Faculty conversation follows the solo for both Contemporary Dance Performance and Commercial Dance auditions",
       "sourceUrl": "https://bostonconservatory.berklee.edu/admissions/dance-audition-requirements",
-      "lastVerified": "2026-08-17",
+      "lastVerified": "2026-11-09",
       "cycleStatus": "carried_from_2026",
-      "note": "Updated 2026-08-17: dance-audition-requirements page now states the brief post-solo faculty conversation applies to both tracks, not just Commercial Dance as previously recorded.",
+      "note": "Reconfirmed 2026-11-09: both tracks' live audition ends with \"perform a solo and talk with faculty.\"",
       "pendingChange": null
     }
   },

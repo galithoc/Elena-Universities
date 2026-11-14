@@ -193,11 +193,11 @@
         {
           "id": "audition-registered",
           "label": "Audition registered",
-          "status": "done",
+          "status": "todo",
           "owner": "parents",
           "due": null,
           "note": "",
-          "doneOn": "2026-11-14"
+          "doneOn": null
         },
         {
           "id": "travel-booked",

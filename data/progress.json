@@ -665,7 +665,7 @@
         {
           "id": "prescreen-submitted",
           "label": "Prescreen / artistic supplement submitted",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "both",
           "due": null,
           "note": "",

@@ -692,7 +692,7 @@
         {
           "id": "travel-booked",
           "label": "Flights / hotel booked",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "parents",
           "due": null,
           "note": "",

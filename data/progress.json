@@ -148,7 +148,7 @@
         {
           "id": "supp-essays",
           "label": "Supplemental essays drafted",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "elena",
           "due": null,
           "note": "",

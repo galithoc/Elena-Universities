@@ -460,11 +460,11 @@
         {
           "id": "prescreen-filmed",
           "label": "Prescreen / audition video filmed",
-          "status": "in_progress",
+          "status": "done",
           "owner": "elena",
           "due": null,
           "note": "",
-          "doneOn": null
+          "doneOn": "2026-11-14"
         },
         {
           "id": "prescreen-submitted",

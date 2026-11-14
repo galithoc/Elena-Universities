@@ -505,7 +505,7 @@
         {
           "id": "audition-done",
           "label": "Audition completed",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "elena",
           "due": null,
           "note": "",

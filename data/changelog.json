@@ -401,6 +401,18 @@
       "text": "Weekly refresh: re-verified sources across all 9 schools. NYU Tisch's deadlines table, SUNY Purchase's full dance/deadlines/tuition pages, USC Kaufman's portfolio spec/audition/decision dates, Chapman's early-options/creative-supplement/financial-aid pages, and Arizona's apply/deadlines/jazz-showcase pages all reconfirmed unchanged (lastVerified bumped). Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway) — test policy, tuition, and FAFSA/CSS codes there still need a manual browser check.",
       "refs": [],
       "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261114-1",
+      "date": "2026-11-14",
+      "school": "usc-kaufman",
+      "type": "confirmed",
+      "text": "Nov 14 — USC Kaufman's Dec 1 application + portfolio deadline is now confirmed for Fall 2027 (USC's first-year admission page names it the only deadline for the Kaufman School of Dance). Date unchanged; this restores a finding from the Sept 28 refresh that was lost when that PR was superseded.",
+      "refs": [
+        "rounds[dec1].academicDeadline",
+        "rounds[dec1].artsSupplementDeadline"
+      ],
+      "by": "claude"
     }
   ]
 }

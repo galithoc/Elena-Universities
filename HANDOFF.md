@@ -112,8 +112,17 @@ Only step 4 involves a human.
 5. **Site and calendars update themselves** via the Pages deploy on merge to `main`.
 
 > **Step 4 is a real dependency.** An open refresh PR means the live site and the family
-> calendar are out of date. If one is open on a Monday, merge it that week. Two refreshes sat unmerged
-> through September, which is why #7 and #9 overlapped and one had to be discarded.
+> calendar are out of date. If one is open on a Monday, merge it that week.
+>
+> It happened anyway: from 28 Sep to 9 Nov seven refresh PRs (#12–#18) piled up unmerged, so the
+> site sat on 21 Sep data for eight weeks. Every run restarted from that stale baseline, rediscovered
+> the same changes (Pace's Jan 3 → Jan 4 pre-screen five times) and conflicted with the others. One
+> finding — USC's Dec 1 deadline confirmed for 2027 — existed only in the oldest PR. On 14 Nov #18 was
+> merged, the USC finding restored by hand, and #12–#17 closed.
+>
+> **Since 14 Nov there is only ever one refresh PR.** If last week's is still open, the new run
+> builds on top of it and then closes it as superseded, so findings carry forward instead of being
+> lost. Merging the newest refresh PR is always enough.
 
 ---
 
@@ -130,6 +139,7 @@ while doing nothing at all**.
 | 14 | 9 Sep | manual | 6.0 min | Real pass → PR #4 |
 | 15 | 14 Sep | schedule | 6.2 min | Real pass → PR #7, later closed as superseded |
 | **16** | **21 Sep** | **schedule** | **6.2 min** | **Real pass → PR #9, merged — three new findings** |
+| 17–23 | 28 Sep – 9 Nov | schedule | — | Real passes → PRs #12–#18, all left unmerged; #18 merged 14 Nov, rest closed |
 
 **What went wrong.** The refresh was fanning out to nine background helpers, one per school, then
 ending its turn to wait for them. Running unattended inside a GitHub Action there is no next

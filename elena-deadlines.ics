@@ -566,23 +566,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:usc-kaufman-round-dec1-app@elena-universities
-DTSTAMP:20260811T000000Z
+DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:⏰ USC Kaufman: Application + Portfolio deadline due [unconfirmed 
- — last year's date]
+SUMMARY:⏰ USC Kaufman: Application + Portfolio deadline due
 CATEGORIES:app_deadline
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due [unconfir
- med — last year's date]
+DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due
 TRIGGER:-P7D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due [unconfir
- med — last year's date]
+DESCRIPTION:⏰ USC Kaufman: Application + Portfolio deadline due
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT

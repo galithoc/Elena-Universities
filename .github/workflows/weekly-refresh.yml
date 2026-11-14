@@ -8,6 +8,11 @@ name: weekly-refresh
 #   - ANTHROPIC_API_KEY secret (Settings -> Secrets and variables -> Actions)
 #   - Settings -> Actions -> General -> Workflow permissions:
 #       "Allow GitHub Actions to create and approve pull requests" = ON
+#
+# Only one refresh PR is ever open. If last week's PR is still unmerged, this
+# run builds on top of it (so its findings carry forward instead of being
+# rediscovered or lost), and once this week's PR is open the older one is
+# closed as superseded. Merging the newest refresh PR is always enough.
 on:
   schedule:
     - cron: "0 10 * * 1"      # Mondays 10:00 UTC = 6:00 AM AST
@@ -27,6 +32,30 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build on the open refresh PR, if there is one
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          PREV="$(gh pr list --base main --state open --json headRefName \
+                    --jq '[.[].headRefName | select(startswith("refresh/"))] | sort | last // ""')"
+          if [ -z "$PREV" ]; then
+            echo "No open refresh PR - starting from main."
+            exit 0
+          fi
+          echo "Open refresh PR found on $PREV - building on it."
+          git checkout -B refresh-base "origin/$PREV"
+          # Pick up anything merged to main since (e.g. progress.json edits).
+          if ! git merge --no-edit origin/main; then
+            echo "Could not merge main into $PREV cleanly - starting from main instead."
+            git merge --abort
+            git checkout -B refresh-base origin/main
+          fi
 
       - uses: anthropics/claude-code-action@v1
         with:
@@ -68,8 +97,6 @@ jobs:
           fi
           DATE="$(date +%Y-%m-%d)"
           BR="refresh/${DATE}"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$BR"
           git add -A
           git commit -m "refresh: weekly admissions update (${DATE})"
@@ -79,5 +106,11 @@ jobs:
               --title "Weekly refresh — ${DATE}" \
               --body "Automated weekly re-verification of the nine schools. Review the diff (data/changelog.json has a plain-English summary of what changed) and merge to update the live site and the family calendar. Conflicts with confirmed-2027 values are recorded as pendingChange, never overwritten."
           fi
+          NEW="$(gh pr list --head "$BR" --state open --json number --jq '.[0].number')"
+          # This PR contains every older open refresh PR's changes - close them.
+          for N in $(gh pr list --base main --state open --json number,headRefName \
+                       --jq ".[] | select(.headRefName | startswith(\"refresh/\")) | select(.number != ${NEW}) | .number"); do
+            gh pr close "$N" --comment "Superseded by #${NEW}, which was built on top of this PR and includes its changes."
+          done
           echo "==== open refresh PR(s) ===="
           gh pr list --head "$BR" --state open --json number,url,title

@@ -15,7 +15,7 @@
       {
         "id": "g-fafsa",
         "label": "FAFSA submitted (2027-28)",
-        "status": "todo",
+        "status": "in_progress",
         "owner": "parents",
         "due": "2026-11-15",
         "note": "FAFSA opens ~Oct 1, 2026.",

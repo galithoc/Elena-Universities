@@ -33,11 +33,11 @@
       {
         "id": "g-reels",
         "label": "Prescreen reels planned (contemporary + jazz solos, ballet barre)",
-        "status": "in_progress",
+        "status": "done",
         "owner": "elena",
         "due": "2026-10-15",
         "note": "Reuse across schools where specs allow.",
-        "doneOn": null
+        "doneOn": "2026-11-14"
       }
     ]
   },

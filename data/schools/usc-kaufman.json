@@ -55,18 +55,18 @@
       "binding": false,
       "academicDeadline": {
         "value": "2026-12-01",
-        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-08-11",
-        "cycleStatus": "carried_from_2026",
-        "note": "All materials due Dec 1 — same single deadline for first-year, transfer, and current USC students. Page still reads \"The USC Kaufman Portfolio for admission to Fall 2026 includes the below components\" as of Aug 2026 — not yet refreshed for the 2026-27/Fall 2027 cycle. NOTE (2026-08-17 check): the USC Kaufman Portfolio page now shows only a \"Check back soon for USC Kaufman Portfolio information\" placeholder — the prior Fall 2026 content has been removed and no Fall 2027 content has replaced it yet. Value carried forward unchanged; could not be re-verified against current page content this pass.",
+        "sourceUrl": "https://admission.usc.edu/apply/first-year/",
+        "lastVerified": "2026-11-14",
+        "cycleStatus": "confirmed_2027",
+        "note": "Confirmed 2026-11-14 on admission.usc.edu/apply/first-year/ (2026-27 cycle page: ED Nov 1, 2026; RD Jan 10, 2027): \"Students applying to majors in the performing arts must apply Regular Decision by the December 1 deadline ... This is the only deadline for students applying to majors in the following schools: Kaufman School of Dance ...\" First found by the 2026-09-28 refresh, whose PR was superseded before merging. The Kaufman Portfolio page itself no longer restates the deadline.",
         "pendingChange": null
       },
       "artsSupplementDeadline": {
         "value": "2026-12-01",
-        "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-08-11",
-        "cycleStatus": "carried_from_2026",
-        "note": "USC Kaufman Portfolio via SlideRoom due Dec 1. Page still explicitly labeled \"Fall 2026\" as of Aug 2026.",
+        "sourceUrl": "https://admission.usc.edu/apply/first-year/",
+        "lastVerified": "2026-11-14",
+        "cycleStatus": "confirmed_2027",
+        "note": "Mirrors academicDeadline: admission.usc.edu/apply/first-year/ (re-checked 2026-11-14) makes Dec 1 the only deadline for Kaufman School of Dance applicants for the current cycle; the portfolio is part of that application. The Kaufman Portfolio page no longer restates the deadline itself.",
         "pendingChange": null
       },
       "decisionRelease": {

@@ -380,7 +380,7 @@
         {
           "id": "app-submitted",
           "label": "Application submitted",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "both",
           "due": null,
           "note": "",

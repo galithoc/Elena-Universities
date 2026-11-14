@@ -353,7 +353,7 @@
         {
           "id": "recs-requested",
           "label": "Recommendations requested",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "elena",
           "due": null,
           "note": "",

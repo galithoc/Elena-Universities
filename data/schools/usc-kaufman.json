@@ -72,9 +72,9 @@
       "decisionRelease": {
         "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Portfolio page now live with real content again (was a placeholder as of 2026-08-17): \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
+        "note": "Reconfirmed 2026-11-09, unchanged: \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
         "pendingChange": null
       },
       "notes": ""
@@ -142,9 +142,9 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-21",
+      "lastVerified": "2026-11-09",
       "cycleStatus": "carried_from_2026",
-      "note": "No ballet-barre segment specified, unlike many peer prescreens. Re-checked 2026-09-21: the 60-second video-response prompt is specifically about \"addressing a setback\" the applicant has faced in dance (updated from the previously recorded generic \"responding to a prompt\"); also found explicit filming/technical guidance not previously captured. Page still doesn't explicitly tie content to Fall 2027.",
+      "note": "No ballet-barre segment specified, unlike many peer prescreens. Reconfirmed 2026-11-09, unchanged: two 1-min contrasting solos, 60-second setback-response video, headshot+action photo, 1-page resume, 250-word written response, and the no-jump-cuts/dissolves filming guidance all still match. Page still doesn't explicitly tie content to Fall 2027.",
       "pendingChange": null
     }
   },
@@ -158,9 +158,9 @@
       "date": {
         "value": "2027-01-16",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-11-09",
         "cycleStatus": "carried_from_2026",
-        "note": "Portfolio page (live again as of 2026-09-09, was a placeholder 2026-08-17): \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
+        "note": "Reconfirmed 2026-11-09, unchanged: \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
         "pendingChange": null
       },
       "time": "",
@@ -213,9 +213,9 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-09-09",
+      "lastVerified": "2026-11-09",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Reconfirmed 2026-11-09, unchanged.",
       "pendingChange": null
     },
     "interview": {

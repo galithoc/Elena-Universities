@@ -808,11 +808,11 @@
         {
           "id": "aid-docs",
           "label": "FAFSA/CSS sent to this school",
-          "status": "in_progress",
+          "status": "done",
           "owner": "parents",
           "due": null,
           "note": "",
-          "doneOn": null
+          "doneOn": "2026-11-14"
         },
         {
           "id": "decision",

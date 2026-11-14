@@ -808,7 +808,7 @@
         {
           "id": "aid-docs",
           "label": "FAFSA/CSS sent to this school",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "parents",
           "due": null,
           "note": "",

@@ -362,7 +362,7 @@
         {
           "id": "prescreen-filmed",
           "label": "Prescreen / audition video filmed",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "elena",
           "due": null,
           "note": "",

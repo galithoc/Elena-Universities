@@ -886,7 +886,7 @@
         {
           "id": "audition-registered",
           "label": "Audition registered",
-          "status": "todo",
+          "status": "in_progress",
           "owner": "parents",
           "due": null,
           "note": "",

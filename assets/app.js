@@ -199,14 +199,16 @@ const VIEWS = {
   calendar: renderCalendar, progress: renderProgress, news: renderNews,
   compare: renderCompare, travel: renderTravel,
 };
-function route() {
+function draw() {
   const { view, id } = parseHash();
   document.querySelectorAll('.nav a').forEach(a => a.classList.toggle('active', a.dataset.route === view));
   const fn = VIEWS[view] || renderDashboard;
   $('#view').innerHTML = fn(id);
-  window.scrollTo(0, 0);
 }
-function render() { route(); }
+// Navigating to a page starts at the top; re-drawing the same page (ticking a
+// checklist item, picking a round, a save finishing) keeps the scroll position.
+function route() { draw(); window.scrollTo(0, 0); }
+function render() { const y = window.scrollY; draw(); window.scrollTo(0, y); }
 
 // ── views ──────────────────────────────────────────────────────────────
 function progressStats(sid) {

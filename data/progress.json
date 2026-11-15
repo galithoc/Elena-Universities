@@ -6,11 +6,11 @@
       {
         "id": "g-commonapp",
         "label": "Common App account created + main essay drafted",
-        "status": "done",
+        "status": "todo",
         "owner": "elena",
         "due": "2026-09-15",
         "note": "Common App opens Aug 1, 2026.",
-        "doneOn": "2026-11-14"
+        "doneOn": null
       },
       {
         "id": "g-fafsa",

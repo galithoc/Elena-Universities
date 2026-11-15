@@ -1,32 +1,68 @@
 name: build-ics
 # Regenerate the subscribable calendar feed whenever data changes, however it
-# was edited (refresh skill, weekly Action, or a github.com web edit). The
-# commit touches only elena-deadlines.ics — which is OUTSIDE the data/** path
-# filter — so it cannot retrigger this workflow.
+# was edited (refresh skill, weekly Action, the app, or a github.com web edit).
+# The commit touches only elena-deadlines.ics — which is OUTSIDE the data/**
+# path filter — so it cannot retrigger this workflow.
+#
+# The app saves one commit per tap, so pushes arrive seconds apart. Two guards
+# keep that from failing:
+#   - concurrency cancels an older run when a newer push lands (the newest run
+#     rebuilds from the newest main, so nothing is lost);
+#   - the push step rebuilds on the latest main and retries if main moved
+#     underneath it (an app save can land mid-run).
 on:
   push:
     branches: [main]
     paths:
       - "data/**"
+  workflow_dispatch: {}
+
+concurrency:
+  group: build-ics
+  cancel-in-progress: true
 
 permissions:
   contents: write
+  actions: write   # to start deploy-pages after pushing (see last step)
 
 jobs:
   build-ics:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Rebuild elena-deadlines.ics
-        run: python3 scripts/build_ics.py
-      - name: Commit if changed
+
+      - name: Rebuild elena-deadlines.ics and push (retries if main moves)
+        id: push
         run: |
-          if ! git diff --quiet elena-deadlines.ics; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 scripts/build_ics.py
+            if git diff --quiet elena-deadlines.ics; then
+              echo "ICS already up to date."
+              echo "pushed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
             git add elena-deadlines.ics
-            git commit -m "chore: regenerate calendar feed"
-            git push
-          else
-            echo "ICS already up to date."
-          fi
+            git commit -q -m "chore: regenerate calendar feed"
+            if git push -q origin HEAD:main; then
+              echo "Pushed on attempt ${attempt}."
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "main moved during the rebuild (attempt ${attempt}) - retrying."
+            sleep $((attempt * 3))
+          done
+          echo "Could not push after 5 attempts."
+          exit 1
+
+      # Pushes made with GITHUB_TOKEN do not trigger other workflows, so without
+      # this the published site would keep the old feed until the next edit.
+      - name: Publish the new feed
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy-pages.yml --ref main --repo "${{ github.repository }}"

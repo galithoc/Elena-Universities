@@ -94,8 +94,8 @@
         "pendingChange": {
           "proposedValue": "2027-01-04",
           "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-          "seenOn": "2026-11-09",
-          "note": "Key Dates page now reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value."
+          "seenOn": "2026-11-16",
+          "note": "Key Dates page still reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value. Reconfirmed 2026-11-16, now the second consecutive weekly refresh to see Jan 4; a human should consider accepting this proposedValue."
         }
       },
       "decisionRelease": {
@@ -130,8 +130,8 @@
         "pendingChange": {
           "proposedValue": "2027-01-04",
           "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-          "seenOn": "2026-11-09",
-          "note": "Key Dates page now reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value."
+          "seenOn": "2026-11-16",
+          "note": "Key Dates page still reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value. Reconfirmed 2026-11-16, now the second consecutive weekly refresh to see Jan 4; a human should consider accepting this proposedValue."
         }
       },
       "decisionRelease": {
@@ -166,8 +166,8 @@
         "pendingChange": {
           "proposedValue": "2027-01-04",
           "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-          "seenOn": "2026-11-09",
-          "note": "Key Dates page now reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value."
+          "seenOn": "2026-11-16",
+          "note": "Key Dates page still reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value. Reconfirmed 2026-11-16, now the second consecutive weekly refresh to see Jan 4; a human should consider accepting this proposedValue."
         }
       },
       "decisionRelease": {
@@ -208,8 +208,8 @@
       "pendingChange": {
         "proposedValue": "2027-01-04",
         "sourceUrl": "https://www.pace.edu/admission-and-aid/undergraduate-admission/how-apply/key-dates-and-deadlines",
-        "seenOn": "2026-11-09",
-        "note": "Key Dates page now reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value."
+        "seenOn": "2026-11-16",
+        "note": "Key Dates page still reads 'January 4: Final Date to submit a pre-screen for Sands College of Performing Arts' — one day later than the stored Jan 3 value. Reconfirmed 2026-11-16, now the second consecutive weekly refresh to see Jan 4; a human should consider accepting this proposedValue."
       }
     },
     "prescreenRequired": {

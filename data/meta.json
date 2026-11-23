@@ -69,8 +69,8 @@
     "calName": "Elena — College Deadlines"
   },
   "lastRefresh": {
-    "date": "2026-11-09",
+    "date": "2026-11-23",
     "by": "weekly-refresh",
-    "summary": "Re-verified all 9 schools against live sources. Two confirmed_2027 conflicts surfaced as pendingChange rather than overwritten: Fordham/Ailey's shared Nov 1 deadline split into Ailey Nov 6 / Fordham Common App Nov 8, and Pace's Sands pre-screen deadline moved from Jan 3 to Jan 4, 2027. LMU's FAFSA priority deadline was upgraded to confirmed_2027 (now explicitly tied to \"Fall 2027 entry\") and its audition portal description updated to name Slate explicitly. Boston Conservatory's Regular Action decision-release date was corrected (Apr 1 → Mar 31, not a confirmed fact). NYU Tisch, SUNY Purchase, USC Kaufman, Chapman, and Arizona's previously confirmed deadlines, fees, and audition dates all reconfirmed unchanged. Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway)."
+    "summary": "Re-verified all 9 schools against live sources. Another quiet week: Pace's Jan 3 → Jan 4 Sands pre-screen pendingChange reconfirmed for a THIRD consecutive week, now echoed on two more Pace pages (still not auto-accepted — needs a human to move proposedValue into value). Fordham/Ailey's apply page still shows \"Applications have closed\" with no split Nov 6/Nov 8 dates, so that conflict remains unresolved. Boston Conservatory's audition-requirements page revealed a previously-uncaptured request-only, fully pre-recorded video audition fallback for applicants who can't attend in person or live online. NYU Tisch, SUNY Purchase, LMU, USC Kaufman, Chapman, and Arizona's previously confirmed deadlines, fees, and audition dates all reconfirmed unchanged. Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway)."
   }
 }

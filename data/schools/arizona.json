@@ -75,7 +75,7 @@
       "academicDeadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09 — page lists \"November 1, 2026: Early Action Application Deadline*\". Priority for merit + admission.",
         "pendingChange": null
@@ -83,7 +83,7 @@
       "artsSupplementDeadline": {
         "value": "2027-04-01",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09 on the 'Fall 2027 Applicants' page: \"Deadline to submit for Fall 2027 entry: April 1, 2027.\"",
         "pendingChange": null
@@ -91,7 +91,7 @@
       "decisionRelease": {
         "value": "2027-01-15",
         "sourceUrl": "https://www.arizona.edu/admissions/first-year/deadlines",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09: \"January 15, 2027: Decision Release for Early Action Applicants Begins.\"",
         "pendingChange": null
@@ -143,7 +143,7 @@
     "fee": {
       "value": "$60",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-      "lastVerified": "2026-11-09",
+      "lastVerified": "2026-11-23",
       "cycleStatus": "confirmed_2027",
       "note": "Reconfirmed 2026-11-09: dance application fee $60, paid on submission, on the 'Fall 2027 Applicants' page.",
       "pendingChange": null
@@ -151,7 +151,7 @@
     "deadline": {
       "value": "2027-04-01",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-      "lastVerified": "2026-11-09",
+      "lastVerified": "2026-11-23",
       "cycleStatus": "confirmed_2027",
       "note": "Reconfirmed 2026-11-09 on 'Fall 2027 Applicants' page: \"Deadline to submit for Fall 2027 entry: April 1, 2027.\" App + audition registration open Aug 1.",
       "pendingChange": null
@@ -212,7 +212,7 @@
       "date": {
         "value": "2026-10-09",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09 (audition has since occurred): 'Friday, October 9th, 2026' (1:00–6:00pm) — page states 'Auditions are for first-year and transfer students entering Fall 2027.'",
         "pendingChange": null
@@ -223,7 +223,7 @@
       "registrationOpens": {
         "value": "2026-08-01",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Audition registration opened Aug 1 — reconfirmed directly on the jazzshowcase.arizona.edu audition page.",
         "pendingChange": null
@@ -231,7 +231,7 @@
       "registrationDeadline": {
         "value": "2026-10-02",
         "sourceUrl": "https://jazzshowcase.arizona.edu/audition/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09 (registration has since closed): page's registration deadline is \"the FRIDAY before AJDS begins (pending availability)\"; elsewhere states the application \"must be submitted on or before October 2nd, 2026.\" Capacity limited to 100 dancers.",
         "pendingChange": null
@@ -248,7 +248,7 @@
       "date": {
         "value": "2027-01-23",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09: listed under 'Spring 2027 Audition Date' on the 'Fall 2027 Applicants' page as \"Saturday January 23, 2027\" (check-in 9:00am, audition 10:00am).",
         "pendingChange": null
@@ -320,7 +320,7 @@
       "date": {
         "value": "2026-09-26",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09 (audition has since occurred) on the 'Fall 2027 Applicants' page under 'Fall 2026 Audition Dates': \"Saturday, September 26, 2026\" (check-in 9:00am, audition 10:00am) - distinct from the Arizona Jazz Dance Showcase (Oct 9).",
         "pendingChange": null
@@ -467,7 +467,7 @@
       "deadline": {
         "value": "2026-11-01",
         "sourceUrl": "https://dance.arizona.edu/future-students/bfa/apply/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Reconfirmed 2026-11-09. 'Fall 2027 Applicants' page states: 'To be considered for a first-year Dance Merit Scholarship, [applicants] need to complete their application by November 1, regardless of their audition date.' In-person audition still required for first-year eligibility (video-only auditioners are not eligible until year 2); the Nov 1 date governs the application itself, not the audition date, which may fall as late as the Jan 23, 2027 on-campus date.",
         "pendingChange": null
@@ -572,9 +572,9 @@
     "notable": {
       "value": "Gus Giordano jazz lineage; guest choreographers Tyce Diorio, Al Blackstone, Joe Lanteri.",
       "sourceUrl": "https://dance.arizona.edu/future-students/bfa/",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-11-16",
       "cycleStatus": "carried_from_2026",
-      "note": "",
+      "note": "Reconfirmed 2026-11-16: same page's \"Who Should Apply?\" section lists eligibility expectations — \"a strong dance foundation (minimum 5 years of focused training)\" and experience in at least two of ballet/modern/hip hop/jazz, plus recommended performance experience. Not cycle-year-specific wording.",
       "pendingChange": null
     }
   }

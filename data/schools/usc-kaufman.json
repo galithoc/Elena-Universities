@@ -56,7 +56,7 @@
       "academicDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://admission.usc.edu/apply/first-year/",
-        "lastVerified": "2026-11-14",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Confirmed 2026-11-14 on admission.usc.edu/apply/first-year/ (2026-27 cycle page: ED Nov 1, 2026; RD Jan 10, 2027): \"Students applying to majors in the performing arts must apply Regular Decision by the December 1 deadline ... This is the only deadline for students applying to majors in the following schools: Kaufman School of Dance ...\" First found by the 2026-09-28 refresh, whose PR was superseded before merging. The Kaufman Portfolio page itself no longer restates the deadline.",
         "pendingChange": null
@@ -64,7 +64,7 @@
       "artsSupplementDeadline": {
         "value": "2026-12-01",
         "sourceUrl": "https://admission.usc.edu/apply/first-year/",
-        "lastVerified": "2026-11-14",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "confirmed_2027",
         "note": "Mirrors academicDeadline: admission.usc.edu/apply/first-year/ (re-checked 2026-11-14) makes Dec 1 the only deadline for Kaufman School of Dance applicants for the current cycle; the portfolio is part of that application. The Kaufman Portfolio page no longer restates the deadline itself.",
         "pendingChange": null
@@ -72,7 +72,7 @@
       "decisionRelease": {
         "value": "2026-12-18",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-11-09, unchanged: \"If you are selected to participate in live auditions, you will be notified by December 18, 2026.\" Page does not explicitly say \"Fall 2027\" or \"2026-27,\" so held at carried_from_2026 despite being a specific, current-looking date.",
         "pendingChange": null
@@ -142,7 +142,7 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-11-09",
+      "lastVerified": "2026-11-23",
       "cycleStatus": "carried_from_2026",
       "note": "No ballet-barre segment specified, unlike many peer prescreens. Reconfirmed 2026-11-09, unchanged: two 1-min contrasting solos, 60-second setback-response video, headshot+action photo, 1-page resume, 250-word written response, and the no-jump-cuts/dissolves filming guidance all still match. Page still doesn't explicitly tie content to Fall 2027.",
       "pendingChange": null
@@ -158,7 +158,7 @@
       "date": {
         "value": "2027-01-16",
         "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-        "lastVerified": "2026-11-09",
+        "lastVerified": "2026-11-23",
         "cycleStatus": "carried_from_2026",
         "note": "Reconfirmed 2026-11-09, unchanged: \"Our live auditions will take place on January 16-17, 2027... Participants will be asked to join us for one of those dates.\" Value set to the first day; audition is a single day chosen from the two. Page doesn't explicitly say \"Fall 2027\" so held at carried_from_2026.",
         "pendingChange": null
@@ -213,7 +213,7 @@
         }
       ],
       "sourceUrl": "https://kaufman.usc.edu/usc-kaufman-portfolio/",
-      "lastVerified": "2026-11-09",
+      "lastVerified": "2026-11-23",
       "cycleStatus": "carried_from_2026",
       "note": "Reconfirmed 2026-11-09, unchanged.",
       "pendingChange": null

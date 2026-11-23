@@ -413,6 +413,101 @@
         "rounds[dec1].artsSupplementDeadline"
       ],
       "by": "claude"
+    },
+    {
+      "id": "cl-20261116-1",
+      "date": "2026-11-16",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Nov 16 — Pace's Key Dates page still reads Jan 4, 2027 for the Sands pre-screen deadline, the second consecutive weekly refresh to see this (vs. the stored confirmed Jan 3). The pendingChange on all three rounds plus the artisticSupplement deadline was left in place (not auto-accepted) but its seenOn bumped, since the hard rule requires a human to move proposedValue into value.",
+      "refs": [
+        "rounds[ed].artsSupplementDeadline",
+        "rounds[final].artsSupplementDeadline",
+        "rounds[ea].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261116-2",
+      "date": "2026-11-16",
+      "school": "fordham-ailey",
+      "type": "note",
+      "text": "Nov 16 — Ailey/Fordham's apply page now reads \"Applications have closed\" for first-year and no longer shows the split Nov 6 (Ailey) / Nov 8 (Fordham) dates seen last week, so last week's pendingChange on the priority round's deadlines could not be further corroborated or resolved this pass.",
+      "refs": [
+        "rounds[priority].academicDeadline",
+        "rounds[priority].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261116-3",
+      "date": "2026-11-16",
+      "school": "arizona",
+      "type": "note",
+      "text": "Nov 16 — Arizona's BFA page also lists minimum-eligibility guidance not previously captured: a \"strong dance foundation (minimum 5 years of focused training)\" and experience in at least two of ballet/modern/hip hop/jazz.",
+      "refs": [
+        "programFacts.notable"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261116-4",
+      "date": "2026-11-16",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. Fordham/Ailey, NYU Tisch, SUNY Purchase, LMU, USC Kaufman, Chapman, and Boston Conservatory all reconfirmed unchanged against their live pages this pass — only Pace's pendingChange and a minor Arizona program-facts addition warranted edits. Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway).",
+      "refs": [],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261123-1",
+      "date": "2026-11-23",
+      "school": "pace",
+      "type": "proposed",
+      "text": "Nov 23 — Pace's Key Dates page still reads Jan 4, 2027 for the Sands pre-screen deadline, now the THIRD consecutive weekly refresh to see this (vs. the stored confirmed Jan 3), and the Jan 4 date is now also echoed on pace.edu/sands/admissions and the auditions-sands page. The pendingChange on all three rounds plus the artisticSupplement deadline was left in place (not auto-accepted) but its seenOn bumped, since the hard rule requires a human to move proposedValue into value.",
+      "refs": [
+        "rounds[ed].artsSupplementDeadline",
+        "rounds[final].artsSupplementDeadline",
+        "rounds[ea].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261123-2",
+      "date": "2026-11-23",
+      "school": "fordham-ailey",
+      "type": "note",
+      "text": "Nov 23 — Ailey/Fordham's apply page still reads \"Applications have closed\" for first-year and still doesn't show the split Nov 6 (Ailey) / Nov 8 (Fordham) dates seen on Nov 9, so the pendingChange on the priority round's deadlines remains unresolved for a second straight week.",
+      "refs": [
+        "rounds[priority].academicDeadline",
+        "rounds[priority].artsSupplementDeadline",
+        "artisticSupplement.deadline"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261123-3",
+      "date": "2026-11-23",
+      "school": "boston-conservatory",
+      "type": "new",
+      "text": "Nov 23 — the dance-audition-requirements page now describes a third, request-only audition path for both tracks: a fully pre-recorded video audition, permitted only if an applicant cannot attend in person or the live-online session. This is distinct from the scheduled live-online date (Dec 5, 2026 / Feb 13, 2027) already tracked and has no fixed date of its own.",
+      "refs": [
+        "artisticSupplement.videoSpec",
+        "auditions[aud-online].notes"
+      ],
+      "by": "weekly-refresh"
+    },
+    {
+      "id": "cl-20261123-4",
+      "date": "2026-11-23",
+      "school": null,
+      "type": "note",
+      "text": "Weekly refresh: re-verified sources across all 9 schools. NYU Tisch, SUNY Purchase, LMU, USC Kaufman, Chapman, and Arizona all reconfirmed unchanged against their live pages this pass (lastVerified bumped). Fordham's general fordham.edu pages remain bot-blocked (CAS login gateway) — test policy, tuition, and FAFSA/CSS codes there still need a manual browser check.",
+      "refs": [],
+      "by": "weekly-refresh"
     }
   ]
 }
